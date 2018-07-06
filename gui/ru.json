@@ -1,0 +1,154 @@
+{
+    "gui.soundEditor.echo": {
+        "message": "Копировать",
+        "description": "Title of the button to apply the echo effect"
+    },
+    "gui.soundEditor.save": {
+        "message": "Сохранить",
+        "description": "Title of the button to save trimmed sound"
+    },
+    "gui.soundEditor.stop": {
+        "message": "Стоп",
+        "description": "Title of the button to stop the sound"
+    },
+    "gui.soundEditor.redo": {
+        "message": "Отмена",
+        "description": "Title of the button to redo"
+    },
+    "gui.soundEditor.softer": {
+        "message": "Softer",
+        "description": "Title of the button to apply thr.softer effect"
+    },
+    "gui.soundEditor.robot": {
+        "message": "Робот",
+        "description": "Title of the button to apply the robot effect"
+    },
+    "gui.stageSelector.targetPaneAddBackdrop": {
+        "message": "Добавить фон",
+        "description": "Button to add a backdrop in the target pane"
+    },
+    "gui.soundEditor.trim": {
+        "message": "Обрезать",
+        "description": "Title of the button to start trimminging the sound"
+    },
+    "gui.costumeTab.addBackdrop": {
+        "message": "Добавить фон",
+        "description": "Button to add a backdrop in the editor tab"
+    },
+    "gui.spriteSelector.addSprite": {
+        "message": "Добавить спрайт",
+        "description": "Button to add a sprite in the target pane"
+    },
+    "gui.soundEditor.slower": {
+        "message": "Медленный мод",
+        "description": "Title of the button to apply the slower effect"
+    },
+    "gui.turboMode.active": {
+        "message": "Турбо режим",
+        "description": "Label indicating turbo mode is active"
+    },
+    "gui.soundEditor.play": {
+        "message": "Воспроизвести",
+        "description": "Title of the button to start playing the sound"
+    },
+    "gui.soundTab.addSound": {
+        "message": "Добавить звук",
+        "description": "Button to add a sound in the editor tab"
+    },
+    "gui.spriteSelectorItem.contextMenuDuplicate": {
+        "message": "Копировать",
+        "description": "Menu item to duplicate in the right click menu"
+    },
+    "gui.spriteSelectorItem.contextMenuDelete": {
+        "message": "Удалить",
+        "description": "Menu item to delete in the right click menu"
+    },
+    "gui.stageSelector.backdrops": {
+        "message": "Фоны",
+        "description": "Label for the backdrops in the stage selector"
+    },
+    "gui.soundEditor.louder": {
+        "message": "Увеличить грмкость",
+        "description": "Title of the button to apply the louder effect"
+    },
+    "gui.soundEditor.faster": {
+        "message": "Увеличить скорость",
+        "description": "Title of the button to apply the faster effect"
+    },
+    "gui.soundTab.recordSound": {
+        "message": "Записать звук",
+        "description": "Button to record a sound in the editor tab"
+    },
+    "gui.gui.addExtension": {
+        "message": "Расширения",
+        "description": "Button to add an extension in the target pane"
+    },
+    "gui.soundEditor.reverse": {
+        "message": "Развернуть",
+        "description": "Title of the button to apply the reverse effect"
+    },
+    "gui.soundEditor.undo": {
+        "message": "Назад",
+        "description": "Title of the button to undo"
+    },
+    "gui.costumeTab.addCostume": {
+        "message": "Добавить костюм",
+        "description": "Button to add a costume in the editor tab"
+    },
+    "gui.soundEditor.sound": {
+        "message": "Звук",
+        "description": "Label for the name of the sound"
+    },
+	"gui.RobboMenu.extension_pack": {
+       
+        "description": "",
+        "message": "Расширенный набор датчиков"
+    },
+    "gui.RobboMenu.lab_ext_sensors": {
+       
+        "description": "",
+        "message": "Внешние сенсоры лаборатории"
+    },
+    "gui.RobboMenu.trigger_logging":{
+
+     
+      "description": "",
+      "message":"Переключить логгирование"
+
+    },
+    "gui.RobboMenu.color_sensor_correction1":{
+
+     
+      "description": "",
+      "message": "Таблица корррекции датчика цвета 1"
+
+    },
+    "gui.RobboMenu.color_sensor_correction2":{
+
+     
+      "description": "",
+      "message": "Таблица корррекции датчика цвета 2"
+
+    },
+    "gui.RobboMenu.color_sensor_correction3":{
+
+     
+      "description": "",
+      "message": "Таблица корррекции датчика цвета 3"
+
+    },
+    "gui.RobboMenu.color_sensor_correction4":{
+
+     
+      "description": "",
+      "message": "Таблица корррекции датчика цвета 4"
+
+    },
+    "gui.RobboMenu.color_sensor_correction5":{
+
+     
+      "description": "",
+      "message": "Таблица корррекции датчика цвета 5"
+
+    }
+}
