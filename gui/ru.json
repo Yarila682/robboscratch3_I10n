@@ -150,5 +150,29 @@
       "description": "",
       "message": "Таблица корррекции датчика цвета 5"
 
+    },
+	"gui.RobboGui.search_devices": {
+
+       
+        "description": "",
+        "message": "Поиск устройств"
+    },
+	"gui.menuBar.load_project": {
+
+       
+        "description": "",
+        "message": "Загрузить"
+    },
+	"gui.menuBar.save_project": {
+
+       
+        "description": "",
+        "message": "Сохранить"
+    },
+	"gui.menuBar.robbo_menu": {
+
+       
+        "description": "",
+        "message": "Роббо меню"
     }
 }

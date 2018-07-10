@@ -34,7 +34,11 @@ const guiMsgs = {
       "gui.RobboMenu.color_sensor_correction2": "Таблица корррекции датчика цвета 2",
       "gui.RobboMenu.color_sensor_correction3": "Таблица корррекции датчика цвета 3",
       "gui.RobboMenu.color_sensor_correction4": "Таблица корррекции датчика цвета 4",
-      "gui.RobboMenu.color_sensor_correction5": "Таблица корррекции датчика цвета 5"
+      "gui.RobboMenu.color_sensor_correction5": "Таблица корррекции датчика цвета 5",
+      "gui.RobboGui.search_devices": "Search devices",
+      "gui.menuBar.load_project": "Load",
+      "gui.menuBar.save_project": "Save",
+      "gui.menuBar.robbo_menu": "Robbo menu"
     }
   },
   "ar": {
@@ -187,7 +191,11 @@ const guiMsgs = {
       "gui.RobboMenu.color_sensor_correction2": "Таблица корррекции датчика цвета 2",
       "gui.RobboMenu.color_sensor_correction3": "Таблица корррекции датчика цвета 3",
       "gui.RobboMenu.color_sensor_correction4": "Таблица корррекции датчика цвета 4",
-      "gui.RobboMenu.color_sensor_correction5": "Таблица корррекции датчика цвета 5"
+      "gui.RobboMenu.color_sensor_correction5": "Таблица корррекции датчика цвета 5",
+      "gui.RobboGui.search_devices": "Поиск устройств",
+      "gui.menuBar.load_project": "Загрузить",
+      "gui.menuBar.save_project": "Сохранить",
+      "gui.menuBar.robbo_menu": "Роббо меню"
     }
   }
 }
