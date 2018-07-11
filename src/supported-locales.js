@@ -5,10 +5,10 @@
 
 const locales = {
     en: {name: 'English'},
-    ar: {name: 'الْعَرَبِيَّة'},
+    /*ar: {name: 'الْعَرَبِيَّة'},
     de: {name: 'Deutsch'},
     es: {name: 'Español'},
-    he: {name: 'עִבְרִית'},
+    he: {name: 'עִבְרִית'},*/
 	ru: {name: 'Русский'}
 };
 

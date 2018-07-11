@@ -8,10 +8,10 @@ import locales from './supported-locales.js';
 
 let localeData = locales;
 localeData.en.localeData = en;
-localeData.ar.localeData = ar;
+/*localeData.ar.localeData = ar;
 localeData.de.localeData = de;
 localeData.es.localeData = es;
-localeData.he.localeData = he;
+localeData.he.localeData = he;*/
 localeData.ru.localeData = ru;
 
 export {

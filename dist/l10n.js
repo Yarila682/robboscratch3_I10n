@@ -108,10 +108,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var localeData = _supportedLocales2.default;
 localeData.en.localeData = _en2.default;
-localeData.ar.localeData = _ar2.default;
-localeData.de.localeData = _de2.default;
-localeData.es.localeData = _es2.default;
-localeData.he.localeData = _he2.default;
+/*localeData.ar.localeData = ar;
+localeData.de.localeData = de;
+localeData.es.localeData = es;
+localeData.he.localeData = he;*/
 localeData.ru.localeData = _ru2.default;
 
 exports.default = localeData;
@@ -175,10 +175,10 @@ Object.defineProperty(exports, "__esModule", {
 
 var locales = {
   en: { name: 'English' },
-  ar: { name: 'الْعَرَبِيَّة' },
-  de: { name: 'Deutsch' },
-  es: { name: 'Español' },
-  he: { name: 'עִבְרִית' },
+  /*ar: {name: 'الْعَرَبِيَّة'},
+  de: {name: 'Deutsch'},
+  es: {name: 'Español'},
+  he: {name: 'עִבְרִית'},*/
   ru: { name: 'Русский' }
 };
 
