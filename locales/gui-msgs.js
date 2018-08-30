@@ -38,7 +38,26 @@ const guiMsgs = {
       "gui.RobboGui.search_devices": "Search devices",
       "gui.menuBar.load_project": "Load",
       "gui.menuBar.save_project": "Save",
-      "gui.menuBar.robbo_menu": "Robbo menu"
+      "gui.menuBar.robbo_menu": "Robbo menu",
+      "blocks.categories.quadcopter": "Quadcopter",
+      "blocks.categories.robot": "Robot",
+      "blocks.categories.laboratory": "Laboratory",
+      "blocks.categories.motion": "Motion",
+      "blocks.categories.looks": "Looks",
+      "blocks.categories.sound": "Sound",
+      "blocks.categories.events": "Events",
+      "blocks.categories.control": "Control",
+      "blocks.categories.sensing": "Sensing",
+      "blocks.categories.operators": "Operators",
+      "blocks.categories.variables": "Variables",
+      "blocks.categories.myBlocks": "My blocks",
+      "gui.SpriteInfo.sprite": "Sprite",
+      "gui.SpriteInfo.size": "Size",
+      "gui.SpriteInfo.show": "Show",
+      "gui.SpriteInfo.direction": "Direction",
+      "gui.SpriteInfo.spritePlaceholder": "Name",
+      "gui.stageSelector.stage": "Stage",
+      "gui.stageHeader.fullscreenControl": "Full Screen Control"
     }
   },
   "ru": {
@@ -79,7 +98,26 @@ const guiMsgs = {
       "gui.RobboGui.search_devices": "Поиск устройств",
       "gui.menuBar.load_project": "Загрузить",
       "gui.menuBar.save_project": "Сохранить",
-      "gui.menuBar.robbo_menu": "Роббо меню"
+      "gui.menuBar.robbo_menu": "Роббо меню",
+      "blocks.categories.quadcopter": "Квадрокоптер",
+      "blocks.categories.robot": "Робот",
+      "blocks.categories.laboratory": "Лаборатория",
+      "blocks.categories.motion": "Движение",
+      "blocks.categories.looks": "Внешность",
+      "blocks.categories.sound": "Звук",
+      "blocks.categories.events": "События",
+      "blocks.categories.control": "Управление",
+      "blocks.categories.sensing": "Сенсоры",
+      "blocks.categories.operators": "Операторы",
+      "blocks.categories.variables": "Переменные",
+      "blocks.categories.myBlocks": "Мои блоки",
+      "gui.SpriteInfo.spritePlaceholder": "Название",
+      "gui.SpriteInfo.sprite": "Спрайт",
+      "gui.SpriteInfo.show": "Показать",
+      "gui.SpriteInfo.size": "Размер",
+      "gui.SpriteInfo.direction": "Направление",
+      "gui.stageSelector.stage": "Сцена",
+      "gui.stageHeader.fullscreenControl": "Полноэкранный режим"
     }
   }
 }

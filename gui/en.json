@@ -174,5 +174,109 @@
        
         "description": "",
         "message": "Robbo menu"
+    },
+
+	"blocks.categories.quadcopter": {
+
+       
+        "description": "",
+        "message": "Quadcopter"
+    },
+
+	"blocks.categories.robot": {
+
+       
+        "description": "",
+        "message": "Robot"
+    },
+
+	"blocks.categories.laboratory": {
+
+       
+        "description": "",
+        "message": "Laboratory"
+    },
+	"blocks.categories.motion": {
+
+       
+        "description": "",
+        "message": "Motion"
+    },
+	"blocks.categories.looks": {
+
+       
+        "description": "",
+        "message": "Looks"
+    },
+	"blocks.categories.sound": {
+
+       
+        "description": "",
+        "message": "Sound"
+    },
+	"blocks.categories.events": {
+
+       
+        "description": "",
+        "message": "Events"
+    },
+	"blocks.categories.control": {
+
+       
+        "description": "",
+        "message": "Control"
+    },
+	"blocks.categories.sensing": {
+
+       
+        "description": "",
+        "message": "Sensing"
+    },
+	"blocks.categories.operators": {
+
+       
+        "description": "",
+        "message": "Operators"
+    },
+	"blocks.categories.variables": {
+
+       
+        "description": "",
+        "message": "Variables"
+    },
+	"blocks.categories.myBlocks": {
+
+       
+        "description": "",
+        "message": "My blocks"
+    },
+	"gui.SpriteInfo.sprite": {
+        "message": "Sprite",
+        "description": "Sprite info label"
+    },
+	 "gui.SpriteInfo.size": {
+        "message": "Size",
+        "description": "Sprite info size label"
+    },
+	"gui.SpriteInfo.show": {
+        "message": "Show",
+        "description": "Sprite info show label"
+    },
+	 "gui.SpriteInfo.direction": {
+        "message": "Direction",
+        "description": "Sprite info direction label"
+    },
+	"gui.SpriteInfo.spritePlaceholder": {
+        "message": "Name",
+        "description": "Placeholder text for sprite name"
+    },
+	"gui.stageSelector.stage": {
+        "message": "Stage",
+        "description": "Label for the stage in the stage selector"
+    },
+	"gui.stageHeader.fullscreenControl": {
+        "message": "Full Screen Control",
+        "description": "Button to enter/exit full screen mode"
     }
+	
 }

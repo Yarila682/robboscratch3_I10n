@@ -174,5 +174,111 @@
        
         "description": "",
         "message": "Роббо меню"
+    },
+
+	"blocks.categories.quadcopter": {
+
+       
+        "description": "",
+        "message": "Квадрокоптер"
+    },
+
+	"blocks.categories.robot": {
+
+       
+        "description": "",
+        "message": "Робот"
+    },
+
+	"blocks.categories.laboratory": {
+
+       
+        "description": "",
+        "message": "Лаборатория"
+    },
+	"blocks.categories.motion": {
+
+       
+        "description": "",
+        "message": "Движение"
+    },
+	"blocks.categories.looks": {
+
+       
+        "description": "",
+        "message": "Внешность"
+    },
+	"blocks.categories.sound": {
+
+       
+        "description": "",
+        "message": "Звук"
+    },
+	"blocks.categories.events": {
+
+       
+        "description": "",
+        "message": "События"
+    },
+	"blocks.categories.control": {
+
+       
+        "description": "",
+        "message": "Управление"
+    },
+	"blocks.categories.sensing": {
+
+       
+        "description": "",
+        "message": "Сенсоры"
+    },
+	"blocks.categories.operators": {
+
+       
+        "description": "",
+        "message": "Операторы"
+    },
+	"blocks.categories.variables": {
+
+       
+        "description": "",
+        "message": "Переменные"
+    },
+	"blocks.categories.myBlocks": {
+
+       
+        "description": "",
+        "message": "Мои блоки"
+    },
+
+	 "gui.SpriteInfo.spritePlaceholder": {
+        "message": "Название",
+        "description": "Placeholder text for sprite name"
+    },
+    "gui.SpriteInfo.sprite": {
+        "message": "Спрайт",
+        "description": "Sprite info label"
+    },
+    "gui.SpriteInfo.show": {
+        "message": "Показать",
+        "description": "Sprite info show label"
+    },
+    "gui.SpriteInfo.size": {
+        "message": "Размер",
+        "description": "Sprite info size label"
+    },
+	"gui.SpriteInfo.direction": {
+        "message": "Направление",
+        "description": "Sprite info direction label"
+    },
+	"gui.stageSelector.stage": {
+        "message": "Сцена",
+        "description": "Label for the stage in the stage selector"
+    },
+	"gui.stageHeader.fullscreenControl": {
+        "message": "Полноэкранный режим",
+        "description": "Button to enter/exit full screen mode"
     }
+
+
 }
