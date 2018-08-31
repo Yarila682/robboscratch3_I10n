@@ -100,153 +100,153 @@
         "description": "Label for the name of the sound"
     },
 	"gui.RobboMenu.extension_pack": {
-       
+
         "description": "",
         "message": "Extension pack"
     },
     "gui.RobboMenu.lab_ext_sensors": {
-       
+
         "description": "",
         "message": "Laboratory external sensors"
     },
     "gui.RobboMenu.trigger_logging":{
 
-     
+
       "description": "",
       "message":"Trigger loggging"
 
     },
     "gui.RobboMenu.color_sensor_correction1":{
 
-     
+
       "description": "",
       "message": "Color sensor correction table 1"
 
     },
     "gui.RobboMenu.color_sensor_correction2":{
 
-     
+
       "description": "",
       "message": "Color sensor correction table 2"
 
     },
     "gui.RobboMenu.color_sensor_correction3":{
 
-     
+
       "description": "",
       "message": "Color sensor correction table 3"
 
     },
     "gui.RobboMenu.color_sensor_correction4":{
 
-     
+
       "description": "",
       "message": "Color sensor correction table 4"
 
     },
     "gui.RobboMenu.color_sensor_correction5":{
 
-     
+
       "description": "",
       "message": "Color sensor correction table 5"
 
     },
 	"gui.RobboGui.search_devices": {
 
-       
+
         "description": "",
         "message": "Search devices"
     },
 	  "gui.menuBar.load_project": {
 
-       
+
         "description": "",
         "message": "Load"
     },
 	"gui.menuBar.save_project": {
 
-       
+
         "description": "",
         "message": "Save"
     },
 	"gui.menuBar.robbo_menu": {
 
-       
+
         "description": "",
         "message": "Robbo menu"
     },
 
 	"blocks.categories.quadcopter": {
 
-       
+
         "description": "",
         "message": "Quadcopter"
     },
 
 	"blocks.categories.robot": {
 
-       
+
         "description": "",
         "message": "Robot"
     },
 
 	"blocks.categories.laboratory": {
 
-       
+
         "description": "",
         "message": "Laboratory"
     },
 	"blocks.categories.motion": {
 
-       
+
         "description": "",
         "message": "Motion"
     },
 	"blocks.categories.looks": {
 
-       
+
         "description": "",
         "message": "Looks"
     },
 	"blocks.categories.sound": {
 
-       
+
         "description": "",
         "message": "Sound"
     },
 	"blocks.categories.events": {
 
-       
+
         "description": "",
         "message": "Events"
     },
 	"blocks.categories.control": {
 
-       
+
         "description": "",
         "message": "Control"
     },
 	"blocks.categories.sensing": {
 
-       
+
         "description": "",
         "message": "Sensing"
     },
 	"blocks.categories.operators": {
 
-       
+
         "description": "",
         "message": "Operators"
     },
 	"blocks.categories.variables": {
 
-       
+
         "description": "",
         "message": "Variables"
     },
 	"blocks.categories.myBlocks": {
 
-       
+
         "description": "",
         "message": "My blocks"
     },
@@ -277,6 +277,69 @@
 	"gui.stageHeader.fullscreenControl": {
         "message": "Full Screen Control",
         "description": "Button to enter/exit full screen mode"
-    }
-	
+    },
+	"gui.FirmwareFlasherFlashingStatusComponent.close_window":{
+    "message":"Close window",
+    "description":""
+  },
+  "gui.FirmwareFlasherDeviceComponent.device_robot":{
+      "description": "",
+      "message": "Robot"
+  },
+  "gui.FirmwareFlasherDeviceComponent.device_lab":{
+  "description": "",
+  "message": "Laboratory"
+},
+  "gui.FirmwareFlasherDeviceComponent.device_unknown":{
+"description":"",
+"message": "Unknown device"
+},
+"gui.FirmwareFlasherDeviceComponent.flash_device":{
+"description": "",
+"message": "Flash device"
+},
+"gui.FirmwareFlasherComponent.get_devices_info":{
+"description": "",
+"message": "Search devices"
+},
+"gui.FirmwareFlasherComponent.device_name":{
+"description": "",
+"message": "Device name"
+},
+"gui.FirmwareFlasherComponent.device_port":{
+"description":"",
+"message":"Device port"
+},
+"gui.FirmwareFlasherComponent.device_firmware":{
+"description": "",
+"message": "Device firmware"
+},
+"gui.FirmwareFlasherComponent.device_serial":{
+"description": "",
+"message": "Device serial number"
+},
+"gui.RobboMenu.trigger_firmware_flasher":{
+"description": "",
+"message": "Trigger firmware flasher"
+},
+"gui.ColorCorrectorTable.auto_correction":{
+"description": "",
+"message": "Automatic correction"
+},
+"gui.ColorCorrectorTable.close":{
+"description": "",
+"message": "Close"
+},
+"gui.ColorCorrectorTable.load":{
+"description": "",
+"message": "Load"
+},
+"gui.ColorCorrectorTable.save":{
+"description": "",
+"message": "Save"
+},
+"gui.ColorCorrectorTable.apply_changes":{
+"description": "",
+"message": "Apply changes"
+}
 }

@@ -100,153 +100,153 @@
         "description": "Label for the name of the sound"
     },
 	"gui.RobboMenu.extension_pack": {
-       
+
         "description": "",
         "message": "Расширенный набор датчиков"
     },
     "gui.RobboMenu.lab_ext_sensors": {
-       
+
         "description": "",
         "message": "Внешние сенсоры лаборатории"
     },
     "gui.RobboMenu.trigger_logging":{
 
-     
+
       "description": "",
       "message":"Переключить логгирование"
 
     },
     "gui.RobboMenu.color_sensor_correction1":{
 
-     
+
       "description": "",
       "message": "Таблица корррекции датчика цвета 1"
 
     },
     "gui.RobboMenu.color_sensor_correction2":{
 
-     
+
       "description": "",
       "message": "Таблица корррекции датчика цвета 2"
 
     },
     "gui.RobboMenu.color_sensor_correction3":{
 
-     
+
       "description": "",
       "message": "Таблица корррекции датчика цвета 3"
 
     },
     "gui.RobboMenu.color_sensor_correction4":{
 
-     
+
       "description": "",
       "message": "Таблица корррекции датчика цвета 4"
 
     },
     "gui.RobboMenu.color_sensor_correction5":{
 
-     
+
       "description": "",
       "message": "Таблица корррекции датчика цвета 5"
 
     },
 	"gui.RobboGui.search_devices": {
 
-       
+
         "description": "",
         "message": "Поиск устройств"
     },
 	"gui.menuBar.load_project": {
 
-       
+
         "description": "",
         "message": "Загрузить"
     },
 	"gui.menuBar.save_project": {
 
-       
+
         "description": "",
         "message": "Сохранить"
     },
 	"gui.menuBar.robbo_menu": {
 
-       
+
         "description": "",
         "message": "Роббо меню"
     },
 
 	"blocks.categories.quadcopter": {
 
-       
+
         "description": "",
         "message": "Квадрокоптер"
     },
 
 	"blocks.categories.robot": {
 
-       
+
         "description": "",
         "message": "Робот"
     },
 
 	"blocks.categories.laboratory": {
 
-       
+
         "description": "",
         "message": "Лаборатория"
     },
 	"blocks.categories.motion": {
 
-       
+
         "description": "",
         "message": "Движение"
     },
 	"blocks.categories.looks": {
 
-       
+
         "description": "",
         "message": "Внешность"
     },
 	"blocks.categories.sound": {
 
-       
+
         "description": "",
         "message": "Звук"
     },
 	"blocks.categories.events": {
 
-       
+
         "description": "",
         "message": "События"
     },
 	"blocks.categories.control": {
 
-       
+
         "description": "",
         "message": "Управление"
     },
 	"blocks.categories.sensing": {
 
-       
+
         "description": "",
         "message": "Сенсоры"
     },
 	"blocks.categories.operators": {
 
-       
+
         "description": "",
         "message": "Операторы"
     },
 	"blocks.categories.variables": {
 
-       
+
         "description": "",
         "message": "Переменные"
     },
 	"blocks.categories.myBlocks": {
 
-       
+
         "description": "",
         "message": "Мои блоки"
     },
@@ -278,7 +278,66 @@
 	"gui.stageHeader.fullscreenControl": {
         "message": "Полноэкранный режим",
         "description": "Button to enter/exit full screen mode"
-    }
+    },
+    "gui.FirmwareFlasherFlashingStatusComponent.close_window": {
+      "message":"Закрыть окно",
+      "description":""
+    },
+    "gui.FirmwareFlasherDeviceComponent.device_robot":{
+        "description": "",
+        "message": "Робот"
+    },
+    "gui.FirmwareFlasherDeviceComponent.device_lab":{
+    "description": "",
+    "message": "Лаборатория"
+  },
+  "gui.FirmwareFlasherDeviceComponent.device_unknown":{
+  "description":"",
+  "message": "Неопознанное устройство"
+  },
+  "gui.FirmwareFlasherDeviceComponent.flash_device":{
+  "description": "",
+  "message": "Прошить устройство"
+  },
+  "gui.FirmwareFlasherComponent.get_devices_info":{
+  "description": "",
+  "message": "Поиск устройств"
+  },
+  "gui.FirmwareFlasherComponent.device_name":{
+  "description": "",
+  "message": "Вид устройства"
+  },
+  "gui.FirmwareFlasherComponent.device_port":{
+  "description":"",
+  "message":"Порт"
+  },
+  "gui.FirmwareFlasherComponent.device_firmware":{
+  "description": "",
+  "message": "Прошивка устройства"
+  },
 
-
+  "gui.FirmwareFlasherComponent.device_serial":{
+  "description": "",
+  "message": "Серийный номер устройства"
+},
+  "gui.RobboMenu.trigger_firmware_flasher":{
+  "description": "",
+  "message": "Перепрошить устройство"
+},
+"gui.ColorCorrectorTable.close":{
+"description": "",
+"message": "Закрыть"
+},
+"gui.ColorCorrectorTable.load":{
+"description": "",
+"message": "Загрузить"
+},
+"gui.ColorCorrectorTable.save":{
+"description": "",
+"message": "Сохранить"
+},
+"gui.ColorCorrectorTable.apply_changes":{
+"description": "",
+"message": "Применить изменения"
+}
 }

@@ -57,7 +57,23 @@ const guiMsgs = {
       "gui.SpriteInfo.direction": "Direction",
       "gui.SpriteInfo.spritePlaceholder": "Name",
       "gui.stageSelector.stage": "Stage",
-      "gui.stageHeader.fullscreenControl": "Full Screen Control"
+      "gui.stageHeader.fullscreenControl": "Full Screen Control",
+      "gui.FirmwareFlasherFlashingStatusComponent.close_window": "Close window",
+      "gui.FirmwareFlasherDeviceComponent.device_robot": "Robot",
+      "gui.FirmwareFlasherDeviceComponent.device_lab": "Laboratory",
+      "gui.FirmwareFlasherDeviceComponent.device_unknown": "Unknown device",
+      "gui.FirmwareFlasherDeviceComponent.flash_device": "Flash device",
+      "gui.FirmwareFlasherComponent.get_devices_info": "Search devices",
+      "gui.FirmwareFlasherComponent.device_name": "Device name",
+      "gui.FirmwareFlasherComponent.device_port": "Device port",
+      "gui.FirmwareFlasherComponent.device_firmware": "Device firmware",
+      "gui.FirmwareFlasherComponent.device_serial": "Device serial number",
+      "gui.RobboMenu.trigger_firmware_flasher": "Trigger firmware flasher",
+      "gui.ColorCorrectorTable.auto_correction": "Automatic correction",
+      "gui.ColorCorrectorTable.close": "Close",
+      "gui.ColorCorrectorTable.load": "Load",
+      "gui.ColorCorrectorTable.save": "Save",
+      "gui.ColorCorrectorTable.apply_changes": "Apply changes"
     }
   },
   "ru": {
@@ -117,7 +133,22 @@ const guiMsgs = {
       "gui.SpriteInfo.size": "Размер",
       "gui.SpriteInfo.direction": "Направление",
       "gui.stageSelector.stage": "Сцена",
-      "gui.stageHeader.fullscreenControl": "Полноэкранный режим"
+      "gui.stageHeader.fullscreenControl": "Полноэкранный режим",
+      "gui.FirmwareFlasherFlashingStatusComponent.close_window": "Закрыть окно",
+      "gui.FirmwareFlasherDeviceComponent.device_robot": "Робот",
+      "gui.FirmwareFlasherDeviceComponent.device_lab": "Лаборатория",
+      "gui.FirmwareFlasherDeviceComponent.device_unknown": "Неопознанное устройство",
+      "gui.FirmwareFlasherDeviceComponent.flash_device": "Прошить устройство",
+      "gui.FirmwareFlasherComponent.get_devices_info": "Поиск устройств",
+      "gui.FirmwareFlasherComponent.device_name": "Вид устройства",
+      "gui.FirmwareFlasherComponent.device_port": "Порт",
+      "gui.FirmwareFlasherComponent.device_firmware": "Прошивка устройства",
+      "gui.FirmwareFlasherComponent.device_serial": "Серийный номер устройства",
+      "gui.RobboMenu.trigger_firmware_flasher": "Перепрошить устройство",
+      "gui.ColorCorrectorTable.close": "Закрыть",
+      "gui.ColorCorrectorTable.load": "Загрузить",
+      "gui.ColorCorrectorTable.save": "Сохранить",
+      "gui.ColorCorrectorTable.apply_changes": "Применить изменения"
     }
   }
 }
