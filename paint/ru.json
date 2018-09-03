@@ -1,74 +1,74 @@
 {
     "paint.paintEditor.redo": {
-        "message": "Redo",
+        "message": "Повторить",
         "description": "Alt to image for the button to redo an action"
     },
     "paint.paintEditor.fill": {
-        "message": "Fill",
+        "message": "Заливка",
         "description": "Label for the color picker for the fill color"
     },
     "paint.modeTools.eraserSize": {
-        "message": "Eraser size",
+        "message": "Ширина ластика",
         "description": "Label for the eraser size input"
     },
     "paint.paintEditor.backward": {
-        "message": "Backward",
+        "message": "Назад",
         "description": "Label for the `Send backward on canvas` button"
     },
     "paint.paintEditor.group": {
-        "message": "Group",
+        "message": "Группировать",
         "description": "Label for the button to group shapes"
     },
     "paint.modeTools.paste": {
-        "message": "Paste",
+        "message": "Вставить",
         "description": "Label for the paste button"
     },
     "paint.paintEditor.saturation": {
-        "message": "Saturation",
+        "message": "Насыщенность",
         "description": "Label for the saturation component in the color picker"
     },
     "paint.modeTools.brushSize": {
-        "message": "Brush size",
+        "message": "Размер",
         "description": "Label for the brush size input"
     },
     "paint.paintEditor.undo": {
-        "message": "Undo",
+        "message": "Отменить",
         "description": "Alt to image for the button to undo an action"
     },
     "paint.paintEditor.forward": {
-        "message": "Forward",
+        "message": "Вперёд",
         "description": "Label for the `Send forward on canvas` button"
     },
     "paint.paintEditor.brightness": {
-        "message": "Brightness",
+        "message": "Яркость",
         "description": "Label for the brightness component in the color picker"
     },
     "paint.paintEditor.costume": {
-        "message": "Costume",
+        "message": "Костюм",
         "description": "Label for the name of a sound"
     },
     "paint.paintEditor.back": {
-        "message": "Back",
+        "message": "Назад",
         "description": "Label for the `Send to back of canvas` button"
     },
     "paint.paintEditor.ungroup": {
-        "message": "Ungroup",
+        "message": "Разгруппировать",
         "description": "Label for the button to ungroup shapes"
     },
     "paint.paintEditor.hue": {
-        "message": "Color",
+        "message": "Цвет",
         "description": "Label for the hue component in the color picker"
     },
     "paint.modeTools.copy": {
-        "message": "Copy",
+        "message": "Копировать",
         "description": "Label for the copy button"
     },
     "paint.paintEditor.front": {
-        "message": "Front",
+        "message": "На передний план",
         "description": "Label for the `Send to front of canvas` button"
     },
     "paint.paintEditor.stroke": {
-        "message": "Outline",
+        "message": "Контур",
         "description": "Label for the color picker for the outline color"
     }
 }
