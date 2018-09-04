@@ -16,7 +16,7 @@
         "description": "Title of the button to redo"
     },
     "gui.soundEditor.softer": {
-        "message": "Softer",
+        "message": "Уменьшить звук",
         "description": "Title of the button to apply thr.softer effect"
     },
     "gui.soundEditor.robot": {
@@ -40,7 +40,7 @@
         "description": "Button to add a sprite in the target pane"
     },
     "gui.soundEditor.slower": {
-        "message": "Медленный мод",
+        "message": "Уменьшить скорость",
         "description": "Title of the button to apply the slower effect"
     },
     "gui.turboMode.active": {
@@ -339,5 +339,133 @@
 "gui.ColorCorrectorTable.apply_changes":{
 "description": "",
 "message": "Применить изменения"
+},
+"gui.RobboGui.RobotPalette.sensor":{
+"description":"",
+"message": "Сенсор "
+},
+"gui.RobboGui.RobotPalette.path_left":{
+    "description": "",
+    "message": "Счётчик пути левого мотора: "
+},
+
+"gui.RobboGui.RobotPalette.path_right":{
+   "description": " ",
+   "message": "Счётчик пути правого мотора: "
+},
+
+"gui.RobboGui.RobotPalette.start_button_pushed":{
+   "description": " ",
+   "message": "Кнопка старт: "
+},
+"gui.RobboGui.RobotPalette.robot":{
+    "description": " ",
+   "message": "Робот"
+},
+"gui.RobboGui.LaboratoryPalette.button":{
+   "description": " ",
+   "message": "Кнопка "
+},
+
+"gui.RobboGui.LaboratoryPalette.light":{
+   "description": " ",
+   "message": "Свет: "
+},
+
+"gui.RobboGui.LaboratoryPalette.sound":{
+   "description": " ",
+   "message": "Звук: "
+},
+
+"gui.RobboGui.LaboratoryPalette.slider":{
+   "description": " ",
+   "message": "Рычажок: "
+},
+"gui.RobboGui.LaboratoryPalette.analog":{
+   "description": " ",
+   "message": "Аналог "
+},
+"gui.RobboGui.LaboratoryPalette.digital":{
+   "description": " ",
+   "message": "Цифровой: "
+},
+"gui.RobboGui.LaboratoryPalette.laboratory":{
+   "description": " ",
+   "message": "Лаборатория"
+},
+
+"gui.RobboGui.QuadcopterPalette.battery_level":{
+   "description": " ",
+   "message": "Уровень заряда батареи: "
+},
+"gui.RobboGui.QuadcopterPalette.yaw":{
+   "description": " ",
+   "message": "Угол: "
+},
+"gui.RobboGui.QuadcopterPalette.x_coord":{
+   "description": " ",
+   "message": "X координата: "
+},
+
+"gui.RobboGui.QuadcopterPalette.y_coord":{
+   "description": " ",
+   "message": "Y координата: "
+},
+"gui.RobboGui.QuadcopterPalette.z_coord":{
+   "description": " ",
+   "message": "Z координата:  "
+},
+"gui.RobboGui.QuadcopterPalette.quadcopter":{
+   "description": " ",
+   "message": "Квадрокоптер"
+},
+"paint.modeTools.brushSize":{
+   "message": "Размер кисти",
+   "description": "Label for the brush size input"
+},
+"paint.modeTools.eraserSize":{
+   "message": "Размер ластика",
+   "description": "Label for the eraser size input"
+},
+"paint.modeTools.copy":{
+  "message": "Копировать",
+   "description": "Label for the copy button"
+
+},
+"paint.modeTools.paste":{
+   "message": "Вставить",
+   "description": "Label for the paste button"
+},
+"paint.modeTools.curved":{
+   "message": "В кривые",
+   "description": "Label for the button that converts selected points to curves"
+},
+"paint.modeTools.pointed":{
+   "message": "Заострённые",
+   "description": "Label for the button that converts selected points to sharp points"
+},
+  "paint.modeTools.flipHorizontal":{
+   "message": "Отразить по горизонтали",
+   "description": "Label for the button to flip the image horizontally"
+},
+  "paint.modeTools.flipVertical":{
+   "message": "Отразить по вертикали",
+   "description": "Label for the button to flip the image vertically"
+},
+"gui.costumeTab.addBackdrop":{
+  "message": "Добавить фон из библиотеки",
+  "description": "Кнопка чтобы добавить фон в вкладку редактирования"
+},
+"gui.costumeTab.addCostume":{
+  "message": "Добавить костюм из библиотеки",
+  "description": "Кнопка чтобы добавить костюм в вкладку редактирования"
+},
+"gui.costumeTab.addBlankBackdrop":{
+  "message": "Добавить пустой фон",
+  "description": "Кнопка чтобы добавить пустой фон в вкладку редактирования"
+},
+"gui.costumeTab.addBlankCostume":{
+  "message": "Добавить пустой костюм",
+  "description": "Кнопка чтобы добавить пустой костюм в вкладку редактирования"
 }
 }

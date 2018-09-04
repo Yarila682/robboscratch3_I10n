@@ -341,5 +341,137 @@
 "gui.ColorCorrectorTable.apply_changes":{
 "description": "",
 "message": "Apply changes"
+},
+
+
+
+
+"gui.RobboGui.RobotPalette.sensor":{
+"description":"",
+"message": "Sensor "
+},
+"gui.RobboGui.RobotPalette.path_left":{
+    "description": "",
+    "message": "Path left: "
+},
+
+"gui.RobboGui.RobotPalette.path_right":{
+   "description": " ",
+   "message": "Path right: "
+},
+
+"gui.RobboGui.RobotPalette.start_button_pushed":{
+   "description": " ",
+   "message": "Start button pushed: "
+},
+"gui.RobboGui.RobotPalette.robot":{
+    "description": " ",
+   "message": "Robot"
+},
+"gui.RobboGui.LaboratoryPalette.button":{
+   "description": " ",
+   "message": "Button "
+},
+
+"gui.RobboGui.LaboratoryPalette.light":{
+   "description": " ",
+   "message": "Light: "
+},
+
+"gui.RobboGui.LaboratoryPalette.sound":{
+   "description": " ",
+   "message": "Sound: "
+},
+
+"gui.RobboGui.LaboratoryPalette.slider":{
+   "description": " ",
+   "message": "Slider: "
+},
+"gui.RobboGui.LaboratoryPalette.analog":{
+   "description": " ",
+   "message": "Analog "
+},
+"gui.RobboGui.LaboratoryPalette.digital":{
+   "description": " ",
+   "message": "Digital: "
+},
+"gui.RobboGui.LaboratoryPalette.laboratory":{
+   "description": " ",
+   "message": "Laboratory"
+},
+
+"gui.RobboGui.QuadcopterPalette.battery_level":{
+   "description": " ",
+   "message": "Battery level: "
+},
+"gui.RobboGui.QuadcopterPalette.yaw":{
+   "description": " ",
+   "message": "Yaw: "
+},
+"gui.RobboGui.QuadcopterPalette.x_coord":{
+   "description": " ",
+   "message": "X coord: "
+},
+
+"gui.RobboGui.QuadcopterPalette.y_coord":{
+   "description": " ",
+   "message": "Y coord: "
+},
+"gui.RobboGui.QuadcopterPalette.z_coord":{
+   "description": " ",
+   "message": "Z coord:  "
+},
+"gui.RobboGui.QuadcopterPalette.quadcopter":{
+   "description": " ",
+   "message": "Quadcopter"
+},
+"paint.modeTools.brushSize":{
+   "message": "Brush size",
+   "description": "Label for the brush size input"
+},
+"paint.modeTools.eraserSize":{
+   "message": "Eraser size",
+   "description": "Label for the eraser size input"
+},
+"paint.modeTools.copy":{
+  "message": "Copy",
+   "description": "Label for the copy button"
+
+},
+"paint.modeTools.paste":{
+   "message": "Paste",
+   "description": "Label for the paste button"
+},
+"paint.modeTools.curved":{
+   "message": "Curved",
+   "description": "Label for the button that converts selected points to curves"
+},
+"paint.modeTools.pointed":{
+   "message": "Pointed",
+   "description": "Label for the button that converts selected points to sharp points"
+},
+  "paint.modeTools.flipHorizontal":{
+   "message": "Flip Horizontal",
+   "description": "Label for the button to flip the image horizontally"
+},
+  "paint.modeTools.flipVertical":{
+   "message": "Flip Vertical",
+   "description": "Label for the button to flip the image vertically"
+},
+"gui.costumeTab.addBackdrop":{
+  "message": "Add Backdrop From Library",
+  "description": "Button to add a backdrop in the editor tab"
+},
+"gui.costumeTab.addCostume":{
+  "message": "Add Costume From Library",
+  "description": "Button to add a costume in the editor tab"
+},
+"gui.costumeTab.addBlankBackdrop":{
+  "message": "Add Blank Backdrop",
+  "description": "Button to add a blank backdrop in the editor tab"
+},
+"gui.costumeTab.addBlankCostume":{
+  "message": "Add Blank Costume",
+  "description": "Button to add a blank costume in the editor tab"
 }
 }
