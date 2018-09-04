@@ -473,5 +473,20 @@
 "gui.costumeTab.addBlankCostume":{
   "message": "Add Blank Costume",
   "description": "Button to add a blank costume in the editor tab"
+},
+
+
+"gui.gui.blocks":{
+  "message": "Blocks",
+  "description": ""
+},
+"gui.gui.costumes":{
+  "message": "Costumes",
+  "description": ""
+},
+"gui.gui.sound":{
+  "message": "Sound",
+  "description": ""
 }
+
 }

@@ -101,7 +101,10 @@ const guiMsgs = {
       "paint.modeTools.flipHorizontal": "Flip Horizontal",
       "paint.modeTools.flipVertical": "Flip Vertical",
       "gui.costumeTab.addBlankBackdrop": "Add Blank Backdrop",
-      "gui.costumeTab.addBlankCostume": "Add Blank Costume"
+      "gui.costumeTab.addBlankCostume": "Add Blank Costume",
+      "gui.gui.blocks": "Blocks",
+      "gui.gui.costumes": "Costumes",
+      "gui.gui.sound": "Sound"
     }
   },
   "ru": {
@@ -204,7 +207,10 @@ const guiMsgs = {
       "paint.modeTools.flipHorizontal": "Отразить по горизонтали",
       "paint.modeTools.flipVertical": "Отразить по вертикали",
       "gui.costumeTab.addBlankBackdrop": "Добавить пустой фон",
-      "gui.costumeTab.addBlankCostume": "Добавить пустой костюм"
+      "gui.costumeTab.addBlankCostume": "Добавить пустой костюм",
+      "gui.gui.blocks": "Блоки",
+      "gui.gui.costumes": "Костюмы",
+      "gui.gui.sound": "Звук"
     }
   }
 }

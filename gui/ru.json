@@ -467,5 +467,21 @@
 "gui.costumeTab.addBlankCostume":{
   "message": "Добавить пустой костюм",
   "description": "Кнопка чтобы добавить пустой костюм в вкладку редактирования"
+},
+
+"gui.gui.blocks":{
+  "message": "Блоки",
+  "description": ""
+},
+"gui.gui.costumes":{
+  "message": "Костюмы",
+  "description": ""
+},
+"gui.gui.sound":{
+  "message": "Звук",
+  "description": ""
 }
+
+
+
 }
