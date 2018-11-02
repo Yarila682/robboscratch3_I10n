@@ -784,7 +784,7 @@
 },
 "gui.FirmwareFlasherComponent.get_devices_info":{
 "description": "",
-"message": "Search devices"
+"message": "Search ports"
 },
 "gui.FirmwareFlasherComponent.device_name":{
 "description": "",

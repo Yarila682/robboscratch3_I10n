@@ -1039,7 +1039,7 @@
   },
   "gui.FirmwareFlasherComponent.get_devices_info":{
   "description": "",
-  "message": "Поиск устройств"
+  "message": "Поиск портов"
   },
   "gui.FirmwareFlasherComponent.device_name":{
   "description": "",
