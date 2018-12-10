@@ -224,6 +224,7 @@
     "SOUND_CHANGEVOLUMEBY": "изменить громкость на %1",
     "SOUND_SETVOLUMETO": "установить громкость %1%",
     "SOUND_VOLUME": "громкость звука",
+	"CATEGORY_OTTO": "Отто",
 	"CATEGORY_QUADCOPTER": "Квадрокоптер",
 	"CATEGORY_ROBOT": "Робот",
 	"CATEGORY_LABORATORY": "Лаборатория",
