@@ -996,5 +996,23 @@
 
         "description": "",
         "message": "false"
+    },
+	"gui.RobboGui.update_firm_msg": {
+
+
+        "description": "",
+        "message": "Please update  firmware."
+    },
+	"gui.RobboGui.differ_firm_msg": {
+
+
+        "description": "",
+        "message": "The current firmware version of the device differs from the required one."
+    },
+	"gui.RobboGui.cr_firm_msg": {
+
+
+        "description": "",
+        "message": " (current: {current_firmware} required: {required_firmware})."
     }
 }

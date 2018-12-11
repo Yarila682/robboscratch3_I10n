@@ -1237,6 +1237,18 @@
 
 
         "description": "",
-        "message": "Текущая версия прошивки устройства отличается от требуемой. (текущая версия: {current_firmware} требуемая версия: {required_firmware}). Пожалуйста, обновите прошивку."
+        "message": "Пожалуйста, обновите прошивку."
+    },
+	"gui.RobboGui.differ_firm_msg": {
+
+
+        "description": "",
+        "message": "Текущая версия прошивки устройства отличается от требуемой"
+    },
+	"gui.RobboGui.cr_firm_msg": {
+
+
+        "description": "",
+        "message": " (текущая версия: {current_firmware} требуемая версия: {required_firmware})."
     }
 }
