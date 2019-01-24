@@ -1014,5 +1014,11 @@
 
         "description": "",
         "message": " (current: {current_firmware} required: {required_firmware})."
+    },
+	"gui.RobboGui.device_lost": {
+
+
+        "description": "",
+        "message": "Lost connection to device"
     }
 }

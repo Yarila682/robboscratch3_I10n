@@ -1250,5 +1250,11 @@
 
         "description": "",
         "message": " (текущая версия: {current_firmware} требуемая версия: {required_firmware})."
+    },
+	"gui.RobboGui.device_lost": {
+
+
+        "description": "",
+        "message": "Потеряна связь с устройством."
     }
 }
