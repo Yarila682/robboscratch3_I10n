@@ -1,562 +1,182 @@
 {
-    "ev3.beepNote": {
-        "message": "beep note [NOTE] for [TIME] secs",
-        "description": "play some note on EV3 for some time"
-    },
-    "ev3.buttonPressed": {
-        "message": "button [PORT] pressed?",
-        "description": "is a button on some port pressed?"
-    },
-    "ev3.getBrightness": {
-        "message": "ڕووناکی",
-        "description": "gets measured brightness"
-    },
-    "ev3.getDistance": {
-        "message": "دووری",
-        "description": "gets measured distance"
-    },
-    "ev3.getMotorPosition": {
-        "message": "motor [PORT] position",
-        "description": "get the measured degrees a motor has turned"
-    },
-    "ev3.motorSetPower": {
-        "message": "motor [PORT] set power [POWER] %",
-        "description": "set a motor's power to some value"
-    },
-    "ev3.motorTurnClockwise": {
-        "message": "motor [PORT] turn this way for [TIME] seconds",
-        "description": "turn a motor clockwise for some time"
-    },
-    "ev3.motorTurnCounterClockwise": {
-        "message": "motor [PORT] turn that way for [TIME] seconds",
-        "description": "turn a motor counter-clockwise for some time"
-    },
-    "ev3.whenBrightnessLessThan": {
-        "message": "when brightness < [DISTANCE]",
-        "description": "when value measured by brightness sensor is less than some value"
-    },
-    "ev3.whenButtonPressed": {
-        "message": "when button [PORT] pressed",
-        "description": "when a button connected to a port is pressed"
-    },
-    "ev3.whenDistanceLessThan": {
-        "message": "when distance < [DISTANCE]",
-        "description": "when the value measured by the distance sensor is less than some value"
-    },
-    "microbit.buttonsMenu.any": {
-        "message": "هەر کام",
-        "description": "label for \"any\" element in button picker for micro:bit extension"
-    },
-    "microbit.clearDisplay": {
-        "message": "clear display",
-        "description": "display nothing on the micro:bit display"
-    },
-    "microbit.defaultTextToDisplay": {
-        "message": "سڵاو!",
-        "description": "default text to display.\n                                IMPORTANT - the micro:bit only supports letters a-z, A-Z.\n                                Please substitute a default word in your language\n                                that can be written with those characters,\n                                substitute non-accented characters or leave it as \"Hello!\".\n                                Check the micro:bit site documentation for details"
-    },
-    "microbit.displaySymbol": {
-        "message": "display [MATRIX]",
-        "description": "display a pattern on the micro:bit display"
-    },
-    "microbit.displayText": {
-        "message": "display [TEXT]",
-        "description": "display text on the micro:bit display"
-    },
-    "microbit.gesturesMenu.jumped": {
-        "message": "jumped",
-        "description": "label for jumped gesture in gesture picker for micro:bit extension"
-    },
-    "microbit.gesturesMenu.moved": {
-        "message": "moved",
-        "description": "label for moved gesture in gesture picker for micro:bit extension"
-    },
-    "microbit.gesturesMenu.shaken": {
-        "message": "shaken",
-        "description": "label for shaken gesture in gesture picker for micro:bit extension"
-    },
-    "microbit.isButtonPressed": {
-        "message": "[BTN] button pressed?",
-        "description": "is the selected button on the micro:bit pressed?"
-    },
-    "microbit.isTilted": {
-        "message": "tilted [DIRECTION]?",
-        "description": "is the micro:bit is tilted in a direction?"
-    },
-    "microbit.pinStateMenu.off": {
-        "message": "ناکارا",
-        "description": "label for off element in pin state picker for micro:bit extension"
-    },
-    "microbit.pinStateMenu.on": {
-        "message": "کارا",
-        "description": "label for on element in pin state picker for micro:bit extension"
-    },
-    "microbit.tiltAngle": {
-        "message": "tilt angle [DIRECTION]",
-        "description": "how much the micro:bit is tilted in a direction"
-    },
-    "microbit.tiltDirectionMenu.any": {
-        "message": "هەر کام",
-        "description": "label for any direction element in tilt direction picker for micro:bit extension"
-    },
-    "microbit.tiltDirectionMenu.back": {
-        "message": "دواوە",
-        "description": "label for back element in tilt direction picker for micro:bit extension"
-    },
-    "microbit.tiltDirectionMenu.front": {
-        "message": "پێشەوە",
-        "description": "label for front element in tilt direction picker for micro:bit extension"
-    },
-    "microbit.tiltDirectionMenu.left": {
-        "message": "چەپ",
-        "description": "label for left element in tilt direction picker for micro:bit extension"
-    },
-    "microbit.tiltDirectionMenu.right": {
-        "message": "ڕاست",
-        "description": "label for right element in tilt direction picker for micro:bit extension"
-    },
-    "microbit.whenButtonPressed": {
-        "message": "when [BTN] button pressed",
-        "description": "when the selected button on the micro:bit is pressed"
-    },
-    "microbit.whenGesture": {
-        "message": "when [GESTURE]",
-        "description": "when the selected gesture is detected by the micro:bit"
-    },
-    "microbit.whenPinConnected": {
-        "message": "when pin [PIN] connected test",
-        "description": "when the pin detects a connection to Earth/Ground"
-    },
-    "microbit.whenTilted": {
-        "message": "when tilted [DIRECTION]",
-        "description": "when the micro:bit is tilted in a direction"
-    },
-    "music.categoryName": {
-        "message": "میوزیک",
-        "description": "Label for the Music extension category"
-    },
-    "music.changeTempo": {
-        "message": "گۆڕینی خێرایی بە [TEMPO]",
-        "description": "change tempo (speed) for notes, drums, and rests played"
-    },
-    "music.drumBass": {
-        "message": "(2) Bass Drum",
-        "description": "Sound of bass drum as used in a standard drum kit"
-    },
-    "music.drumBongo": {
-        "message": "(13) Bongo",
-        "description": "Sound of a bongo being struck"
-    },
-    "music.drumCabasa": {
-        "message": "(15) Cabasa",
-        "description": "Sound of a cabasa being shaken"
-    },
-    "music.drumClaves": {
-        "message": "(9) Claves",
-        "description": "Sound of claves being struck together"
-    },
-    "music.drumClosedHiHat": {
-        "message": "(6) Closed Hi-Hat",
-        "description": "Sound of a drum stick hitting a hi-hat while closed"
-    },
-    "music.drumConga": {
-        "message": "(14) Conga",
-        "description": "Sound of a conga being struck"
-    },
-    "music.drumCowbell": {
-        "message": "(11) Cowbell",
-        "description": "Sound of a cowbell being struck"
-    },
-    "music.drumCrashCymbal": {
-        "message": "(4) Crash Cymbal",
-        "description": "Sound of a drum stick hitting a crash cymbal"
-    },
-    "music.drumCuica": {
-        "message": "(18) Cuica",
-        "description": "Sound of a cuica being played"
-    },
-    "music.drumGuiro": {
-        "message": "(16) Guiro",
-        "description": "Sound of a guiro being played"
-    },
-    "music.drumHandClap": {
-        "message": "(8) Hand Clap",
-        "description": "Sound of two hands clapping together"
-    },
-    "music.drumOpenHiHat": {
-        "message": "(5) Open Hi-Hat",
-        "description": "Sound of a drum stick hitting a hi-hat while open"
-    },
-    "music.drumSideStick": {
-        "message": "(3) Side Stick",
-        "description": "Sound of a drum stick hitting the side of a drum (usually the snare)"
-    },
-    "music.drumSnare": {
-        "message": "(1) Snare Drum",
-        "description": "Sound of snare drum as used in a standard drum kit"
-    },
-    "music.drumTambourine": {
-        "message": "(7) Tambourine",
-        "description": "Sound of a tambourine being struck"
-    },
-    "music.drumTriangle": {
-        "message": "(12) سێگۆشە",
-        "description": "Sound of a triangle (instrument) being struck"
-    },
-    "music.drumVibraslap": {
-        "message": "(17) Vibraslap",
-        "description": "Sound of a Vibraslap being played"
-    },
-    "music.drumWoodBlock": {
-        "message": "(10) Wood Block",
-        "description": "Sound of a wood block being struck"
-    },
-    "music.getTempo": {
-        "message": "خێرایی",
-        "description": "get the current tempo (speed) for notes, drums, and rests played"
-    },
-    "music.instrumentBass": {
-        "message": "(6) Bass",
-        "description": "Sound of an accoustic upright bass"
-    },
-    "music.instrumentBassoon": {
-        "message": "(14) Bassoon",
-        "description": "Sound of a bassoon being played"
-    },
-    "music.instrumentCello": {
-        "message": "(8) Cello",
-        "description": "Sound of a cello being played with a bow"
-    },
-    "music.instrumentChoir": {
-        "message": "(15) Choir",
-        "description": "Sound of a choir singing"
-    },
-    "music.instrumentClarinet": {
-        "message": "(10) Clarinet",
-        "description": "Sound of a clarinet being played"
-    },
-    "music.instrumentElectricGuitar": {
-        "message": "(5) Electric Guitar",
-        "description": "Sound of an electric guitar"
-    },
-    "music.instrumentElectricPiano": {
-        "message": "(2) Electric Piano",
-        "description": "Sound of an electric piano"
-    },
-    "music.instrumentFlute": {
-        "message": "(12) Flute",
-        "description": "Sound of a flute being played"
-    },
-    "music.instrumentGuitar": {
-        "message": "(4) Guitar",
-        "description": "Sound of an accoustic guitar"
-    },
-    "music.instrumentMarimba": {
-        "message": "(19) Marimba",
-        "description": "Sound of a marimba being struck"
-    },
-    "music.instrumentMusicBox": {
-        "message": "(17) Music Box",
-        "description": "Sound of a music box playing"
-    },
-    "music.instrumentOrgan": {
-        "message": "(3) Organ",
-        "description": "Sound of an organ"
-    },
-    "music.instrumentPiano": {
-        "message": "(1) Piano",
-        "description": "Sound of a piano"
-    },
-    "music.instrumentPizzicato": {
-        "message": "(7) Pizzicato",
-        "description": "Sound of a string instrument (e.g. violin) being plucked"
-    },
-    "music.instrumentSaxophone": {
-        "message": "(11) Saxophone",
-        "description": "Sound of a saxophone being played"
-    },
-    "music.instrumentSteelDrum": {
-        "message": "(18) Steel Drum",
-        "description": "Sound of a steel drum being struck"
-    },
-    "music.instrumentSynthLead": {
-        "message": "(20) Synth Lead",
-        "description": "Sound of a \"lead\" synthesizer being played"
-    },
-    "music.instrumentSynthPad": {
-        "message": "(21) Synth Pad",
-        "description": "Sound of a \"pad\" synthesizer being played"
-    },
-    "music.instrumentTrombone": {
-        "message": "(9) Trombone",
-        "description": "Sound of a trombone being played"
-    },
-    "music.instrumentVibraphone": {
-        "message": "(16) Vibraphone",
-        "description": "Sound of a vibraphone being struck"
-    },
-    "music.instrumentWoodenFlute": {
-        "message": "(13) Wooden Flute",
-        "description": "Sound of a wooden flute being played"
-    },
-    "music.playDrumForBeats": {
-        "message": "play drum [DRUM] for [BEATS] beats",
-        "description": "play drum sample for a number of beats"
-    },
-    "music.playNoteForBeats": {
-        "message": "play note [NOTE] for [BEATS] beats",
-        "description": "play a note for a number of beats"
-    },
-    "music.restForBeats": {
-        "message": "rest for [BEATS] beats",
-        "description": "rest (play no sound) for a number of beats"
-    },
-    "music.setInstrument": {
-        "message": "set instrument to [INSTRUMENT]",
-        "description": "set the instrument (e.g. piano, guitar, trombone) for notes played"
-    },
-    "music.setTempo": {
-        "message": "دانانی خێرایی بە [TEMPO]",
-        "description": "set tempo (speed) for notes, drums, and rests played"
-    },
-    "pen.categoryName": {
-        "message": "پێنووس",
-        "description": "Label for the pen extension category"
-    },
-    "pen.changeColorParam": {
-        "message": "change pen [COLOR_PARAM] by [VALUE]",
-        "description": "change the state of a pen color parameter"
-    },
-    "pen.changeHue": {
-        "message": "گۆڕینی ڕەنگی پێنووس بە [HUE]",
-        "description": "legacy pen blocks - change pen color"
-    },
-    "pen.changeShade": {
-        "message": "change pen shade by [SHADE]",
-        "description": "legacy pen blocks - change pen shade"
-    },
-    "pen.changeSize": {
-        "message": "change pen size by [SIZE]",
-        "description": "change the diameter of the trail left by a sprite"
-    },
-    "pen.clear": {
-        "message": "سڕینەوەی هەموو",
-        "description": "erase all pen trails and stamps"
-    },
-    "pen.colorMenu.brightness": {
-        "message": "ڕووناکی",
-        "description": "label for brightness element in color picker for pen extension"
-    },
-    "pen.colorMenu.color": {
-        "message": "ڕەنگ",
-        "description": "label for color element in color picker for pen extension"
-    },
-    "pen.colorMenu.saturation": {
-        "message": "تێری",
-        "description": "label for saturation element in color picker for pen extension"
-    },
-    "pen.colorMenu.transparency": {
-        "message": "transparency",
-        "description": "label for transparency element in color picker for pen extension"
-    },
-    "pen.penDown": {
-        "message": "پێنووس داگرتن",
-        "description": "start leaving a trail when the sprite moves"
-    },
-    "pen.penUp": {
-        "message": "پێنووس بەرزکردن",
-        "description": "stop leaving a trail behind the sprite"
-    },
-    "pen.setColor": {
-        "message": "set pen color to [COLOR]",
-        "description": "set the pen color to a particular (RGB) value"
-    },
-    "pen.setColorParam": {
-        "message": "دانانی پێنووس [COLOR_PARAM] بە [VALUE]",
-        "description": "set the state for a pen color parameter e.g. saturation"
-    },
-    "pen.setHue": {
-        "message": "دانانی ڕەنگی پێنووس بە [HUE]",
-        "description": "legacy pen blocks - set pen color to number"
-    },
-    "pen.setShade": {
-        "message": "set pen shade to [SHADE]",
-        "description": "legacy pen blocks - set pen shade"
-    },
-    "pen.setSize": {
-        "message": "دانانی قەبارەی پێنووس بە [SIZE]",
-        "description": "set the diameter of a trail left by a sprite"
-    },
-    "pen.stamp": {
-        "message": "مۆر",
-        "description": "render current costume on the background"
-    },
-    "speech.defaultWhenIHearValue": {
-        "message": "با بڕۆین",
-        "description": "The default phrase/word that, when heard, triggers the event."
-    },
-    "speech.extensionName": {
-        "message": "وتەدانی گووگڵ",
-        "description": "Name of extension that adds speech recognition blocks. Do Not translate Google."
-    },
-    "speech.listenAndWait": {
-        "message": "گوێبگرە و بوەستە",
-        "description": "Start listening to the microphone and wait for a result from the speech recognition system."
-    },
-    "speech.speechReporter": {
-        "message": "وتە",
-        "description": "Get the text of spoken words transcribed by the speech recognition system."
-    },
-    "speech.whenIHear": {
-        "message": "کاتێک گوێم دەبێت لە [PHRASE]",
-        "description": "Event that triggers when the text entered on the block is recognized by the speech recognition system."
-    },
-    "text2speech.defaultTextToSpeak": {
-        "message": "سڵاو",
-        "description": "hello: the default text to speak"
-    },
-    "text2speech.kitten": {
-        "message": "kitten",
-        "description": "A baby cat."
-    },
-    "text2speech.max": {
-        "message": "گەورەترین",
-        "description": "Name for a voice with ambiguous gender."
-    },
-    "text2speech.monster": {
-        "message": "monster",
-        "description": "Name for a funny voice with a low pitch."
-    },
-    "text2speech.puppy": {
-        "message": "puppy",
-        "description": "A baby dog."
-    },
-    "text2speech.quinn": {
-        "message": "quinn",
-        "description": "Name for a voice with ambiguous gender."
-    },
-    "text2speech.setVoiceBlock": {
-        "message": "دانانی دەنگ بە [VOICE]",
-        "description": "Set the voice for speech synthesis."
-    },
-    "text2speech.speakAndWaitBlock": {
-        "message": "speak [WORDS]",
-        "description": "Speak some words."
-    },
-    "text2speech.squeak": {
-        "message": "squeak",
-        "description": "Name for a funny voice with a high pitch."
-    },
-    "translate.categoryName": {
-        "message": "وەرگێڕی گووگڵ",
-        "description": "Name of extension that adds translate blocks. Do Not translate Google"
-    },
-    "translate.defaultTextToTranslate": {
-        "message": "سڵاو",
-        "description": "hello: the default text to translate"
-    },
-    "translate.translateBlock": {
-        "message": "وەرگێڕانی [WORDS] بۆ [LANGUAGE]",
-        "description": "translate some text to a different language"
-    },
-    "translate.viewerLanguage": {
-        "message": "زمان",
-        "description": "the languge of the project viewer"
-    },
-    "videoSensing.categoryName": {
-        "message": "Video Sensing",
-        "description": "Label for the video sensing extension category"
-    },
-    "videoSensing.direction": {
-        "message": "ئاڕاستە",
-        "description": "Attribute for the \"video [ATTRIBUTE] on [SUBJECT]\" block"
-    },
-    "videoSensing.motion": {
-        "message": "جوڵان",
-        "description": "Attribute for the \"video [ATTRIBUTE] on [SUBJECT]\" block"
-    },
-    "videoSensing.off": {
-        "message": "ناکارا",
-        "description": "Option for the \"turn video [STATE]\" block"
-    },
-    "videoSensing.on": {
-        "message": "کارا",
-        "description": "Option for the \"turn video [STATE]\" block"
-    },
-    "videoSensing.onFlipped": {
-        "message": "on flipped",
-        "description": "Option for the \"turn video [STATE]\" block that causes the video to be flipped horizontally (reversed as in a mirror)"
-    },
-    "videoSensing.setVideoTransparency": {
-        "message": "set video transparency to [TRANSPARENCY]",
-        "description": "Controls transparency of the video preview layer"
-    },
-    "videoSensing.sprite": {
-        "message": "تەن",
-        "description": "Subject for the \"video [ATTRIBUTE] on [SUBJECT]\" block"
-    },
-    "videoSensing.stage": {
-        "message": "قۆناغ",
-        "description": "Subject for the \"video [ATTRIBUTE] on [SUBJECT]\" block"
-    },
-    "videoSensing.videoOn": {
-        "message": "ڤیدیۆ [ATTRIBUTE] لەسەر [SUBJECT]",
-        "description": "Reporter that returns the amount of [ATTRIBUTE] for the selected [SUBJECT]"
-    },
-    "videoSensing.videoToggle": {
-        "message": "turn video [VIDEO_STATE]",
-        "description": "Controls display of the video preview layer"
-    },
-    "videoSensing.whenMotionGreaterThan": {
-        "message": "when video motion > [REFERENCE]",
-        "description": "Event that triggers when the amount of motion is greater than [REFERENCE]"
-    },
-    "wedo2.getDistance": {
-        "message": "دووری",
-        "description": "the value returned by the distance sensor"
-    },
-    "wedo2.getTiltAngle": {
-        "message": "tilt angle [TILT_DIRECTION]",
-        "description": "the angle returned by the tilt sensor"
-    },
-    "wedo2.isTilted": {
-        "message": "tilted [TILT_DIRECTION_ANY]?",
-        "description": "whether the tilt sensor is tilted"
-    },
-    "wedo2.motorOff": {
-        "message": "turn [MOTOR_ID] off",
-        "description": "turn a motor off"
-    },
-    "wedo2.motorOn": {
-        "message": "turn [MOTOR_ID] on",
-        "description": "turn a motor on indefinitely"
-    },
-    "wedo2.motorOnFor": {
-        "message": "turn [MOTOR_ID] on for [DURATION] seconds",
-        "description": "turn a motor on for some time"
-    },
-    "wedo2.playNoteFor": {
-        "message": "play note [NOTE] for [DURATION] seconds",
-        "description": "play a certain note for some time"
-    },
-    "wedo2.setLightHue": {
-        "message": "set light color to [HUE]",
-        "description": "set the LED color"
-    },
-    "wedo2.setMotorDirection": {
-        "message": "set [MOTOR_ID] direction to [MOTOR_DIRECTION]",
-        "description": "set the motor's turn direction"
-    },
-    "wedo2.startMotorPower": {
-        "message": "set [MOTOR_ID] power to [POWER]",
-        "description": "set the motor's power and turn it on"
-    },
-    "wedo2.whenDistance": {
-        "message": "when distance [OP] [REFERENCE]",
-        "description": "check for when distance is < or > than reference"
-    },
-    "wedo2.whenTilted": {
-        "message": "when tilted [TILT_DIRECTION_ANY]",
-        "description": "check when tilted in a certain direction"
-    }
+    "ev3.beepNote": "ئاماژەی بیپ [NOTE] بۆ [TIME] چرکە",
+    "ev3.buttonPressed": "دوگمەی [PORT] کرتەکرا؟",
+    "ev3.getBrightness": "ڕووناکی",
+    "ev3.getDistance": "دووری",
+    "ev3.getMotorPosition": "ماتۆڕ [PORT] شوێن",
+    "ev3.motorSetPower": "ماتۆڕ [PORT] دانانی هێز [POWER] ٪",
+    "ev3.motorTurnClockwise": "ماتۆڕ [PORT] ئەم ڕێگایە بگرە بۆ [TIME] چرکە",
+    "ev3.motorTurnCounterClockwise": "ماتۆڕ [PORT] ئەو ڕێگایە بگرە بۆ [TIME] چرکە",
+    "ev3.whenBrightnessLessThan": "کاتێک ڕووناکی < [DISTANCE]",
+    "ev3.whenButtonPressed": "کاتێک دوگمەی [PORT] کرتەکرا",
+    "ev3.whenDistanceLessThan": "کاتێک دووری < [DISTANCE]",
+    "gdxfor.down": "down",
+    "gdxfor.getAcceleration": "گوڕ [DIRECTION]",
+    "gdxfor.getForce": "هێز",
+    "gdxfor.getSpinSpeed": "خێرایی خولانەوە [DIRECTION]",
+    "gdxfor.getTilt": "لارکردنەوە [TILT]",
+    "gdxfor.isFacing": "ڕوو وەرگەڕان [FACING]؟",
+    "gdxfor.isFreeFalling": "falling?",
+    "gdxfor.moved": "moved",
+    "gdxfor.pulled": "pulled",
+    "gdxfor.pushed": "pushed",
+    "gdxfor.shaken": "shaken",
+    "gdxfor.startedFalling": "started falling",
+    "gdxfor.up": "up",
+    "gdxfor.whenForcePushedOrPulled": "when force sensor [PUSH_PULL]",
+    "gdxfor.whenGesture": "when [GESTURE]",
+    "makeymakey.downArrow": "تیری خواروو",
+    "makeymakey.downArrowShort": "ژێرەوە",
+    "makeymakey.leftArrow": "تیری چەپ",
+    "makeymakey.leftArrowShort": "چەپ",
+    "makeymakey.rightArrow": "تیری ڕاست",
+    "makeymakey.rightArrowShort": "ڕاست",
+    "makeymakey.spaceKey": "بۆشایی",
+    "makeymakey.upArrow": "تیری سەروو",
+    "makeymakey.upArrowShort": "سەرەوە",
+    "makeymakey.whenKeyPressed": "when [KEY] key pressed",
+    "makeymakey.whenKeysPressedInOrder": "when [SEQUENCE] pressed in order",
+    "microbit.buttonsMenu.any": "هەر کام",
+    "microbit.clearDisplay": "سڕینەوەی شاشە",
+    "microbit.defaultTextToDisplay": "سڵاو!",
+    "microbit.displaySymbol": "پیشاندانی [MATRIX]",
+    "microbit.displayText": "پیشاندانی دەق [TEXT]",
+    "microbit.gesturesMenu.jumped": "بازدراو",
+    "microbit.gesturesMenu.moved": "جوڵاو",
+    "microbit.gesturesMenu.shaken": "هەژاو",
+    "microbit.isButtonPressed": "دوگمەی [BTN] کرتەکرا؟",
+    "microbit.isTilted": "لارکراو [DIRECTION]؟",
+    "microbit.pinStateMenu.off": "ناکارا",
+    "microbit.pinStateMenu.on": "کارا",
+    "microbit.tiltAngle": "گۆشەی لاری [DIRECTION]",
+    "microbit.tiltDirectionMenu.any": "هەر کام",
+    "microbit.tiltDirectionMenu.back": "دواوە",
+    "microbit.tiltDirectionMenu.front": "پێشەوە",
+    "microbit.tiltDirectionMenu.left": "چەپ",
+    "microbit.tiltDirectionMenu.right": "ڕاست",
+    "microbit.whenButtonPressed": "کاتێک دوگمەی [BTN] کرتەکرا",
+    "microbit.whenGesture": "کاتێک [GESTURE]",
+    "microbit.whenPinConnected": "کاتێک نێرکی [PIN] بەسترابوو",
+    "microbit.whenTilted": "کاتێک لارکرا [DIRECTION]",
+    "music.categoryName": "میوزیک",
+    "music.changeTempo": "گۆڕینی خێرایی بە [TEMPO]",
+    "music.drumBass": "(2) تەپڵی دەنگ قووڵ",
+    "music.drumBongo": "(13) بۆنگۆ",
+    "music.drumCabasa": "(15) کاباسا",
+    "music.drumClaves": "(9) کڵاڤیس",
+    "music.drumClosedHiHat": "(6) داخستنی Hi-Hat",
+    "music.drumConga": "(14) کۆنگا",
+    "music.drumCowbell": "(11) زەنگوڵە",
+    "music.drumCrashCymbal": "(4) سنج لێدان",
+    "music.drumCuica": "(18) کویکا",
+    "music.drumGuiro": "(16) گویڕۆ",
+    "music.drumHandClap": "(8) چەپڵە لێدان",
+    "music.drumOpenHiHat": "(5) کردنەوەی Hi-Hat",
+    "music.drumSideStick": "داری لا",
+    "music.drumSnare": "(1) تەپڵی داو",
+    "music.drumTambourine": "(7) تەپل",
+    "music.drumTriangle": "(12) سێگۆشە",
+    "music.drumVibraslap": "(17) ڤیبراسلاپ",
+    "music.drumWoodBlock": "(10) بلۆکی تەختە",
+    "music.getTempo": "خێرایی",
+    "music.instrumentBass": "(6) دەنگ قووڵ",
+    "music.instrumentBassoon": "(14) دووزەلە",
+    "music.instrumentCello": "(8) چەلۆ",
+    "music.instrumentChoir": "(15) دەستەی گۆرانی",
+    "music.instrumentClarinet": "(10) کلارنێت",
+    "music.instrumentElectricGuitar": "(5) گیتاری ئەلیکترۆنی",
+    "music.instrumentElectricPiano": "(2) پیانۆی ئەلیکترۆنی",
+    "music.instrumentFlute": "(12) فلوت",
+    "music.instrumentGuitar": "(4) گیتار",
+    "music.instrumentMarimba": "(19) ماريمبا",
+    "music.instrumentMusicBox": "(17) قوتوی میوزیک",
+    "music.instrumentOrgan": "(3) ئەندام",
+    "music.instrumentPiano": "(1) پیانۆ",
+    "music.instrumentPizzicato": "(7) پیزەکاتۆ",
+    "music.instrumentSaxophone": "(11) ساکسۆفۆن",
+    "music.instrumentSteelDrum": "(18) تەپڵی ئاسن",
+    "music.instrumentSynthLead": "(20) ژەنینی پێشەنگ",
+    "music.instrumentSynthPad": "(21) ژەنینی ناوەندی",
+    "music.instrumentTrombone": "(9) ترۆمبۆن",
+    "music.instrumentVibraphone": "(16) ڤیبرافۆن",
+    "music.instrumentWoodenFlute": "(13) فلوتی دار",
+    "music.midiPlayDrumForBeats": "لێدانی تەپڵ [DRUM] بۆ [BEATS] لێدان",
+    "music.midiSetInstrument": "دانانی ئامێر بە [INSTRUMENT]",
+    "music.playDrumForBeats": "لێدانی تەپڵ [DRUM] بۆ [BEATS] لیدان",
+    "music.playNoteForBeats": "لێدانی ئاماژەی [NOTE] بۆ [BEATS] لێدان",
+    "music.restForBeats": "پشوو بۆ [BEATS] لێدان",
+    "music.setInstrument": "دانانی ئامێر بە [INSTRUMENT]",
+    "music.setTempo": "دانانی خێرایی بە [TEMPO]",
+    "pen.categoryName": "پێنووس",
+    "pen.changeColorParam": "گۆڕینی پێنووس [COLOR_PARAM] بە [VALUE]",
+    "pen.changeHue": "گۆڕینی ڕەنگی پێنووس بە [HUE]",
+    "pen.changeShade": "گۆڕینی سێبەری پێنووس بە [SHADE]",
+    "pen.changeSize": "گۆڕینی قەبارەی پێنووس بە [SIZE]",
+    "pen.clear": "سڕینەوەی هەموو",
+    "pen.colorMenu.brightness": "ڕووناکی",
+    "pen.colorMenu.color": "ڕەنگ",
+    "pen.colorMenu.saturation": "تێری",
+    "pen.colorMenu.transparency": "ڕۆشنایی",
+    "pen.penDown": "پێنووس داگرتن",
+    "pen.penUp": "پێنووس بەرزکردن",
+    "pen.setColor": "دانانی ڕەنگی پێنووس بە [COLOR]",
+    "pen.setColorParam": "دانانی پێنووس [COLOR_PARAM] بە [VALUE]",
+    "pen.setHue": "دانانی ڕەنگی پێنووس بە [HUE]",
+    "pen.setShade": "دانانی سێبەری پێنووس بە [SHADE]",
+    "pen.setSize": "دانانی قەبارەی پێنووس بە [SIZE]",
+    "pen.stamp": "مۆر",
+    "speech.defaultWhenIHearValue": "با بڕۆین",
+    "speech.extensionName": "قسە بۆ دەق",
+    "speech.listenAndWait": "گوێبگرە و چاوەڕێ بکە",
+    "speech.speechReporter": "وتە",
+    "speech.whenIHear": "کاتێک گوێم دەبێت لە [PHRASE]",
+    "text2speech.alto": "دەنگی مامناوەند",
+    "text2speech.defaultTextToSpeak": "hello",
+    "text2speech.giant": "زل",
+    "text2speech.kitten": "بێچوه پشیله",
+    "text2speech.setLanguageBlock": "دانانی زمان بە [LANGUAGE]",
+    "text2speech.setVoiceBlock": "دانانی دەنگ بە [VOICE]",
+    "text2speech.speakAndWaitBlock": "قسە بکە [WORDS]",
+    "text2speech.squeak": "قیڕە",
+    "text2speech.tenor": "دەنگی مامناوەند",
+    "translate.categoryName": "وەرگێڕان",
+    "translate.defaultTextToTranslate": "سڵاو",
+    "translate.translateBlock": "وەرگێڕانی [WORDS] بۆ [LANGUAGE]",
+    "translate.viewerLanguage": "زمان",
+    "videoSensing.categoryName": "هەستی ڤیدیۆیی",
+    "videoSensing.direction": "ئاڕاستە",
+    "videoSensing.motion": "جوڵان",
+    "videoSensing.off": "ناکارا",
+    "videoSensing.on": "کارا",
+    "videoSensing.onFlipped": "لە هەڵگەڕانەوە",
+    "videoSensing.setVideoTransparency": "دانانی ڕۆشنایی ڤیدیۆ بە [TRANSPARENCY]",
+    "videoSensing.sprite": "تەن",
+    "videoSensing.stage": "سەکۆ",
+    "videoSensing.videoOn": "ڤیدیۆ [ATTRIBUTE] لەسەر [SUBJECT]",
+    "videoSensing.videoToggle": "ڤیدیۆ بکە بە [VIDEO_STATE]",
+    "videoSensing.whenMotionGreaterThan": "کاتێک جوڵەی ڤیدیۆ > [REFERENCE]",
+    "wedo2.getDistance": "دووری",
+    "wedo2.getTiltAngle": "گۆشەی لاری [TILT_DIRECTION]",
+    "wedo2.isTilted": "لارکراو [TILT_DIRECTION_ANY]؟",
+    "wedo2.motorDirection.backward": "بەم ڕێگەیە",
+    "wedo2.motorDirection.forward": "بەو ڕێگەیە",
+    "wedo2.motorDirection.reverse": "پێچەوانە",
+    "wedo2.motorId.a": "ماتۆڕ A",
+    "wedo2.motorId.all": "هەموو ماتۆڕەکان",
+    "wedo2.motorId.b": "ماتۆڕ B",
+    "wedo2.motorId.default": "ماتۆڕ",
+    "wedo2.motorOff": "[MOTOR_ID] بکوژێنەوە",
+    "wedo2.motorOn": "[MOTOR_ID] پێبکە",
+    "wedo2.motorOnFor": "[MOTOR_ID] پێبکە بۆ [DURATION] چرکە",
+    "wedo2.playNoteFor": "لێدانی ئاماژەی [NOTE] بۆ [DURATION] چرکە",
+    "wedo2.setLightHue": "دانانی ڕووناکی ڕەنگ بە [HUE]",
+    "wedo2.setMotorDirection": "دانانی ئاڕاستەی [MOTOR_ID] بە [MOTOR_DIRECTION]",
+    "wedo2.startMotorPower": "دانانی هێزی [MOTOR_ID] بە [POWER]",
+    "wedo2.tiltDirection.any": "هەر کام",
+    "wedo2.tiltDirection.down": "ژێرەوە",
+    "wedo2.tiltDirection.left": "چەپ",
+    "wedo2.tiltDirection.right": "ڕاست",
+    "wedo2.tiltDirection.up": "سەرەوە",
+    "wedo2.whenDistance": "کاتێک دووری [OP] [REFERENCE]",
+    "wedo2.whenTilted": "کاتێک لارکرا [TILT_DIRECTION_ANY]"
 }

@@ -1,1014 +1,421 @@
 {
-    "gui.backpack.errorBackpack": {
-        "message": "Error loading backpack",
-        "description": "Error backpack message"
-    },
-    "gui.backpack.loadingBackpack": {
-        "message": "Loading...",
-        "description": "Loading backpack message"
-    },
-    "gui.backpack.emptyBackpack": {
-        "message": "Backpack is empty",
-        "description": "Empty backpack message"
-    },
-    "gui.unsupportedBrowser.label": {
-        "message": "Browser is not supported",
-        "description": ""
-    },
-    "gui.unsupportedBrowser.description": {
-        "message": "We're very sorry, but Scratch 3.0 does not support Internet Explorer, Vivaldi, Opera or Silk. We recommend trying a newer browser such as Google Chrome, Mozilla Firefox, or Microsoft Edge.",
-        "description": "Unsupported browser description"
-    },
-    "gui.unsupportedBrowser.back": {
-        "message": "Back",
-        "description": "Button to go back in unsupported browser modal"
-    },
-    "gui.unsupportedBrowser.previewfaq": {
-        "message": "To learn more, go to the {previewFaqLink}.",
-        "description": "Invitation to try 3.0 preview"
-    },
-    "gui.unsupportedBrowser.previewfaqlinktext": {
-        "message": "FAQ",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.cameraModal.cameraModalTitle": {
-        "message": "Take a Photo",
-        "description": "Title for prompt to take a picture (to add as a new costume)."
-    },
-    "gui.cameraModal.loadingCameraMessage": {
-        "message": "Loading Camera...",
-        "description": "Notification to the user that the camera is loading"
-    },
-    "gui.cameraModal.permissionRequest": {
-        "message": "We need your permission to use your camera",
-        "description": "Notification to the user that the app needs camera access"
-    },
-    "gui.cameraModal.retakePhoto": {
-        "message": "Retake Photo",
-        "description": "A button that allows the user to take the picture again, replacing the old one"
-    },
-    "gui.cameraModal.save": {
-        "message": "Gcina",
-        "description": "A button that allows the user to save the photo they took as a costume"
-    },
-    "gui.cameraModal.takePhoto": {
-        "message": "Take Photo",
-        "description": "A button to take a photo"
-    },
-    "gui.cameraModal.loadingCaption": {
-        "message": "Loading...",
-        "description": "A caption for a disabled button while the video from the camera is still loading"
-    },
-    "gui.cameraModal.enableCameraCaption": {
-        "message": "Enable Camera",
-        "description": "A caption for a disabled button prompting the user to enable camera access"
-    },
-    "gui.cards.all-tutorials": {
-        "message": "Tutorials",
-        "description": "Title for button to return to tutorials library"
-    },
-    "gui.cards.remove": {
-        "message": "Vala",
-        "description": "Title for button to close how-to card"
-    },
-    "gui.cards.more-things-to-try": {
-        "message": "More things to try!",
-        "description": "Title card with more things to try"
-    },
-    "gui.cards.see-more": {
-        "message": "See more",
-        "description": "Title for button to see more in how-to library"
-    },
-    "gui.comingSoon.message1": {
-        "message": "Don't worry, we're on it {emoji}",
-        "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
-    },
-    "gui.comingSoon.message2": {
-        "message": "Coming Soon...",
-        "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
-    },
-    "gui.comingSoon.message3": {
-        "message": "We're working on it {emoji}",
-        "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
-    },
-    "gui.connection.auto-scanning.noDevicesFound": {
-        "message": "No devices found",
-        "description": "Text shown when no devices could be found"
-    },
-    "gui.connection.auto-scanning.prescan": {
-        "message": "Have your device nearby, then begin searching.",
-        "description": "Prompt for beginning the search"
-    },
-    "gui.connection.auto-scanning.pressbutton": {
-        "message": "Press the button on your device.",
-        "description": "Prompt for pushing the button on the device"
-    },
-    "gui.connection.auto-scanning.start-search": {
-        "message": "Start Searching",
-        "description": "Button in prompt for starting a search"
-    },
-    "gui.connection.connecting-searchbutton": {
-        "message": "Searching...",
-        "description": "Label indicating that search is in progress"
-    },
-    "gui.connection.auto-scanning.try-again": {
-        "message": "Try again",
-        "description": "Button in prompt for trying a device search again"
-    },
-    "gui.connection.connected": {
-        "message": "Connected",
-        "description": "Message indicating that a device was connected"
-    },
-    "gui.connection.disconnect": {
-        "message": "Disconnect",
-        "description": "Button to disconnect the device"
-    },
-    "gui.connection.go-to-editor": {
-        "message": "Go to Editor",
-        "description": "Button to return to the editor"
-    },
-    "gui.connection.connecting-cancelbutton": {
-        "message": "Connecting...",
-        "description": "Label indicating that connection is in progress"
-    },
-    "gui.connection.device-name-label": {
-        "message": "Device name",
-        "description": "Label for field showing the device name"
-    },
-    "gui.connection.connect": {
-        "message": "Connect",
-        "description": "Button to start connecting to a specific device"
-    },
-    "gui.connection.error.errorMessage": {
-        "message": "Oops, looks like something went wrong.",
-        "description": "The device connection process has encountered an error."
-    },
-    "gui.connection.error.tryagainbutton": {
-        "message": "Try again",
-        "description": "Button to initiate trying the device connection again after an error"
-    },
-    "gui.connection.error.helpbutton": {
-        "message": "Usizo",
-        "description": "Button to view help content"
-    },
-    "gui.connection.scanning.lookingfordevices": {
-        "message": "Looking for devices",
-        "description": "Text shown while scanning for devices"
-    },
-    "gui.connection.scanning.noDevicesFound": {
-        "message": "No devices found",
-        "description": "Text shown when no devices could be found"
-    },
-    "gui.connection.scanning.instructions": {
-        "message": "Select your device in the list above.",
-        "description": "Prompt for choosing a device to connect to"
-    },
-    "gui.connection.search": {
-        "message": "Refresh",
-        "description": "Button in prompt for starting a search"
-    },
-    "gui.connection.unavailable.installscratchlink": {
-        "message": "Make sure you have Scratch Link installed and running",
-        "description": "Message for getting Scratch Link installed"
-    },
-    "gui.connection.unavailable.enablebluetooth": {
-        "message": "Check that Bluetooth is enabled",
-        "description": "Message for making sure Bluetooth is enabled"
-    },
-    "gui.connection.unavailable.tryagainbutton": {
-        "message": "Try again",
-        "description": "Button to initiate trying the device connection again after an error"
-    },
-    "gui.connection.unavailable.helpbutton": {
-        "message": "Usizo",
-        "description": "Button to view help content"
-    },
-    "gui.controls.go": {
-        "message": "Go",
-        "description": "Green flag button title"
-    },
-    "gui.controls.stop": {
-        "message": "Stop",
-        "description": "Stop button title"
-    },
-    "gui.customProcedures.myblockModalTitle": {
-        "message": "Enza amabhulokisi",
-        "description": "Title for the modal where you create a custom block."
-    },
-    "gui.customProcedures.addAnInputNumberText": {
-        "message": "Add an input",
-        "description": "Label for button to add a number/text input"
-    },
-    "gui.customProcedures.numberTextType": {
-        "message": "number or text",
-        "description": "Description of the number/text input type"
-    },
-    "gui.customProcedures.addAnInputBoolean": {
-        "message": "Add an input",
-        "description": "Label for button to add a boolean input"
-    },
-    "gui.customProcedures.booleanType": {
-        "message": "boolean",
-        "description": "Description of the boolean input type"
-    },
-    "gui.customProcedures.addALabel": {
-        "message": "Add a label",
-        "description": "Label for button to add a label"
-    },
-    "gui.customProcedures.runWithoutScreenRefresh": {
-        "message": "Baleka ngaphandle kokuvuselela isikrini",
-        "description": "Label for checkbox to run without screen refresh"
-    },
-    "gui.customProcedures.cancel": {
-        "message": "Cima",
-        "description": "Label for button to cancel custom procedure edits"
-    },
-    "gui.customProcedures.ok": {
-        "message": "Kulungile",
-        "description": "Label for button to save new custom procedure"
-    },
-    "gui.SpriteInfo.direction": {
-        "message": "Direction",
-        "description": "Sprite info direction label"
-    },
-    "gui.directionPicker.rotationStyles.allAround": {
-        "message": "All Around",
-        "description": "Button to change to the all around rotation style"
-    },
-    "gui.directionPicker.rotationStyles.leftRight": {
-        "message": "Left/Right",
-        "description": "Button to change to the left-right rotation style"
-    },
-    "gui.directionPicker.rotationStyles.dontRotate": {
-        "message": "Do not rotate",
-        "description": "Button to change to the dont rotate rotation style"
-    },
-    "gui.gui.addExtension": {
-        "message": "Add Extension",
-        "description": "Button to add an extension in the target pane"
-    },
-    "gui.gui.codeTab": {
-        "message": "Code",
-        "description": "Button to get to the code panel"
-    },
-    "gui.gui.backdropsTab": {
-        "message": "Izindawo",
-        "description": "Button to get to the backdrops panel"
-    },
-    "gui.gui.costumesTab": {
-        "message": "Izimpahla",
-        "description": "Button to get to the costumes panel"
-    },
-    "gui.gui.soundsTab": {
-        "message": "Imisindo",
-        "description": "Button to get to the sounds panel"
-    },
-    "gui.importInfo.title": {
-        "message": "View a Scratch 2.0 Project",
-        "description": "Scratch 2.0 import modal label - for accessibility"
-    },
-    "gui.importInfo.betamessage": {
-        "message": "Enter a link to one of your shared Scratch projects. Changes made in this 3.0 Beta will not be saved.",
-        "description": "Import project message"
-    },
-    "gui.importInfo.message": {
-        "message": "Enter a link to one of your shared Scratch projects. Changes made in this 3.0 Preview will not be saved.",
-        "description": "Import project message"
-    },
-    "gui.importInfo.invalidFormatError": {
-        "message": "Uh oh, that project link or id doesn't look quite right.",
-        "description": "Invalid project link or id message"
-    },
-    "gui.importModal.viewproject": {
-        "message": "View",
-        "description": "Label for button to load a scratch 2.0 project"
-    },
-    "gui.importInfo.goback": {
-        "message": "Go Back",
-        "description": "Label for button to back out of importing a project"
-    },
-    "gui.importInfo.previewfaq": {
-        "message": "To learn more, go to the {previewFaqLink}.",
-        "description": "Invitation to try 3.0 preview"
-    },
-    "gui.importInfo.previewfaqlinktext": {
-        "message": "FAQ",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.extensionLibrary.comingSoon": {
-        "message": "Coming Soon",
-        "description": "Label for extensions that are not yet implemented"
-    },
-    "gui.library.filterPlaceholder": {
-        "message": "Cinga",
-        "description": "Placeholder text for library search field"
-    },
-    "gui.loader.message1": {
-        "message": "Creating blocks …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message2": {
-        "message": "Loading sprites …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message3": {
-        "message": "Loading sounds …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message4": {
-        "message": "Loading extensions …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message5": {
-        "message": "Herding cats …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message6": {
-        "message": "Transmitting nanos …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message7": {
-        "message": "Inflating gobos …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message8": {
-        "message": "Preparing emojis …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.headline": {
-        "message": "Loading Project",
-        "description": "Main loading message"
-    },
-    "gui.menuBar.LanguageSelector": {
-        "message": "language selector",
-        "description": "accessibility text for the language selection menu"
-    },
-    "gui.menuBar.tutorialsLibrary": {
-        "message": "Tutorials",
-        "description": "accessibility text for the tutorials button"
-    },
-    "gui.menuBar.restoreSprite": {
-        "message": "Restore Sprite",
-        "description": "Menu bar item for restoring the last deleted sprite."
-    },
-    "gui.menuBar.restoreSound": {
-        "message": "Restore Sound",
-        "description": "Menu bar item for restoring the last deleted sound."
-    },
-    "gui.menuBar.restoreCostume": {
-        "message": "Restore Costume",
-        "description": "Menu bar item for restoring the last deleted costume."
-    },
-    "gui.menuBar.restore": {
-        "message": "Restore",
-        "description": "Menu bar item for restoring the last deleted item in its disabled state."
-    },
-    "gui.menuBar.saveNow": {
-        "message": "Gcina manje",
-        "description": "Menu bar item for saving now"
-    },
-    "gui.menuBar.file": {
-        "message": "Ifayela",
-        "description": "Text for file dropdown menu"
-    },
-    "gui.menuBar.new": {
-        "message": "Entsha",
-        "description": "Menu bar item for creating a new project"
-    },
-    "gui.menuBar.saveAsCopy": {
-        "message": "Gcina njenge khophi",
-        "description": "Menu bar item for saving as a copy"
-    },
-    "gui.menuBar.uploadFromComputer": {
-        "message": "Load from your computer",
-        "description": "Menu bar item for uploading a project from your computer"
-    },
-    "gui.menuBar.downloadToComputer": {
-        "message": "Save to your computer",
-        "description": "Menu bar item for downloading a project to your computer"
-    },
-    "gui.menuBar.edit": {
-        "message": "Lungisa",
-        "description": "Text for edit dropdown menu"
-    },
-    "gui.menuBar.turboModeOff": {
-        "message": "Turn off Turbo Mode",
-        "description": "Menu bar item for turning off turbo mode"
-    },
-    "gui.menuBar.turboModeOn": {
-        "message": "Turn on Turbo Mode",
-        "description": "Menu bar item for turning on turbo mode"
-    },
-    "gui.menuBar.share": {
-        "message": "Yipha",
-        "description": "Label for project share button"
-    },
-    "gui.menuBar.seeCommunity": {
-        "message": "See Community",
-        "description": "Label for see community button"
-    },
-    "gui.menuBar.giveFeedback": {
-        "message": "Give Feedback",
-        "description": "Label for feedback form modal button"
-    },
-    "gui.modal.help": {
-        "message": "Usizo",
-        "description": "Help button in modal"
-    },
-    "gui.modal.back": {
-        "message": "Back",
-        "description": "Back button in modal"
-    },
-    "gui.monitor.contextMenu.default": {
-        "message": "okujwayelekile bomphumelo",
-        "description": "Menu item to switch to the default monitor"
-    },
-    "gui.monitor.contextMenu.large": {
-        "message": "ubukhulu bomphumelo",
-        "description": "Menu item to switch to the large monitor"
-    },
-    "gui.monitor.contextMenu.slider": {
-        "message": "shibilika",
-        "description": "Menu item to switch to the slider monitor"
-    },
-    "gui.previewInfo.label": {
-        "message": "Try Scratch 3.0",
-        "description": "Scratch 3.0 modal label - for accessibility"
-    },
-    "gui.previewInfo.welcome": {
-        "message": "Welcome to the Scratch 3.0 Beta",
-        "description": "Header for Preview Info Modal"
-    },
-    "gui.previewInfo.betawelcome": {
-        "message": "Welcome to the Scratch 3.0 Beta",
-        "description": "Header for Beta Info Modal"
-    },
-    "gui.previewInfo.invitation": {
-        "message": "We're working on the next generation of Scratch. We're excited for you to try it!",
-        "description": "Invitation to try 3.0 Beta"
-    },
-    "gui.previewInfo.notnow": {
-        "message": "Not Now",
-        "description": "Label for button to back out of trying Scratch 3.0 Beta"
-    },
-    "gui.previewModal.tryit": {
-        "message": "Try It! {caticon}",
-        "description": "Label for button to try Scratch 3.0 Beta"
-    },
-    "gui.previewModal.viewproject": {
-        "message": "View 2.0 Project",
-        "description": "Label for button to import a 2.0 project"
-    },
-    "gui.previewInfo.previewfaq": {
-        "message": "To learn more, go to the {previewFaqLink}.",
-        "description": "Invitation to try 3.0 Beta"
-    },
-    "gui.previewInfo.previewfaqlinktext": {
-        "message": "FAQ",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.gui.variableScopeOptionAllSprites": {
-        "message": "Ngabo bonke omlingisi",
-        "description": "Option message when creating a variable for making it available to all sprites"
-    },
-    "gui.gui.variableScopeOptionSpriteOnly": {
-        "message": "Ngalomlingsi kuphela",
-        "description": "Option message when creating a varaible for making it only available to the current sprite"
-    },
-    "gui.gui.variablePrompt": {
-        "message": "More Options",
-        "description": "Dropdown message for variable/list options"
-    },
-    "gui.gui.variablePromptAllSpritesMessage": {
-        "message": "This variable will be available to all sprites.",
-        "description": "A message that displays in a variable modal when the stage is selected indicating that the variable being created will available to all sprites."
-    },
-    "gui.prompt.cancel": {
-        "message": "Cima",
-        "description": "Button in prompt for cancelling the dialog"
-    },
-    "gui.prompt.ok": {
-        "message": "Kulungile",
-        "description": "Button in prompt for confirming the dialog"
-    },
-    "gui.playbackStep.stopMsg": {
-        "message": "Stop",
-        "description": "Stop/Play button in recording playback"
-    },
-    "gui.playbackStep.playMsg": {
-        "message": "Play",
-        "description": "Stop/Play button in recording playback"
-    },
-    "gui.playbackStep.loadingMsg": {
-        "message": "Loading...",
-        "description": "Loading/Save button in recording playback"
-    },
-    "gui.playbackStep.saveMsg": {
-        "message": "Gcina",
-        "description": "Loading/Save button in recording playback"
-    },
-    "gui.playbackStep.reRecordMsg": {
-        "message": "Re-record",
-        "description": "Button to re-record sound in recording playback"
-    },
-    "gui.recordModal.title": {
-        "message": "Record Sound",
-        "description": "Recording modal title"
-    },
-    "gui.soundEditor.sound": {
-        "message": "Umsindo",
-        "description": "Label for the name of the sound"
-    },
-    "gui.soundEditor.play": {
-        "message": "Play",
-        "description": "Title of the button to start playing the sound"
-    },
-    "gui.soundEditor.stop": {
-        "message": "Stop",
-        "description": "Title of the button to stop the sound"
-    },
-    "gui.soundEditor.trim": {
-        "message": "Trim",
-        "description": "Title of the button to start trimminging the sound"
-    },
-    "gui.soundEditor.save": {
-        "message": "Gcina",
-        "description": "Title of the button to save trimmed sound"
-    },
-    "gui.soundEditor.undo": {
-        "message": "Yenza kabusha",
-        "description": "Title of the button to undo"
-    },
-    "gui.soundEditor.redo": {
-        "message": "Ukwenzakabusha",
-        "description": "Title of the button to redo"
-    },
-    "gui.soundEditor.faster": {
-        "message": "Faster",
-        "description": "Title of the button to apply the faster effect"
-    },
-    "gui.soundEditor.slower": {
-        "message": "Slower",
-        "description": "Title of the button to apply the slower effect"
-    },
-    "gui.soundEditor.echo": {
-        "message": "Echo",
-        "description": "Title of the button to apply the echo effect"
-    },
-    "gui.soundEditor.robot": {
-        "message": "Robot",
-        "description": "Title of the button to apply the robot effect"
-    },
-    "gui.soundEditor.louder": {
-        "message": "Louder",
-        "description": "Title of the button to apply the louder effect"
-    },
-    "gui.soundEditor.softer": {
-        "message": "Softer",
-        "description": "Title of the button to apply thr.softer effect"
-    },
-    "gui.soundEditor.reverse": {
-        "message": "Reverse",
-        "description": "Title of the button to apply the reverse effect"
-    },
-    "gui.SpriteInfo.spritePlaceholder": {
-        "message": "Name",
-        "description": "Placeholder text for sprite name"
-    },
-    "gui.SpriteInfo.sprite": {
-        "message": "Umlingisi",
-        "description": "Sprite info label"
-    },
-    "gui.SpriteInfo.show": {
-        "message": "Show",
-        "description": "Sprite info show label"
-    },
-    "gui.SpriteInfo.size": {
-        "message": "Size",
-        "description": "Sprite info size label"
-    },
-    "gui.spriteSelectorItem.contextMenuDuplicate": {
-        "message": "fanisa",
-        "description": "Menu item to duplicate in the right click menu"
-    },
-    "gui.spriteSelectorItem.contextMenuDelete": {
-        "message": "khipha",
-        "description": "Menu item to delete in the right click menu"
-    },
-    "gui.spriteSelectorItem.contextMenuExport": {
-        "message": "isithumela",
-        "description": "Menu item to export the selected item"
-    },
-    "gui.spriteSelector.addSpriteFromLibrary": {
-        "message": "Choose a Sprite",
-        "description": "Button to add a sprite in the target pane from library"
-    },
-    "gui.spriteSelector.addSpriteFromPaint": {
-        "message": "Paint",
-        "description": "Button to add a sprite in the target pane from paint"
-    },
-    "gui.spriteSelector.addSpriteFromSurprise": {
-        "message": "Surprise",
-        "description": "Button to add a random sprite in the target pane"
-    },
-    "gui.spriteSelector.addSpriteFromFile": {
-        "message": "Upload Sprite",
-        "description": "Button to add a sprite in the target pane from file"
-    },
-    "gui.stageHeader.stageSizeLarge": {
-        "message": "Switch to large stage",
-        "description": "Button to change stage size to large"
-    },
-    "gui.stageHeader.stageSizeSmall": {
-        "message": "Switch to small stage",
-        "description": "Button to change stage size to small"
-    },
-    "gui.stageHeader.stageSizeFull": {
-        "message": "Enter full screen mode",
-        "description": "Button to change stage size to full screen"
-    },
-    "gui.stageHeader.stageSizeUnFull": {
-        "message": "Exit full screen mode",
-        "description": "Button to get out of full screen mode"
-    },
-    "gui.stageHeader.fullscreenControl": {
-        "message": "Full Screen Control",
-        "description": "Button to enter/exit full screen mode"
-    },
-    "gui.spriteSelector.addBackdropFromLibrary": {
-        "message": "Choose a Backdrop",
-        "description": "Button to add a stage in the target pane from library"
-    },
-    "gui.stageSelector.addBackdropFromPaint": {
-        "message": "Paint",
-        "description": "Button to add a stage in the target pane from paint"
-    },
-    "gui.stageSelector.addBackdropFromSurprise": {
-        "message": "Surprise",
-        "description": "Button to add a random stage in the target pane"
-    },
-    "gui.stageSelector.addBackdropFromFile": {
-        "message": "Upload Backdrop",
-        "description": "Button to add a stage in the target pane from file"
-    },
-    "gui.stageSelector.stage": {
-        "message": "Isigaba",
-        "description": "Label for the stage in the stage selector"
-    },
-    "gui.stageSelector.backdrops": {
-        "message": "Izindawo",
-        "description": "Label for the backdrops in the stage selector"
-    },
-    "gui.turboMode.active": {
-        "message": "Sheshisa Indlela",
-        "description": "Label indicating turbo mode is active"
-    },
-    "gui.webglModal.label": {
-        "message": "Your Browser Does Not Support WebGL",
-        "description": "WebGL missing title"
-    },
-    "gui.webglModal.description": {
-        "message": "Unfortunately it looks like your browser or computer {webGlLink}. This technology is needed for Scratch 3.0 to run.",
-        "description": "WebGL missing message"
-    },
-    "gui.webglModal.webgllink": {
-        "message": "does not support WebGL",
-        "description": "link part of your browser does not support WebGL message"
-    },
-    "gui.webglModal.back": {
-        "message": "Back",
-        "description": "Label for button go back when browser is unsupported"
-    },
-    "gui.webglModal.previewfaq": {
-        "message": "To learn more, go to the {previewFaqLink}.",
-        "description": "Scratch 3.0 FAQ description"
-    },
-    "gui.webglModal.previewfaqlinktext": {
-        "message": "FAQ",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.costumeLibrary.chooseABackdrop": {
-        "message": "Choose a Backdrop",
-        "description": "Heading for the backdrop library"
-    },
-    "gui.costumeLibrary.chooseACostume": {
-        "message": "Choose a Costume",
-        "description": "Heading for the costume library"
-    },
-    "gui.costumeTab.addBackdropFromLibrary": {
-        "message": "Choose a Backdrop",
-        "description": "Button to add a backdrop in the editor tab"
-    },
-    "gui.costumeTab.addCostumeFromLibrary": {
-        "message": "Choose a Costume",
-        "description": "Button to add a costume in the editor tab"
-    },
-    "gui.costumeTab.addBlankCostume": {
-        "message": "Paint",
-        "description": "Button to add a blank costume in the editor tab"
-    },
-    "gui.costumeTab.addSurpriseCostume": {
-        "message": "Surprise",
-        "description": "Button to add a surprise costume in the editor tab"
-    },
-    "gui.costumeTab.addFileBackdrop": {
-        "message": "Upload Backdrop",
-        "description": "Button to add a backdrop by uploading a file in the editor tab"
-    },
-    "gui.costumeTab.addFileCostume": {
-        "message": "Upload Costume",
-        "description": "Button to add a costume by uploading a file in the editor tab"
-    },
-    "gui.costumeTab.addCameraCostume": {
-        "message": "Ikhamera",
-        "description": "Button to use the camera to create a costume costume in the editor tab"
-    },
-    "gui.extensionLibrary.chooseAnExtension": {
-        "message": "Choose an Extension",
-        "description": "Heading for the extension library"
-    },
-    "gui.extensionLibrary.extensionUrl": {
-        "message": "Enter the URL of the extension",
-        "description": "Prompt for unoffical extension url"
-    },
-    "gui.projectLoader.loadError": {
-        "message": "The project file that was selected failed to load.",
-        "description": "An error that displays when a local project file fails to load."
-    },
-    "gui.recordingStep.alertMsg": {
-        "message": "Could not start recording",
-        "description": "Alert for recording error"
-    },
-    "gui.soundLibrary.chooseASound": {
-        "message": "Choose a Sound",
-        "description": "Heading for the sound library"
-    },
-    "gui.soundTab.fileUploadSound": {
-        "message": "Upload Sound",
-        "description": "Button to upload sound from file in the editor tab"
-    },
-    "gui.soundTab.surpriseSound": {
-        "message": "Surprise",
-        "description": "Button to get a random sound in the editor tab"
-    },
-    "gui.soundTab.recordSound": {
-        "message": "Qopha",
-        "description": "Button to record a sound in the editor tab"
-    },
-    "gui.soundTab.addSoundFromLibrary": {
-        "message": "Choose a Sound",
-        "description": "Button to add a sound in the editor tab"
-    },
-    "gui.spriteLibrary.chooseASprite": {
-        "message": "Choose a Sprite",
-        "description": "Heading for the sprite library"
-    },
-    "gui.spriteSelectorItem.deleteSpriteConfirmation": {
-        "message": "Are you sure you want to delete this?",
-        "description": "Confirmation for deleting sprites"
-    },
-    "gui.tipsLibrary.tutorials": {
-        "message": "Choose a Tutorial",
-        "description": "Heading for the help/tutorials library"
-    },
-    "gui.howtos.intro-move-sayhello-hat.name": {
-        "message": "Getting Started",
-        "description": "Name for the 'Getting Started' how-to"
-    },
-    "gui.howtos.intro-move.step_stepMove": {
-        "message": "Add a move block",
-        "description": "Step name for 'Add a move block' step"
-    },
-    "gui.howtos.add-a-move-block.step_stepMoveSayHello": {
-        "message": "Click the green flag to start",
-        "description": "Step name for 'Add A Say Block' step"
-    },
-    "gui.howtos.animate-a-name.name": {
-        "message": "Animate a Name",
-        "description": "Name for the 'Animate a Name' how-to"
-    },
-    "gui.howtos.animate-a-name.step_AnimatePickLetter": {
-        "message": "Pick a Letter Sprite",
-        "description": "Step name for 'Pick a Letter Sprite' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimatePlaySound": {
-        "message": "Play a Sound When Clicked",
-        "description": "Step name for 'Play a Sound When Clicked' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimatePickLetter2": {
-        "message": "Pick Another Letter Sprite",
-        "description": "Step name for 'Pick Another Letter Sprite"
-    },
-    "gui.howtos.animate-a-name.step_AnimateChangeColor": {
-        "message": "Change color",
-        "description": "Step name for 'Change color' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimateSpin": {
-        "message": "Pick Another Letter Sprite & Make It Spin",
-        "description": "Step name for 'Pick Another Letter Sprite & Make It Spin' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimateGrow": {
-        "message": "Pick Another Letter Sprite & Make It Grow",
-        "description": "Step name for 'Pick Another Letter Sprite & Make It Grow!' step"
-    },
-    "gui.howtos.make-music.name": {
-        "message": "Make Music",
-        "description": "Name for the 'Make Music' how-to"
-    },
-    "gui.howtos.Make-Music.step_PickInstrument": {
-        "message": "Pick an Instrument Sprite",
-        "description": "Step name for 'Pick an Instrument Sprite' step"
-    },
-    "gui.howtos.Make-Music.step_PlaySoundClick": {
-        "message": "Play Sound When Clicked",
-        "description": "Step name for 'Play Sound When Clicked' step"
-    },
-    "gui.howtos.Make-Music.step_MakeSong": {
-        "message": "Create a Song",
-        "description": "Step name for 'Create a Song' step"
-    },
-    "gui.howtos.make-music.step_MakeBeat": {
-        "message": "Choose a Drum & Make a Beat",
-        "description": "Step name for 'Choose a Drum & Make a Beat' step"
-    },
-    "gui.howtos.make-music.step_MakeBeatBox": {
-        "message": "Choose the Microphone Sprite & Surprise Beatbox",
-        "description": "Step name for 'Choose the Microphone Sprite & Surprise Beatbox' step"
-    },
-    "gui.howtos.make-a-game.name": {
-        "message": "Make a Clicker Game",
-        "description": "Name for the 'Make a Clicker Game' how-to"
-    },
-    "gui.howtos.Make-A-Game.step_GamePickSprite": {
-        "message": "Pick A Sprite",
-        "description": "Step name for 'Pick A Sprite' step"
-    },
-    "gui.howtos.make-a-game.step_GamePlaySound": {
-        "message": "Play Sound When Clicked",
-        "description": "Play Sound When Clicked' step"
-    },
-    "gui.howtos.make-a-game.step_GameAddScore": {
-        "message": "Create Score Variable",
-        "description": "Step name for 'Create Score Variable' step"
-    },
-    "gui.howtos.make-a-game.step_GameChangeScore": {
-        "message": "When Clicked Increase Score",
-        "description": "Step name for 'When Clicked Increase Score' step"
-    },
-    "gui.howtos.make-a-game.step_Random": {
-        "message": "Go to a random position",
-        "description": "Step name for 'Go to a random position' step"
-    },
-    "gui.howtos.make-music.step_GameChangeColor": {
-        "message": "Change Color",
-        "description": "Step name for 'Change Color' step"
-    },
-    "gui.howtos.make-music.step_ResetScore": {
-        "message": "Reset Score",
-        "description": "Step name for 'Reset Score' step"
-    },
-    "gui.howtos.make-a-chase-game.name": {
-        "message": "Make a Chase Game",
-        "description": "Name for the 'Make a Chase Game' how-to"
-    },
-    "gui.howtos.Chase-Game.step_BG": {
-        "message": "Add a Backdrop",
-        "description": "Step name for 'Add a Backdrop' step"
-    },
-    "gui.howtos.chase-game.step_AddOcto": {
-        "message": "Add a Sprite",
-        "description": "Step name for 'Add a Sprite' step"
-    },
-    "gui.howtos.make-music.step_LeftRight": {
-        "message": "Move Right & Left With Arrow Keys",
-        "description": "Step name for 'Move Right & Left With Arrow Keys' step"
-    },
-    "gui.howtos.Chase-Game.step_UpDown": {
-        "message": "Move Up & Down With Arrow Keys",
-        "description": "Step name for 'Move Up & Down With Arrow Keys' step"
-    },
-    "gui.howtos.Chase-Game.step_AddStar": {
-        "message": "Add Another Sprite",
-        "description": "Step name for 'Add Another Sprite' step"
-    },
-    "gui.howtos.Chase-Game.step_MoveRandom": {
-        "message": "Move Randomly",
-        "description": "Step name for 'Move Randomly' step"
-    },
-    "gui.howtos.Chase-Game.step_WhenTouch": {
-        "message": "In Octopus Sprite, When Touching Play Sound",
-        "description": "Step name for 'In Octopus Sprite, When Touching Play Sound' step"
-    },
-    "gui.howtos.Chase-Game.step_ScoreVariable": {
-        "message": "Create Score Variable",
-        "description": "Step name for 'Create Score Variable"
-    },
-    "gui.howtos.Chase-Game.ScoreWhenTouch": {
-        "message": "In Octopus Sprite, When Touching Add Score",
-        "description": "Step name for 'In Octopus Sprite, When Touching Add Score step"
-    },
-    "gui.howtos.add-sprite.name": {
-        "message": "Add a Sprite",
-        "description": "Name for the 'Add a Sprite' how-to"
-    },
-    "gui.howtos.add-sprite.step_addSprite": {
-        "message": "Add a Sprite",
-        "description": "Step name for 'Add a new sprite' step"
-    },
-    "gui.howtos.add-a-backdrop.name": {
-        "message": "Add a Backdrop",
-        "description": "Name for the 'Add a Backdrop' how-to"
-    },
-    "gui.howtos.change-size.name": {
-        "message": "Change Size",
-        "description": "Name for the 'Change Size' how-to"
-    },
-    "gui.howtos.glide-around.name": {
-        "message": "Glide Around",
-        "description": "Name for the 'Glide Around' how-to"
-    },
-    "gui.howtos.record-a-sound.name": {
-        "message": "Record a Sound",
-        "description": "Record A Sound' how-to"
-    },
-    "gui.howtos.spin-video.name": {
-        "message": "Make It Spin",
-        "description": "Name for the 'Make It Spin' how-to"
-    },
-    "gui.howtos.hide-and-show.name": {
-        "message": "Hide and Show",
-        "description": "Name for the 'Hide and Show' how-to"
-    },
-    "gui.howtos.switch-costume.name": {
-        "message": "Animate a Sprite",
-        "description": "Name for the 'Animate a Sprite' how-to"
-    },
-    "gui.howtos.move-around-with-arrow-keys.name": {
-        "message": "Use Arrow Keys",
-        "description": "Name for the 'Use Arrow Keys' how-to"
-    },
-    "gui.howtos.add-effects.name": {
-        "message": "Add Effects",
-        "description": "Name for the 'Add Effects' how-to"
-    },
-    "gui.extension.music.name": {
-        "message": "uMculo",
-        "description": "Name for the 'Music' extension"
-    },
-    "gui.extension.music.description": {
-        "message": "Play instruments and drums.",
-        "description": "Description for the 'Music' extension"
-    },
-    "gui.extension.pen.name": {
-        "message": "Ipeni",
-        "description": "Name for the 'Pen' extension"
-    },
-    "gui.extension.pen.description": {
-        "message": "Draw with your sprites.",
-        "description": "Description for the 'Pen' extension"
-    },
-    "gui.extension.videosensing.name": {
-        "message": "Video Sensing",
-        "description": "Name for the 'Video Sensing' extension"
-    },
-    "gui.extension.videosensing.description": {
-        "message": "Sense motion with the camera.",
-        "description": "Description for the 'Video Sensing' extension"
-    },
-    "gui.extension.googletranslate.name": {
-        "message": "Google Translate",
-        "description": "Name for the 'Google Translate' extension. Do not translate 'Google'."
-    },
-    "gui.extension.googletranslate.description": {
-        "message": "Translate text into many languages.",
-        "description": "Description for the 'Google Translate' extension"
-    },
-    "gui.extension.microbit.description": {
-        "message": "Connect your projects with the world.",
-        "description": "Description for the 'micro:bit' extension"
-    },
-    "gui.extension.microbit.connectingMessage": {
-        "message": "Connecting",
-        "description": "Message to help people connect to their micro:bit."
-    },
-    "gui.extension.ev3.description": {
-        "message": "Build interactive robots and more.",
-        "description": "Description for the 'LEGO MINDSTORMS EV3' extension"
-    },
-    "gui.extension.ev3.connectingMessage": {
-        "message": "Connecting. Make sure the pin on your EV3 is set to 1234.",
-        "description": "Message to help people connect to their EV3. Must note the PIN should be 1234."
-    },
-    "gui.extension.wedo2.description": {
-        "message": "Build with motors and sensors.",
-        "description": "Description for the 'LEGO WeDo 2.0' extension"
-    },
-    "gui.extension.wedo2.connectingMessage": {
-        "message": "Connecting",
-        "description": "Message to help people connect to their WeDo."
-    },
-    "gui.backpack.header": {
-        "message": "Isikhwama",
-        "description": "Button to open the backpack"
-    }
+    "gui.alerts.lostPeripheralConnection": "uScratch uhlulekile ukudonsa ku{extensionName}.",
+    "gui.alerts.tryAgain": "Zama futhi",
+    "gui.alerts.download": "Downloda  gcina manje",
+    "gui.connection.reconnect": "Hlanganisa kabusha",
+    "gui.backpack.header": "Isikhwama",
+    "gui.backpack.errorBackpack": "Kukhona okungalungile ekufakeni ibackpack",
+    "gui.backpack.loadingBackpack": "Kusangena...",
+    "gui.backpack.more": "Okunye",
+    "gui.backpack.emptyBackpack": "iBackpack ayinalutho",
+    "gui.unsupportedBrowser.label": "Ibrowza ayisekeliwe",
+    "gui.unsupportedBrowser.errorLabel": "An Error Occurred",
+    "gui.unsupportedBrowser.notRecommended": "We are very sorry, but it looks like you are using a browser version that Scratch does not support. We recommend updating to the latest version of a supported browser such as Google Chrome, Mozilla Firefox, Microsoft Edge, or Apple Safari.",
+    "gui.unsupportedBrowser.description": "We are very sorry, but Scratch does not support this browser. We recommend updating to the latest version of a supported browser such as Google Chrome, Mozilla Firefox, Microsoft Edge, or Apple Safari.",
+    "gui.unsupportedBrowser.back": "Emuva",
+    "gui.unsupportedBrowser.previewfaq": "Ukufunda kabanzi, hamba uye {previewFaqLink}.",
+    "gui.unsupportedBrowser.previewfaqlinktext": "FAQ",
+    "gui.cameraModal.cameraModalTitle": "Thatha isthombe",
+    "gui.cameraModal.loadingCameraMessage": "Kusangena isithwebuli...",
+    "gui.cameraModal.permissionRequest": "Sidinga imvume yakho ukusebenzisa ikhamera",
+    "gui.cameraModal.retakePhoto": "Phinda uthathe isthombe",
+    "gui.cameraModal.save": "Gcina",
+    "gui.cameraModal.takePhoto": "Thatha Isthombe",
+    "gui.cameraModal.loadingCaption": "Kusangena...",
+    "gui.cameraModal.enableCameraCaption": "Vumela ikhamera",
+    "gui.cards.all-tutorials": "AmaTutorials",
+    "gui.cards.close": "Vala",
+    "gui.cards.more-things-to-try": "Okunye okuningi eningakuzama",
+    "gui.cards.see-more": "Buka okunye",
+    "gui.comingSoon.message1": "Sisebenza kona kuyimanje {emoji}",
+    "gui.comingSoon.message2": "Kuyeza Maduzane...",
+    "gui.comingSoon.message3": "Sisebenza kona kuyimanje {emoji}",
+    "gui.connection.auto-scanning.noPeripheralsFound": "Akukho maDevice atholiwe",
+    "gui.connection.auto-scanning.prescan": "Idevice ayibeseduza ukuqala ukusesha.",
+    "gui.connection.auto-scanning.pressbutton": "Cindezela inkinombo kwi device yakho",
+    "gui.connection.auto-scanning.start-search": "Qala useshe",
+    "gui.connection.connecting-searchbutton": "Sisasesha...",
+    "gui.connection.auto-scanning.try-again": "Phinda uzame",
+    "gui.connection.connected": "Sekuxhumekile",
+    "gui.connection.disconnect": "Akuxhumekile",
+    "gui.connection.go-to-editor": "Hamba uye Kumhleli",
+    "gui.connection.connecting-cancelbutton": "Siyayixhuma...",
+    "gui.connection.error.errorMessage": "Oops, kubukeka kungathi khona okungalungile.",
+    "gui.connection.error.tryagainbutton": "Phinda uzame",
+    "gui.connection.error.helpbutton": "Usizo",
+    "gui.connection.peripheral-name-label": "Igama leDevice",
+    "gui.connection.connect": "Xhuma",
+    "gui.connection.scanning.lookingforperipherals": "Sibheka amaDevices",
+    "gui.connection.scanning.noPeripheralsFound": "Akukho maDevice atholiwe",
+    "gui.connection.scanning.instructions": "Khetha iDevice kulawa akhona",
+    "gui.connection.search": "Lungisa kabusha",
+    "gui.connection.unavailable.installscratchlink": "Yenza isiqiniseko ukuthi iScratch Link ifakiwe futhi iyasebenza",
+    "gui.connection.unavailable.enablebluetooth": "Bheka iBluetooth ukuthi ivumelekile",
+    "gui.connection.unavailable.tryagainbutton": "Phinda uzame",
+    "gui.connection.unavailable.helpbutton": "Usizo",
+    "gui.controls.go": "Hamba",
+    "gui.controls.stop": "Ima",
+    "gui.crashMessage.label": "Oops! Khona okungalungile",
+    "gui.crashMessage.description": "Siyaxolisa, kubukeka sengathi uScratch unenkinga. Lenkinga isizithumele ngokwayo ethimbeni lika Scratch. Phinda uqale kabusha uzame futhi. ",
+    "gui.crashMessage.errorNumber": "Your error was logged with id {errorId}",
+    "gui.crashMessage.reload": "Asiphinde sigcwalise",
+    "gui.customProcedures.myblockModalTitle": "Enza amabhulokisi",
+    "gui.customProcedures.addAnInputNumberText": "Nezezela ngegalelo",
+    "gui.customProcedures.numberTextType": "Inamba noma umbhalo",
+    "gui.customProcedures.addAnInputBoolean": "Nezezela ngegalelo",
+    "gui.customProcedures.booleanType": "boolean",
+    "gui.customProcedures.addALabel": "Nezezela ngelabel",
+    "gui.customProcedures.runWithoutScreenRefresh": "Baleka ngaphandle kokuvuselela isikrini",
+    "gui.customProcedures.cancel": "Cima",
+    "gui.customProcedures.ok": "Kulungile",
+    "gui.SpriteInfo.direction": "Indlela",
+    "gui.directionPicker.rotationStyles.allAround": "Yonke indawo",
+    "gui.directionPicker.rotationStyles.leftRight": "isinxele-nangakwesokudla",
+    "gui.directionPicker.rotationStyles.dontRotate": "Ungayiphenduli",
+    "gui.gui.addExtension": "Ukulula",
+    "gui.gui.codeTab": "Ikhodi",
+    "gui.gui.backdropsTab": "Izindawo",
+    "gui.gui.costumesTab": "Izimpahla",
+    "gui.gui.soundsTab": "Imisindo",
+    "gui.importInfo.title": "Buka iProject kuScratch 2.0",
+    "gui.importInfo.betamessage": "Faka iLink kwenye yamaprojekthi kaScratch okwabelana. Ushintsho olwenziwe kulokhu 3.0 Beta ngeke lugcinwe. ",
+    "gui.importInfo.message": "Faka iLink kwenye yama projekthi ka-Scratch okwabelana. Ushintsho olwenziwe kulokhu 3.0 Previewe ngeke lugcinwe.",
+    "gui.importInfo.invalidFormatError": "Uh oh, iProject link noma id ayilungile ",
+    "gui.importModal.viewproject": "Buka",
+    "gui.importInfo.goback": "Buyela emuva",
+    "gui.importInfo.previewfaq": "Ukufunda kabanzi, hamba uye {previewFaqLink}.",
+    "gui.importInfo.previewfaqlinktext": "FAQ",
+    "gui.extensionLibrary.comingSoon": "Kuyeza Maduzane...",
+    "gui.extensionLibrary.requires": "Okudingekayo",
+    "gui.extensionLibrary.collaboration": "Ngokuhambisana ne",
+    "gui.library.filterPlaceholder": "Cinga",
+    "gui.library.allTag": "Yonke",
+    "gui.loader.message1": "Asakheni amabhulokisi ...",
+    "gui.loader.message2": "Kungena umlingisi ...",
+    "gui.loader.message3": "Kungena umsindo ...",
+    "gui.loader.message4": "Isaloda ukulula ...",
+    "gui.loader.message5": "Herding cats ...",
+    "gui.loader.message6": "Transmitting nanos ...",
+    "gui.loader.message7": "Inflating gobos ...",
+    "gui.loader.message8": "Silungisa amaEmojis ...",
+    "gui.loader.headline": "Kungena iProject",
+    "gui.loader.creating": "Akha iprojekthi",
+    "gui.accountMenu.profile": "Ubuwena",
+    "gui.accountMenu.myStuff": "Izinto zami",
+    "gui.accountMenu.myClasses": "Ikilasi lami",
+    "gui.accountMenu.myClass": "Ikilasi lami",
+    "gui.accountMenu.accountSettings": "Lungisa iakhawunti",
+    "gui.accountMenu.signOut": "Phuma",
+    "gui.authorInfo.byUser": "yenziwe ngu {username}",
+    "gui.menuBar.seeProjectPage": "Bona ikhasi leprojekthi",
+    "general.username": "Isidlaliso",
+    "general.password": "Iphasiwedi",
+    "general.signIn": "Ngena ngemvume",
+    "login.needHelp": "Udingnsizo?",
+    "form.validationRequired": "Lenkundla iyadingeka",
+    "gui.menuBar.confirmNewWithoutSaving": "Buyisela imininingwane yeprojekthi yamanje",
+    "gui.menuBar.LanguageSelector": "umkhethi wezolimu",
+    "gui.menuBar.tutorialsLibrary": "AmaTutorials",
+    "gui.menuBar.restoreSprite": "Buyisela Umlingisi",
+    "gui.menuBar.restoreSound": "Buyisela Umsindo",
+    "gui.menuBar.restoreCostume": "Buyisela Impahla",
+    "gui.menuBar.restore": "Buyisela",
+    "gui.menuBar.saveNow": "Gcina manje",
+    "gui.menuBar.saveAsCopy": "Gcina njenge khophi",
+    "gui.menuBar.remix": "Ingxube",
+    "gui.menuBar.new": "Entsha",
+    "gui.menuBar.file": "Ifayela",
+    "gui.menuBar.uploadFromComputer": "Thathela kweyakho ikhomputha",
+    "gui.menuBar.downloadToComputer": "Gcina kweyakho ikhomputha",
+    "gui.menuBar.edit": "Lungisa",
+    "gui.menuBar.turboModeOff": "Vala ithebho modi",
+    "gui.menuBar.turboModeOn": "Vula ithebho modi",
+    "gui.menuBar.joinScratch": "Hlanganisa Scratch",
+    "gui.menuBar.signIn": "Ngena ngemvume",
+    "gui.menuBar.giveFeedback": "Buyisela Izimpendulo",
+    "gui.gui.projectTitlePlaceholder": "Isihloko se-Projecti lana",
+    "gui.menuBar.saveNowLink": "Gcina manje",
+    "gui.menuBar.isShared": "uPhiwe",
+    "gui.menuBar.share": "Yipha",
+    "gui.modal.help": "Usizo",
+    "gui.modal.back": "Emuva",
+    "gui.monitor.listMonitor.empty": "(akukho)",
+    "gui.monitor.listMonitor.listLength": "ubude {length}",
+    "gui.monitor.contextMenu.default": "okujwayelekile bomphumelo",
+    "gui.monitor.contextMenu.large": "ubukhulu bomphumelo",
+    "gui.monitor.contextMenu.slider": "shibilika",
+    "gui.monitor.contextMenu.import": "ngenisa",
+    "gui.monitor.contextMenu.export": "isithumela",
+    "gui.previewInfo.label": "Zama uScratch 3.0",
+    "gui.previewInfo.welcome": "Siyakwamukela kuScratch 3.0 Beta",
+    "gui.previewModal.notnowtooltip": "Ayimanje",
+    "gui.previewModal.tryittooltip": "Iyizame",
+    "gui.previewModal.viewprojecttooltip": "Ukubona iProject 2.0",
+    "gui.previewInfo.betawelcome": "Siyakwamukela kuScratch 3.0 Beta",
+    "gui.previewInfo.invitation": "Sisasebenza ukwenza uhlelo olulandelayo kuScratch. Singathokoza uma ungaluzama!",
+    "gui.previewInfo.notnow": "Ayimanje",
+    "gui.previewModal.tryit": "Iyizame! {caticon}",
+    "gui.previewModal.viewproject": "Ukubona iProject 2.0",
+    "gui.previewInfo.previewfaq": "Ukufunda kabanzi, hamba uye {previewFaqLink}.",
+    "gui.previewInfo.previewfaqlinktext": "FAQ",
+    "gui.gui.variableScopeOptionAllSprites": "Ngabo bonke omlingisi",
+    "gui.gui.variableScopeOptionSpriteOnly": "Ngalomlingsi kuphela",
+    "gui.gui.cloudVariableOption": "I-khlawudi variyabhulI (ibekwe kwiseva )",
+    "gui.gui.variablePromptAllSpritesMessage": "Lokuguquka kwenzeke kubo bonke",
+    "gui.prompt.cancel": "Cima",
+    "gui.prompt.ok": "Kulungile",
+    "gui.playbackStep.stopMsg": "Ima",
+    "gui.playbackStep.playMsg": "Dlala",
+    "gui.playbackStep.loadingMsg": "Kusangena...",
+    "gui.playbackStep.saveMsg": "Gcina",
+    "gui.playbackStep.reRecordMsg": "Phinda urekhode",
+    "gui.recordModal.title": "Rekhoda umsindo",
+    "gui.recordingStep.beginRecord": "Qala ukuqoda ngokuchofoza inkinobho",
+    "gui.recordingStep.permission": "{arrow} Sidinga imvume yakho ukusebenzisa imicrophone yakho",
+    "gui.recordingStep.stop": "Ima ukurekhoda",
+    "gui.recordingStep.record": "Qopha",
+    "gui.soundEditor.sound": "Umsindo",
+    "gui.soundEditor.play": "Dlala",
+    "gui.soundEditor.stop": "Ima",
+    "gui.soundEditor.trim": "Cwecwa ngobunono",
+    "gui.soundEditor.save": "Gcina",
+    "gui.soundEditor.undo": "Yenza kabusha",
+    "gui.soundEditor.redo": "Ukwenzakabusha",
+    "gui.soundEditor.faster": "Shesha",
+    "gui.soundEditor.slower": "Kacane",
+    "gui.soundEditor.echo": "Ukunanela",
+    "gui.soundEditor.robot": "Robhothi",
+    "gui.soundEditor.louder": "Kakhulu",
+    "gui.soundEditor.softer": "Kuthambile",
+    "gui.soundEditor.reverse": "Hlehlisa emumva",
+    "gui.SpriteInfo.spritePlaceholder": "Igama",
+    "gui.SpriteInfo.sprite": "Umlingisi",
+    "gui.SpriteInfo.show": "Khombisa",
+    "gui.SpriteInfo.size": "Isisindo",
+    "gui.spriteSelectorItem.contextMenuDuplicate": "fanisa",
+    "gui.spriteSelectorItem.contextMenuExport": "isithumela",
+    "gui.spriteSelectorItem.contextMenuDelete": "khipha",
+    "gui.spriteSelector.addSpriteFromLibrary": "Khetha Umlingisi",
+    "gui.spriteSelector.addSpriteFromPaint": "Penda",
+    "gui.spriteSelector.addSpriteFromSurprise": "Isimanga",
+    "gui.spriteSelector.addSpriteFromFile": "Faka Umlingisi",
+    "gui.stageHeader.stageSizeLarge": "Shintshela kwinkundla enkulu",
+    "gui.stageHeader.stageSizeSmall": "Shintshela kwinkundla encane",
+    "gui.stageHeader.stageSizeFull": "Ngena kwindlela ezolula isikhrini sibe sikhula",
+    "gui.stageHeader.stageSizeUnFull": "Phma kwindlela elula iskhrini sibe sikhulu",
+    "gui.stageHeader.fullscreenControl": "Indlela egcwele yokulawula isinkrini",
+    "gui.spriteSelector.addBackdropFromLibrary": "Khetha Indawo",
+    "gui.stageSelector.addBackdropFromPaint": "Penda",
+    "gui.stageSelector.addBackdropFromSurprise": "Isimanga",
+    "gui.stageSelector.addBackdropFromFile": "Faka Indawo",
+    "gui.stageSelector.stage": "Isigaba",
+    "gui.stageSelector.backdrops": "Izindawo",
+    "gui.telemetryOptIn.label": "Report statistics to improve Scratch",
+    "gui.telemetryOptIn.body1": "The Scratch Team is always looking to better understand how Scratch is used around the world. To help support this effort, you can allow Scratch to automatically send usage information to the Scratch Team.",
+    "gui.telemetryOptIn.body2": "The information we collect includes language selection, blocks usage, and some events like saving, loading, and uploading a project. We DO NOT collect any personal information. Please see our {privacyPolicyLink} for more information.",
+    "gui.telemetryOptIn.privacyPolicyLink": "Ngasese umgomo",
+    "gui.telemetryOptIn.buttonTextNo": "Cha, ngiyabonga",
+    "gui.telemetryOptIn.buttonTooltipNo": "Disable telemetry",
+    "gui.telemetryOptIn.buttonTextYes": "Yebo, ngithanda ukusiza ngibonise iScratch",
+    "gui.telemetryOptIn.buttonTooltipYes": "Enable telemetry",
+    "gui.turboMode.active": "Sheshisa Indlela",
+    "gui.webglModal.label": "iBrowser yakho ayisekeli iWebGL",
+    "gui.webglModal.description": "Ngeshwa kubukeka yakho khomphuta noma browza {webGlLink}. Lobu buchwepheshe buyadinge ukuze uScratch 3.0 asebenze",
+    "gui.webglModal.webgllink": "Ayisekeli iWebGL",
+    "gui.webglModal.back": "Emuva",
+    "gui.webglModal.previewfaq": "Ukufunda kabanzi, hamba uye {previewFaqLink}.",
+    "gui.webglModal.previewfaqlinktext": "FAQ",
+    "gui.costumeLibrary.chooseABackdrop": "Khetha Indawo",
+    "gui.costumeLibrary.chooseACostume": "Khetha impahla",
+    "gui.costumeTab.addBackdropFromLibrary": "Khetha Indawo",
+    "gui.costumeTab.addCostumeFromLibrary": "Khetha impahla",
+    "gui.costumeTab.addBlankCostume": "Penda",
+    "gui.costumeTab.addSurpriseCostume": "Isimanga",
+    "gui.costumeTab.addFileBackdrop": "Faka Indawo",
+    "gui.costumeTab.addFileCostume": "Faka Impahla",
+    "gui.costumeTab.addCameraCostume": "Ikhamera",
+    "gui.extensionLibrary.chooseAnExtension": "Khetha Isiluli",
+    "gui.extensionLibrary.extensionUrl": "Faka iURL yokulula",
+    "gui.gui.defaultProjectTitle": "iProject ka Scratch",
+    "gui.monitors.importListColumnPrompt": "Which column should be used (1-{numberOfColumns})?",
+    "gui.recordingStep.alertMsg": "Ayikwazi ukuqola ukuqopha",
+    "gui.projectLoader.loadError": "Ifayela yaleprojekthiebikhethiwe ihlulekile ukuloda",
+    "gui.soundLibrary.chooseASound": "Khetha Umsindo",
+    "gui.soundTab.fileUploadSound": "Faka Umsindo",
+    "gui.soundTab.surpriseSound": "Isimanga",
+    "gui.soundTab.recordSound": "Qopha",
+    "gui.soundTab.addSoundFromLibrary": "Khetha Umsindo",
+    "gui.spriteLibrary.chooseASprite": "Khetha Umlingisi",
+    "gui.tipsLibrary.tutorials": "Khetha iTutorial",
+    "gui.alerts.createsuccess": "Iprojekthi entsha yakhiwe",
+    "gui.alerts.createcopysuccess": "Iprojekthi igcinwe njengkhophi",
+    "gui.alerts.createremixsuccess": "Iprojekthi igcinwe njengomxubo",
+    "gui.alerts.creating": "Akha entsha...",
+    "gui.alerts.creatingCopy": "Kopisha iprojekthi...",
+    "gui.alerts.creatingRemix": "Ukuxutshwa kweprojekthi",
+    "gui.alerts.creatingError": "Akukwazanga ukwakha iprojekthi. Cela uzama futhi!",
+    "gui.alerts.savingError": "iprojekthi ayigcinekanga",
+    "gui.alerts.savesuccess": "Iyagcina iprojekthi.",
+    "gui.alerts.saving": "Gcina umsebenzi...",
+    "gui.alerts.cloudInfo": "Cela wazi, uluthi i-cloud variable isekela izinombolo, hhayi izinhlamvu noma amasimbholi {learnMoreLink}",
+    "gui.alerts.cloudInfoLearnMore": "Funda kabanzi.",
+    "gui.defaultProject.meow": "Meow",
+    "gui.defaultProject.variable": "i-variable yami",
+    "gui.howtos.intro-move-sayhello-hat.name": "Sesizoqala",
+    "gui.howtos.intro-move.step_stepMove": "Nezelelela ngebhulokisi lokunyakaza",
+    "gui.howtos.add-a-move-block.step_stepMoveSayHello": "Chofoza ifulegi ukuze uqale",
+    "gui.howtos.say-it-out-loud": "Yenza Upopayi Okhulumayo",
+    "gui.howtos.say-it-out-loud.step_AddTXTextension": "Yengeza umbhalo kwibhulokisi lenkulumo",
+    "gui.howtos. say-it-out-loud.step_TXTSpeech": "Yisho Okuthize",
+    "gui.howtos.say-it-out-loud_TXTSetVoice": "Lungisa izwi",
+    "gui.howtos.say-it-out-loud.step_TXTMove": "Nyakaza",
+    "gui.howtos.say-it-out-loud.step_TXTBackdrop": "Nezelela Indawo ",
+    "gui.howtos.say-it-out-loud.step_TXTAddSprite": "Faka omunye umlingisi",
+    "gui.howtos.say-it-out-loud.step_TXTSong": "Yenza iculo",
+    "gui.howtos.say-it-out-loud.step_TXTColor": "Shintsha Umbala",
+    "gui.howtos.say-it-out-loud.step_TXTSpin": "Jikeleza",
+    "gui.howtos.say-it-out-loud.step_TXTGrow": "Khulisa futhi unciphise",
+    "gui.howtos.cartoon-network": "Zakhele iGame yakho",
+    "gui.howtos.cartoon-network.step_CNcharacter": "Kheta umlingisi ozomkhombisa",
+    "gui.howtos.cartoon-network.step_CNsay": "Yisho Okuthize",
+    "gui.howtos.cartoon-network.step_CNglide": "Kekela yonke indawo",
+    "gui.howtos.cartoon-network.step_CNpicksprite": "Kheta into ozoyijahha",
+    "gui.howtos.cartoon-network.step_CNcollect": "Qoqa izinto",
+    "gui.howtos.cartoon-network.step_CNvariable": "Yenza i-variable yescore",
+    "gui.howtos.cartoon-network.step_CNscore": "Gcina Amaphuzu",
+    "gui.howtos.cartoon-network.step_CNbackdrop": "Izinga Eliphezulu: Shintsha Indawo",
+    "gui.howtos.animate-a-name.name": "Yenza igama elinyakazayo",
+    "gui.howtos.animate-a-name.step_AnimatePickLetter": "Khetha umlingisi oyigama",
+    "gui.howtos.animate-a-name.step_AnimatePlaySound": "Dlala umsindo uma iciphiziwe",
+    "gui.howtos.animate-a-name.step_AnimatePickLetter2": "Khetha elinye igama elizoba umlingisi",
+    "gui.howtos.animate-a-name.step_AnimateChangeColor": "Shintsha umbala",
+    "gui.howtos.animate-a-name.step_AnimateSpin": "Khetha elinye igama lomlingisi iuliphendule",
+    "gui.howtos.animate-a-name.step_AnimateGrow": "Khetha elinye igama lomlingisi iulikhulise",
+    "gui.howtos.make-music.name": "Wenze Umculo",
+    "gui.howtos.Make-Music.step_PickInstrument": "Khetha umlingisi oyi instrumenti",
+    "gui.howtos.Make-Music.step_PlaySoundClick": "Dlala umsindo uma iciphiziwe",
+    "gui.howtos.Make-Music.step_MakeSong": "Sungula Iculo",
+    "gui.howtos.make-music.step_MakeBeat": "Khetha idlamu mase wenza ibhithi",
+    "gui.howtos.make-music.step_MakeBeatBox": "Khetha umlingiswa wemykrofoni neBeatbox ethusayo",
+    "gui.howtos.make-a-game.name": "Enza Umdlalo Wokuchofoza",
+    "gui.howtos.Make-A-Game.step_GamePickSprite": "Khetha Umlingisi",
+    "gui.howtos.make-a-game.step_GamePlaySound": "Dlala umsindo uma iciphiziwe",
+    "gui.howtos.make-a-game.step_GameAddScore": "Yenza ivariabuli yescore",
+    "gui.howtos.make-a-game.step_GameChangeScore": "Makucindeleziwe akunyuke isko",
+    "gui.howtos.make-a-game.step_Random": "Hamba indawo engajwayelekile",
+    "gui.howtos.make-music.step_GameChangeColor": "Shintsha Umbala",
+    "gui.howtos.make-music.step_ResetScore": "Qalaphansi Isko",
+    "gui.howtos.make-a-chase-game.name": "Enza Umdlalo Wokujahha",
+    "gui.howtos.Chase-Game.step_BG": "Nezelela Indawo ",
+    "gui.howtos.chase-game.step_AddOcto": "Nezelela Ngomlingisi",
+    "gui.howtos.make-music.step_LeftRight": "Yiya kwesokudla nakwesokunxele ngomcibisholo",
+    "gui.howtos.Chase-Game.step_UpDown": "Yiya phezulu naphansi ngomcibisholo",
+    "gui.howtos.Chase-Game.step_AddStar": "Nezelela ngomunye umlingisi",
+    "gui.howtos.Chase-Game.step_MoveRandom": "Nyakaza noma ikephi",
+    "gui.howtos.Chase-Game.step_WhenTouch": "Kumlingisi weoctopus uma uthinta dlala umsindo",
+    "gui.howtos.Chase-Game.step_ScoreVariable": "Yenza ivariabuli yescore",
+    "gui.howtos.Chase-Game.ScoreWhenTouch": "Mothinta umlingisi Octopus nezelela isko",
+    "gui.howtos.animate-char.name": "Nyakazisa umlingiswa",
+    "gui.howtos.animate-char.step_addbg": "Faka Indawo ",
+    "gui.howtos.animate-char.step_addsprite": "Faka Ngomlingisi",
+    "gui.howtos.animate-char.step_saysomething": "Yisho Okuthize",
+    "gui.howtos.animate-char.step_addsound": "Faka umsindo",
+    "gui.howtos.animate-char.step_animatetalking": "Nyakazisa inkulumo",
+    "gui.howtos.animate-char.step_arrowkeys": "Hlehlisa ngokusebenzisa okhiye bomcibilisholo ",
+    "gui.howtos.animate-char.step_jump": "Gxuma",
+    "gui.howtos.animate-char.step_changecolor": "Shintsha Umbala",
+    "gui.howtos.story.name": "Akha indaba",
+    "gui.howtos.story.step_addbg": "Faka Indawo ",
+    "gui.howtos.story.step_addsprite": "Faka umlingiswa",
+    "gui.howtos.story.step_saysomething": "Yisho Okuthize",
+    "gui.howtos.story.step_addanothersprite": "Faka omunye umlingisi",
+    "gui.howtos.story.step_flip": "Shintsha indlela",
+    "gui.howtos.story.step_conversation": "Iba nengxoxo",
+    "gui.howtos.story.addanotherbg": "Faka enye indawo",
+    "gui.howtos.story.step_swithbg": "Shintsha izindawo",
+    "gui.howtos.story.step_hidewizard": "Fihla umlingiswa",
+    "gui.howtos.story.step_showwizard": "Veza umlingiswa",
+    "gui.howtos.videosens.name": "Ividiyo yesithombemagama",
+    "gui.howtos.videosens.step_addextension": "Ukulula",
+    "gui.howtos.videosens.step_pet": "Fuya ikati",
+    "gui.howtos.videosens.step_animate": "Nyakazisa",
+    "gui.howtos.videosens.step_pop": "Qhumisa ibhelunde",
+    "gui.howtos.add-sprite.name": "Nezelela Ngomlingisi",
+    "gui.howtos.add-sprite.step_addSprite": "Nezelela Ngomlingisi",
+    "gui.howtos.add-a-backdrop.name": "Nezelela Indawo ",
+    "gui.howtos.change-size.name": "Shintsha Uzayizi",
+    "gui.howtos.glide-around.name": "Kekela yonke indawo",
+    "gui.howtos.record-a-sound.name": "Qopha Umsindo",
+    "gui.howtos.spin-video.name": "Yenze Iphenduke",
+    "gui.howtos.hide-and-show.name": "Fihla futhi Veza",
+    "gui.howtos.switch-costume.name": "Yenza upopayi womlingisi",
+    "gui.howtos.move-around-with-arrow-keys.name": "Sebenzisa Umcibisholo Okhiye",
+    "gui.howtos.add-effects.name": "Nezelela Imithelela",
+    "gui.extension.music.name": "uMculo",
+    "gui.extension.music.description": "Dlala isikhali kanye nam dilamu",
+    "gui.extension.pen.name": "Ipeni",
+    "gui.extension.pen.description": "Dweba nabalingisibakho",
+    "gui.extension.videosensing.name": "Ukubona ividiyo",
+    "gui.extension.videosensing.description": "Izwa ukunyakaza ngeKhamera",
+    "gui.extension.text2speech.name": "Bhala kwinkulumo",
+    "gui.extension.text2speech.description": "Yenza iProject yakho ikhulume",
+    "gui.extension.translate.name": "Humusha",
+    "gui.extension.translate.description": "Shintsela umbhalo kwezinye izilimu",
+    "gui.extension.makeymakey.description": "Yenza noma yini ibe ukhiye.",
+    "gui.extension.microbit.description": "Xhumanisa amaProject akho nomhlaba",
+    "gui.extension.microbit.connectingMessage": "Siyayixhuma",
+    "gui.extension.ev3.description": "Yakha amaRobhothi akwaziyo ukukhuluma nokunye",
+    "gui.extension.ev3.connectingMessage": "Isaxhumanisa. Qinisekisa ukuthi ipin ekuEV3 isethiwe ku1234.",
+    "gui.extension.wedo2.description": "Yakha ngemishini kanye nezinhloli",
+    "gui.extension.wedo2.connectingMessage": "Kuyaxhumana",
+    "gui.libraryTags.all": "Yonke",
+    "gui.libraryTags.animals": "Izilwane",
+    "gui.libraryTags.dance": "Dansa",
+    "gui.libraryTags.effects": "Imithelela",
+    "gui.libraryTags.fantasy": "Uphupha/Ubuhle",
+    "gui.libraryTags.fashion": "Imfashini",
+    "gui.libraryTags.food": "Ukudla",
+    "gui.libraryTags.indoors": "Ngaphakathi",
+    "gui.libraryTags.loops": "Amaluphu",
+    "gui.libraryTags.music": "uMculo",
+    "gui.libraryTags.notes": "Amanothi",
+    "gui.libraryTags.outdoors": "Ngaphandle",
+    "gui.libraryTags.patterns": "Iphethini",
+    "gui.libraryTags.people": "Abantu",
+    "gui.libraryTags.percussion": "Idilamu Lomculo",
+    "gui.libraryTags.space": "Isikhala",
+    "gui.libraryTags.sports": "Imidlalo",
+    "gui.libraryTags.underwater": "Ngaphansi kwamanzi",
+    "gui.libraryTags.voice": "Izwi",
+    "gui.libraryTags.wacky": "Engasile ",
+    "gui.libraryTags.animation": "Khathuni",
+    "gui.libraryTags.art": "Imidwebo",
+    "gui.libraryTags.games": "Umdlalo",
+    "gui.libraryTags.stories": "Izindaba",
+    "gui.libraryTags.letters": "Izinhlamvu",
+    "gui.opcodeLabels.direction": "indlela",
+    "gui.opcodeLabels.xposition": "x indlela yokuma",
+    "gui.opcodeLabels.yposition": "y indlela yokuma",
+    "gui.opcodeLabels.size": "isisindo",
+    "gui.opcodeLabels.costumename": "igama lempahla",
+    "gui.opcodeLabels.costumenumber": "Inamba yempahla",
+    "gui.opcodeLabels.backdropname": "igama lendawo",
+    "gui.opcodeLabels.backdropnumber": "Inamba indawo",
+    "gui.opcodeLabels.volume": "umsindo",
+    "gui.opcodeLabels.tempo": "izinsimbi",
+    "gui.opcodeLabels.answer": "phendula",
+    "gui.opcodeLabels.loudness": "umsindo omkhulu",
+    "gui.opcodeLabels.username": "igama elisebenzile",
+    "gui.opcodeLabels.year": "unyaka",
+    "gui.opcodeLabels.month": "inyanga",
+    "gui.opcodeLabels.date": "usuku",
+    "gui.opcodeLabels.dayofweek": "usuku lwesonto",
+    "gui.opcodeLabels.hour": "ihora",
+    "gui.opcodeLabels.minute": "umzuzu",
+    "gui.opcodeLabels.second": "umzuzwana",
+    "gui.opcodeLabels.timer": "iwashi elicushiwe",
+    "gui.sharedMessages.backdrop": "Indawo{index}",
+    "gui.sharedMessages.costume": "Impahla{index}",
+    "gui.sharedMessages.sprite": "Umlingisi{index}",
+    "gui.sharedMessages.pop": "qhumisa"
 }

@@ -1,1014 +1,421 @@
 {
-    "gui.backpack.errorBackpack": {
-        "message": "Error loading backpack",
-        "description": "Error backpack message"
-    },
-    "gui.backpack.loadingBackpack": {
-        "message": "Loading...",
-        "description": "Loading backpack message"
-    },
-    "gui.backpack.emptyBackpack": {
-        "message": "Backpack is empty",
-        "description": "Empty backpack message"
-    },
-    "gui.unsupportedBrowser.label": {
-        "message": "مرورگر پشتیبانی نمی‌شود",
-        "description": ""
-    },
-    "gui.unsupportedBrowser.description": {
-        "message": "We're very sorry, but Scratch 3.0 does not support Internet Explorer, Vivaldi, Opera or Silk. We recommend trying a newer browser such as Google Chrome, Mozilla Firefox, or Microsoft Edge.",
-        "description": "Unsupported browser description"
-    },
-    "gui.unsupportedBrowser.back": {
-        "message": "بازگشت",
-        "description": "Button to go back in unsupported browser modal"
-    },
-    "gui.unsupportedBrowser.previewfaq": {
-        "message": "To learn more, go to the {previewFaqLink}.",
-        "description": "Invitation to try 3.0 preview"
-    },
-    "gui.unsupportedBrowser.previewfaqlinktext": {
-        "message": "پرسش و پاسخ",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.cameraModal.cameraModalTitle": {
-        "message": "Take a Photo",
-        "description": "Title for prompt to take a picture (to add as a new costume)."
-    },
-    "gui.cameraModal.loadingCameraMessage": {
-        "message": "Loading Camera...",
-        "description": "Notification to the user that the camera is loading"
-    },
-    "gui.cameraModal.permissionRequest": {
-        "message": "We need your permission to use your camera",
-        "description": "Notification to the user that the app needs camera access"
-    },
-    "gui.cameraModal.retakePhoto": {
-        "message": "Retake Photo",
-        "description": "A button that allows the user to take the picture again, replacing the old one"
-    },
-    "gui.cameraModal.save": {
-        "message": "ذخیره",
-        "description": "A button that allows the user to save the photo they took as a costume"
-    },
-    "gui.cameraModal.takePhoto": {
-        "message": "Take Photo",
-        "description": "A button to take a photo"
-    },
-    "gui.cameraModal.loadingCaption": {
-        "message": "Loading...",
-        "description": "A caption for a disabled button while the video from the camera is still loading"
-    },
-    "gui.cameraModal.enableCameraCaption": {
-        "message": "Enable Camera",
-        "description": "A caption for a disabled button prompting the user to enable camera access"
-    },
-    "gui.cards.all-tutorials": {
-        "message": "Tutorials",
-        "description": "Title for button to return to tutorials library"
-    },
-    "gui.cards.remove": {
-        "message": "بستن",
-        "description": "Title for button to close how-to card"
-    },
-    "gui.cards.more-things-to-try": {
-        "message": "More things to try!",
-        "description": "Title card with more things to try"
-    },
-    "gui.cards.see-more": {
-        "message": "See more",
-        "description": "Title for button to see more in how-to library"
-    },
-    "gui.comingSoon.message1": {
-        "message": "Don't worry, we're on it {emoji}",
-        "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
-    },
-    "gui.comingSoon.message2": {
-        "message": "به زودی...",
-        "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
-    },
-    "gui.comingSoon.message3": {
-        "message": "ما در حال کار بر روی آن هستیم {emoji}",
-        "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
-    },
-    "gui.connection.auto-scanning.noDevicesFound": {
-        "message": "No devices found",
-        "description": "Text shown when no devices could be found"
-    },
-    "gui.connection.auto-scanning.prescan": {
-        "message": "Have your device nearby, then begin searching.",
-        "description": "Prompt for beginning the search"
-    },
-    "gui.connection.auto-scanning.pressbutton": {
-        "message": "Press the button on your device.",
-        "description": "Prompt for pushing the button on the device"
-    },
-    "gui.connection.auto-scanning.start-search": {
-        "message": "Start Searching",
-        "description": "Button in prompt for starting a search"
-    },
-    "gui.connection.connecting-searchbutton": {
-        "message": "Searching...",
-        "description": "Label indicating that search is in progress"
-    },
-    "gui.connection.auto-scanning.try-again": {
-        "message": "Try again",
-        "description": "Button in prompt for trying a device search again"
-    },
-    "gui.connection.connected": {
-        "message": "Connected",
-        "description": "Message indicating that a device was connected"
-    },
-    "gui.connection.disconnect": {
-        "message": "Disconnect",
-        "description": "Button to disconnect the device"
-    },
-    "gui.connection.go-to-editor": {
-        "message": "Go to Editor",
-        "description": "Button to return to the editor"
-    },
-    "gui.connection.connecting-cancelbutton": {
-        "message": "Connecting...",
-        "description": "Label indicating that connection is in progress"
-    },
-    "gui.connection.device-name-label": {
-        "message": "Device name",
-        "description": "Label for field showing the device name"
-    },
-    "gui.connection.connect": {
-        "message": "Connect",
-        "description": "Button to start connecting to a specific device"
-    },
-    "gui.connection.error.errorMessage": {
-        "message": "Oops, looks like something went wrong.",
-        "description": "The device connection process has encountered an error."
-    },
-    "gui.connection.error.tryagainbutton": {
-        "message": "Try again",
-        "description": "Button to initiate trying the device connection again after an error"
-    },
-    "gui.connection.error.helpbutton": {
-        "message": "کمک",
-        "description": "Button to view help content"
-    },
-    "gui.connection.scanning.lookingfordevices": {
-        "message": "Looking for devices",
-        "description": "Text shown while scanning for devices"
-    },
-    "gui.connection.scanning.noDevicesFound": {
-        "message": "No devices found",
-        "description": "Text shown when no devices could be found"
-    },
-    "gui.connection.scanning.instructions": {
-        "message": "Select your device in the list above.",
-        "description": "Prompt for choosing a device to connect to"
-    },
-    "gui.connection.search": {
-        "message": "Refresh",
-        "description": "Button in prompt for starting a search"
-    },
-    "gui.connection.unavailable.installscratchlink": {
-        "message": "Make sure you have Scratch Link installed and running",
-        "description": "Message for getting Scratch Link installed"
-    },
-    "gui.connection.unavailable.enablebluetooth": {
-        "message": "Check that Bluetooth is enabled",
-        "description": "Message for making sure Bluetooth is enabled"
-    },
-    "gui.connection.unavailable.tryagainbutton": {
-        "message": "Try again",
-        "description": "Button to initiate trying the device connection again after an error"
-    },
-    "gui.connection.unavailable.helpbutton": {
-        "message": "کمک",
-        "description": "Button to view help content"
-    },
-    "gui.controls.go": {
-        "message": "Go",
-        "description": "Green flag button title"
-    },
-    "gui.controls.stop": {
-        "message": "متوقف کن",
-        "description": "Stop button title"
-    },
-    "gui.customProcedures.myblockModalTitle": {
-        "message": "ایجاد یک بلاک",
-        "description": "Title for the modal where you create a custom block."
-    },
-    "gui.customProcedures.addAnInputNumberText": {
-        "message": "ورودی را اضافه کنید",
-        "description": "Label for button to add a number/text input"
-    },
-    "gui.customProcedures.numberTextType": {
-        "message": "عدد یا متن",
-        "description": "Description of the number/text input type"
-    },
-    "gui.customProcedures.addAnInputBoolean": {
-        "message": "ورودی را اضافه کنید",
-        "description": "Label for button to add a boolean input"
-    },
-    "gui.customProcedures.booleanType": {
-        "message": "boolean",
-        "description": "Description of the boolean input type"
-    },
-    "gui.customProcedures.addALabel": {
-        "message": "Add a label",
-        "description": "Label for button to add a label"
-    },
-    "gui.customProcedures.runWithoutScreenRefresh": {
-        "message": "بدون ریفرش کردن صفحه اجرا کن",
-        "description": "Label for checkbox to run without screen refresh"
-    },
-    "gui.customProcedures.cancel": {
-        "message": "لغو",
-        "description": "Label for button to cancel custom procedure edits"
-    },
-    "gui.customProcedures.ok": {
-        "message": "تایید",
-        "description": "Label for button to save new custom procedure"
-    },
-    "gui.SpriteInfo.direction": {
-        "message": "Direction",
-        "description": "Sprite info direction label"
-    },
-    "gui.directionPicker.rotationStyles.allAround": {
-        "message": "All Around",
-        "description": "Button to change to the all around rotation style"
-    },
-    "gui.directionPicker.rotationStyles.leftRight": {
-        "message": "Left/Right",
-        "description": "Button to change to the left-right rotation style"
-    },
-    "gui.directionPicker.rotationStyles.dontRotate": {
-        "message": "Do not rotate",
-        "description": "Button to change to the dont rotate rotation style"
-    },
-    "gui.gui.addExtension": {
-        "message": "Add Extension",
-        "description": "Button to add an extension in the target pane"
-    },
-    "gui.gui.codeTab": {
-        "message": "کد",
-        "description": "Button to get to the code panel"
-    },
-    "gui.gui.backdropsTab": {
-        "message": "پشت صحنه ها",
-        "description": "Button to get to the backdrops panel"
-    },
-    "gui.gui.costumesTab": {
-        "message": "لباس‌ها",
-        "description": "Button to get to the costumes panel"
-    },
-    "gui.gui.soundsTab": {
-        "message": "صداها",
-        "description": "Button to get to the sounds panel"
-    },
-    "gui.importInfo.title": {
-        "message": "View a Scratch 2.0 Project",
-        "description": "Scratch 2.0 import modal label - for accessibility"
-    },
-    "gui.importInfo.betamessage": {
-        "message": "Enter a link to one of your shared Scratch projects. Changes made in this 3.0 Beta will not be saved.",
-        "description": "Import project message"
-    },
-    "gui.importInfo.message": {
-        "message": "Enter a link to one of your shared Scratch projects. Changes made in this 3.0 Preview will not be saved.",
-        "description": "Import project message"
-    },
-    "gui.importInfo.invalidFormatError": {
-        "message": "اوه، لینک پروژه یا شناسه به نظر میرسه درست نیست.",
-        "description": "Invalid project link or id message"
-    },
-    "gui.importModal.viewproject": {
-        "message": "View",
-        "description": "Label for button to load a scratch 2.0 project"
-    },
-    "gui.importInfo.goback": {
-        "message": "Go Back",
-        "description": "Label for button to back out of importing a project"
-    },
-    "gui.importInfo.previewfaq": {
-        "message": "To learn more, go to the {previewFaqLink}.",
-        "description": "Invitation to try 3.0 preview"
-    },
-    "gui.importInfo.previewfaqlinktext": {
-        "message": "پرسش و پاسخ",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.extensionLibrary.comingSoon": {
-        "message": "به زودی",
-        "description": "Label for extensions that are not yet implemented"
-    },
-    "gui.library.filterPlaceholder": {
-        "message": "جستجو",
-        "description": "Placeholder text for library search field"
-    },
-    "gui.loader.message1": {
-        "message": "ایجاد بلاک...",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message2": {
-        "message": "Loading sprites …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message3": {
-        "message": "Loading sounds …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message4": {
-        "message": "Loading extensions …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message5": {
-        "message": "Herding cats …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message6": {
-        "message": "Transmitting nanos …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message7": {
-        "message": "Inflating gobos …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message8": {
-        "message": "Preparing emojis …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.headline": {
-        "message": "در حال بارگیری پروژه",
-        "description": "Main loading message"
-    },
-    "gui.menuBar.LanguageSelector": {
-        "message": "language selector",
-        "description": "accessibility text for the language selection menu"
-    },
-    "gui.menuBar.tutorialsLibrary": {
-        "message": "Tutorials",
-        "description": "accessibility text for the tutorials button"
-    },
-    "gui.menuBar.restoreSprite": {
-        "message": "Restore Sprite",
-        "description": "Menu bar item for restoring the last deleted sprite."
-    },
-    "gui.menuBar.restoreSound": {
-        "message": "Restore Sound",
-        "description": "Menu bar item for restoring the last deleted sound."
-    },
-    "gui.menuBar.restoreCostume": {
-        "message": "Restore Costume",
-        "description": "Menu bar item for restoring the last deleted costume."
-    },
-    "gui.menuBar.restore": {
-        "message": "Restore",
-        "description": "Menu bar item for restoring the last deleted item in its disabled state."
-    },
-    "gui.menuBar.saveNow": {
-        "message": "الان ذخیره کن",
-        "description": "Menu bar item for saving now"
-    },
-    "gui.menuBar.file": {
-        "message": "فایل",
-        "description": "Text for file dropdown menu"
-    },
-    "gui.menuBar.new": {
-        "message": "جدید",
-        "description": "Menu bar item for creating a new project"
-    },
-    "gui.menuBar.saveAsCopy": {
-        "message": "ذخیره به عنوان یک کپی",
-        "description": "Menu bar item for saving as a copy"
-    },
-    "gui.menuBar.uploadFromComputer": {
-        "message": "Load from your computer",
-        "description": "Menu bar item for uploading a project from your computer"
-    },
-    "gui.menuBar.downloadToComputer": {
-        "message": "Save to your computer",
-        "description": "Menu bar item for downloading a project to your computer"
-    },
-    "gui.menuBar.edit": {
-        "message": "ویرایش",
-        "description": "Text for edit dropdown menu"
-    },
-    "gui.menuBar.turboModeOff": {
-        "message": "Turn off Turbo Mode",
-        "description": "Menu bar item for turning off turbo mode"
-    },
-    "gui.menuBar.turboModeOn": {
-        "message": "Turn on Turbo Mode",
-        "description": "Menu bar item for turning on turbo mode"
-    },
-    "gui.menuBar.share": {
-        "message": "به اشتراک گذاری",
-        "description": "Label for project share button"
-    },
-    "gui.menuBar.seeCommunity": {
-        "message": "See Community",
-        "description": "Label for see community button"
-    },
-    "gui.menuBar.giveFeedback": {
-        "message": "Give Feedback",
-        "description": "Label for feedback form modal button"
-    },
-    "gui.modal.help": {
-        "message": "کمک",
-        "description": "Help button in modal"
-    },
-    "gui.modal.back": {
-        "message": "بازگشت",
-        "description": "Back button in modal"
-    },
-    "gui.monitor.contextMenu.default": {
-        "message": "بازخوانش معمولی",
-        "description": "Menu item to switch to the default monitor"
-    },
-    "gui.monitor.contextMenu.large": {
-        "message": "بازخوانش حجیم",
-        "description": "Menu item to switch to the large monitor"
-    },
-    "gui.monitor.contextMenu.slider": {
-        "message": "لغزنده",
-        "description": "Menu item to switch to the slider monitor"
-    },
-    "gui.previewInfo.label": {
-        "message": "Try Scratch 3.0",
-        "description": "Scratch 3.0 modal label - for accessibility"
-    },
-    "gui.previewInfo.welcome": {
-        "message": "Welcome to the Scratch 3.0 Beta",
-        "description": "Header for Preview Info Modal"
-    },
-    "gui.previewInfo.betawelcome": {
-        "message": "Welcome to the Scratch 3.0 Beta",
-        "description": "Header for Beta Info Modal"
-    },
-    "gui.previewInfo.invitation": {
-        "message": "We're working on the next generation of Scratch. We're excited for you to try it!",
-        "description": "Invitation to try 3.0 Beta"
-    },
-    "gui.previewInfo.notnow": {
-        "message": "الان نه",
-        "description": "Label for button to back out of trying Scratch 3.0 Beta"
-    },
-    "gui.previewModal.tryit": {
-        "message": "Try It! {caticon}",
-        "description": "Label for button to try Scratch 3.0 Beta"
-    },
-    "gui.previewModal.viewproject": {
-        "message": "View 2.0 Project",
-        "description": "Label for button to import a 2.0 project"
-    },
-    "gui.previewInfo.previewfaq": {
-        "message": "To learn more, go to the {previewFaqLink}.",
-        "description": "Invitation to try 3.0 Beta"
-    },
-    "gui.previewInfo.previewfaqlinktext": {
-        "message": "پرسش و پاسخ",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.gui.variableScopeOptionAllSprites": {
-        "message": "برای همه شبح ها",
-        "description": "Option message when creating a variable for making it available to all sprites"
-    },
-    "gui.gui.variableScopeOptionSpriteOnly": {
-        "message": "فقط برای این شبح",
-        "description": "Option message when creating a varaible for making it only available to the current sprite"
-    },
-    "gui.gui.variablePrompt": {
-        "message": "تنظیمات بیشتر",
-        "description": "Dropdown message for variable/list options"
-    },
-    "gui.gui.variablePromptAllSpritesMessage": {
-        "message": "This variable will be available to all sprites.",
-        "description": "A message that displays in a variable modal when the stage is selected indicating that the variable being created will available to all sprites."
-    },
-    "gui.prompt.cancel": {
-        "message": "لغو",
-        "description": "Button in prompt for cancelling the dialog"
-    },
-    "gui.prompt.ok": {
-        "message": "تایید",
-        "description": "Button in prompt for confirming the dialog"
-    },
-    "gui.playbackStep.stopMsg": {
-        "message": "متوقف کن",
-        "description": "Stop/Play button in recording playback"
-    },
-    "gui.playbackStep.playMsg": {
-        "message": "پخش",
-        "description": "Stop/Play button in recording playback"
-    },
-    "gui.playbackStep.loadingMsg": {
-        "message": "Loading...",
-        "description": "Loading/Save button in recording playback"
-    },
-    "gui.playbackStep.saveMsg": {
-        "message": "ذخیره",
-        "description": "Loading/Save button in recording playback"
-    },
-    "gui.playbackStep.reRecordMsg": {
-        "message": "Re-record",
-        "description": "Button to re-record sound in recording playback"
-    },
-    "gui.recordModal.title": {
-        "message": "Record Sound",
-        "description": "Recording modal title"
-    },
-    "gui.soundEditor.sound": {
-        "message": "صدا",
-        "description": "Label for the name of the sound"
-    },
-    "gui.soundEditor.play": {
-        "message": "پخش",
-        "description": "Title of the button to start playing the sound"
-    },
-    "gui.soundEditor.stop": {
-        "message": "متوقف کن",
-        "description": "Title of the button to stop the sound"
-    },
-    "gui.soundEditor.trim": {
-        "message": "اصلاح کردن",
-        "description": "Title of the button to start trimminging the sound"
-    },
-    "gui.soundEditor.save": {
-        "message": "ذخیره",
-        "description": "Title of the button to save trimmed sound"
-    },
-    "gui.soundEditor.undo": {
-        "message": "برگرد",
-        "description": "Title of the button to undo"
-    },
-    "gui.soundEditor.redo": {
-        "message": "دوباره انجام بده",
-        "description": "Title of the button to redo"
-    },
-    "gui.soundEditor.faster": {
-        "message": "سریعتر",
-        "description": "Title of the button to apply the faster effect"
-    },
-    "gui.soundEditor.slower": {
-        "message": "آرام‌تر",
-        "description": "Title of the button to apply the slower effect"
-    },
-    "gui.soundEditor.echo": {
-        "message": "Echo",
-        "description": "Title of the button to apply the echo effect"
-    },
-    "gui.soundEditor.robot": {
-        "message": "ربات",
-        "description": "Title of the button to apply the robot effect"
-    },
-    "gui.soundEditor.louder": {
-        "message": "بلندتر",
-        "description": "Title of the button to apply the louder effect"
-    },
-    "gui.soundEditor.softer": {
-        "message": "Softer",
-        "description": "Title of the button to apply thr.softer effect"
-    },
-    "gui.soundEditor.reverse": {
-        "message": "معکوس",
-        "description": "Title of the button to apply the reverse effect"
-    },
-    "gui.SpriteInfo.spritePlaceholder": {
-        "message": "Name",
-        "description": "Placeholder text for sprite name"
-    },
-    "gui.SpriteInfo.sprite": {
-        "message": "شبح",
-        "description": "Sprite info label"
-    },
-    "gui.SpriteInfo.show": {
-        "message": "Show",
-        "description": "Sprite info show label"
-    },
-    "gui.SpriteInfo.size": {
-        "message": "اندازه",
-        "description": "Sprite info size label"
-    },
-    "gui.spriteSelectorItem.contextMenuDuplicate": {
-        "message": "تکثیر",
-        "description": "Menu item to duplicate in the right click menu"
-    },
-    "gui.spriteSelectorItem.contextMenuDelete": {
-        "message": "حذف",
-        "description": "Menu item to delete in the right click menu"
-    },
-    "gui.spriteSelectorItem.contextMenuExport": {
-        "message": "خروجی گرفتن",
-        "description": "Menu item to export the selected item"
-    },
-    "gui.spriteSelector.addSpriteFromLibrary": {
-        "message": "Choose a Sprite",
-        "description": "Button to add a sprite in the target pane from library"
-    },
-    "gui.spriteSelector.addSpriteFromPaint": {
-        "message": "نقاشی",
-        "description": "Button to add a sprite in the target pane from paint"
-    },
-    "gui.spriteSelector.addSpriteFromSurprise": {
-        "message": "Surprise",
-        "description": "Button to add a random sprite in the target pane"
-    },
-    "gui.spriteSelector.addSpriteFromFile": {
-        "message": "Upload Sprite",
-        "description": "Button to add a sprite in the target pane from file"
-    },
-    "gui.stageHeader.stageSizeLarge": {
-        "message": "Switch to large stage",
-        "description": "Button to change stage size to large"
-    },
-    "gui.stageHeader.stageSizeSmall": {
-        "message": "Switch to small stage",
-        "description": "Button to change stage size to small"
-    },
-    "gui.stageHeader.stageSizeFull": {
-        "message": "Enter full screen mode",
-        "description": "Button to change stage size to full screen"
-    },
-    "gui.stageHeader.stageSizeUnFull": {
-        "message": "Exit full screen mode",
-        "description": "Button to get out of full screen mode"
-    },
-    "gui.stageHeader.fullscreenControl": {
-        "message": "Full Screen Control",
-        "description": "Button to enter/exit full screen mode"
-    },
-    "gui.spriteSelector.addBackdropFromLibrary": {
-        "message": "Choose a Backdrop",
-        "description": "Button to add a stage in the target pane from library"
-    },
-    "gui.stageSelector.addBackdropFromPaint": {
-        "message": "نقاشی",
-        "description": "Button to add a stage in the target pane from paint"
-    },
-    "gui.stageSelector.addBackdropFromSurprise": {
-        "message": "Surprise",
-        "description": "Button to add a random stage in the target pane"
-    },
-    "gui.stageSelector.addBackdropFromFile": {
-        "message": "بارگذاری پشت صحنه",
-        "description": "Button to add a stage in the target pane from file"
-    },
-    "gui.stageSelector.stage": {
-        "message": "طبقه",
-        "description": "Label for the stage in the stage selector"
-    },
-    "gui.stageSelector.backdrops": {
-        "message": "پشت صحنه ها",
-        "description": "Label for the backdrops in the stage selector"
-    },
-    "gui.turboMode.active": {
-        "message": "حالت توربو",
-        "description": "Label indicating turbo mode is active"
-    },
-    "gui.webglModal.label": {
-        "message": "Your Browser Does Not Support WebGL",
-        "description": "WebGL missing title"
-    },
-    "gui.webglModal.description": {
-        "message": "Unfortunately it looks like your browser or computer {webGlLink}. This technology is needed for Scratch 3.0 to run.",
-        "description": "WebGL missing message"
-    },
-    "gui.webglModal.webgllink": {
-        "message": "does not support WebGL",
-        "description": "link part of your browser does not support WebGL message"
-    },
-    "gui.webglModal.back": {
-        "message": "بازگشت",
-        "description": "Label for button go back when browser is unsupported"
-    },
-    "gui.webglModal.previewfaq": {
-        "message": "To learn more, go to the {previewFaqLink}.",
-        "description": "Scratch 3.0 FAQ description"
-    },
-    "gui.webglModal.previewfaqlinktext": {
-        "message": "پرسش و پاسخ",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.costumeLibrary.chooseABackdrop": {
-        "message": "Choose a Backdrop",
-        "description": "Heading for the backdrop library"
-    },
-    "gui.costumeLibrary.chooseACostume": {
-        "message": "یک لباس را انتخاب کنید",
-        "description": "Heading for the costume library"
-    },
-    "gui.costumeTab.addBackdropFromLibrary": {
-        "message": "Choose a Backdrop",
-        "description": "Button to add a backdrop in the editor tab"
-    },
-    "gui.costumeTab.addCostumeFromLibrary": {
-        "message": "یک لباس را انتخاب کنید",
-        "description": "Button to add a costume in the editor tab"
-    },
-    "gui.costumeTab.addBlankCostume": {
-        "message": "نقاشی",
-        "description": "Button to add a blank costume in the editor tab"
-    },
-    "gui.costumeTab.addSurpriseCostume": {
-        "message": "Surprise",
-        "description": "Button to add a surprise costume in the editor tab"
-    },
-    "gui.costumeTab.addFileBackdrop": {
-        "message": "بارگذاری پشت صحنه",
-        "description": "Button to add a backdrop by uploading a file in the editor tab"
-    },
-    "gui.costumeTab.addFileCostume": {
-        "message": "بارگذاری لباس",
-        "description": "Button to add a costume by uploading a file in the editor tab"
-    },
-    "gui.costumeTab.addCameraCostume": {
-        "message": "دوربین",
-        "description": "Button to use the camera to create a costume costume in the editor tab"
-    },
-    "gui.extensionLibrary.chooseAnExtension": {
-        "message": "Choose an Extension",
-        "description": "Heading for the extension library"
-    },
-    "gui.extensionLibrary.extensionUrl": {
-        "message": "Enter the URL of the extension",
-        "description": "Prompt for unoffical extension url"
-    },
-    "gui.projectLoader.loadError": {
-        "message": "The project file that was selected failed to load.",
-        "description": "An error that displays when a local project file fails to load."
-    },
-    "gui.recordingStep.alertMsg": {
-        "message": "Could not start recording",
-        "description": "Alert for recording error"
-    },
-    "gui.soundLibrary.chooseASound": {
-        "message": "یک صدا را انتخاب کنید",
-        "description": "Heading for the sound library"
-    },
-    "gui.soundTab.fileUploadSound": {
-        "message": "Upload Sound",
-        "description": "Button to upload sound from file in the editor tab"
-    },
-    "gui.soundTab.surpriseSound": {
-        "message": "Surprise",
-        "description": "Button to get a random sound in the editor tab"
-    },
-    "gui.soundTab.recordSound": {
-        "message": "ضبط",
-        "description": "Button to record a sound in the editor tab"
-    },
-    "gui.soundTab.addSoundFromLibrary": {
-        "message": "یک صدا را انتخاب کنید",
-        "description": "Button to add a sound in the editor tab"
-    },
-    "gui.spriteLibrary.chooseASprite": {
-        "message": "Choose a Sprite",
-        "description": "Heading for the sprite library"
-    },
-    "gui.spriteSelectorItem.deleteSpriteConfirmation": {
-        "message": "Are you sure you want to delete this?",
-        "description": "Confirmation for deleting sprites"
-    },
-    "gui.tipsLibrary.tutorials": {
-        "message": "Choose a Tutorial",
-        "description": "Heading for the help/tutorials library"
-    },
-    "gui.howtos.intro-move-sayhello-hat.name": {
-        "message": "Getting Started",
-        "description": "Name for the 'Getting Started' how-to"
-    },
-    "gui.howtos.intro-move.step_stepMove": {
-        "message": "Add a move block",
-        "description": "Step name for 'Add a move block' step"
-    },
-    "gui.howtos.add-a-move-block.step_stepMoveSayHello": {
-        "message": "Click the green flag to start",
-        "description": "Step name for 'Add A Say Block' step"
-    },
-    "gui.howtos.animate-a-name.name": {
-        "message": "Animate a Name",
-        "description": "Name for the 'Animate a Name' how-to"
-    },
-    "gui.howtos.animate-a-name.step_AnimatePickLetter": {
-        "message": "Pick a Letter Sprite",
-        "description": "Step name for 'Pick a Letter Sprite' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimatePlaySound": {
-        "message": "Play a Sound When Clicked",
-        "description": "Step name for 'Play a Sound When Clicked' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimatePickLetter2": {
-        "message": "Pick Another Letter Sprite",
-        "description": "Step name for 'Pick Another Letter Sprite"
-    },
-    "gui.howtos.animate-a-name.step_AnimateChangeColor": {
-        "message": "Change color",
-        "description": "Step name for 'Change color' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimateSpin": {
-        "message": "Pick Another Letter Sprite & Make It Spin",
-        "description": "Step name for 'Pick Another Letter Sprite & Make It Spin' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimateGrow": {
-        "message": "Pick Another Letter Sprite & Make It Grow",
-        "description": "Step name for 'Pick Another Letter Sprite & Make It Grow!' step"
-    },
-    "gui.howtos.make-music.name": {
-        "message": "خلق موسیقی",
-        "description": "Name for the 'Make Music' how-to"
-    },
-    "gui.howtos.Make-Music.step_PickInstrument": {
-        "message": "Pick an Instrument Sprite",
-        "description": "Step name for 'Pick an Instrument Sprite' step"
-    },
-    "gui.howtos.Make-Music.step_PlaySoundClick": {
-        "message": "Play Sound When Clicked",
-        "description": "Step name for 'Play Sound When Clicked' step"
-    },
-    "gui.howtos.Make-Music.step_MakeSong": {
-        "message": "Create a Song",
-        "description": "Step name for 'Create a Song' step"
-    },
-    "gui.howtos.make-music.step_MakeBeat": {
-        "message": "Choose a Drum & Make a Beat",
-        "description": "Step name for 'Choose a Drum & Make a Beat' step"
-    },
-    "gui.howtos.make-music.step_MakeBeatBox": {
-        "message": "Choose the Microphone Sprite & Surprise Beatbox",
-        "description": "Step name for 'Choose the Microphone Sprite & Surprise Beatbox' step"
-    },
-    "gui.howtos.make-a-game.name": {
-        "message": "Make a Clicker Game",
-        "description": "Name for the 'Make a Clicker Game' how-to"
-    },
-    "gui.howtos.Make-A-Game.step_GamePickSprite": {
-        "message": "Pick A Sprite",
-        "description": "Step name for 'Pick A Sprite' step"
-    },
-    "gui.howtos.make-a-game.step_GamePlaySound": {
-        "message": "Play Sound When Clicked",
-        "description": "Play Sound When Clicked' step"
-    },
-    "gui.howtos.make-a-game.step_GameAddScore": {
-        "message": "Create Score Variable",
-        "description": "Step name for 'Create Score Variable' step"
-    },
-    "gui.howtos.make-a-game.step_GameChangeScore": {
-        "message": "When Clicked Increase Score",
-        "description": "Step name for 'When Clicked Increase Score' step"
-    },
-    "gui.howtos.make-a-game.step_Random": {
-        "message": "Go to a random position",
-        "description": "Step name for 'Go to a random position' step"
-    },
-    "gui.howtos.make-music.step_GameChangeColor": {
-        "message": "Change Color",
-        "description": "Step name for 'Change Color' step"
-    },
-    "gui.howtos.make-music.step_ResetScore": {
-        "message": "Reset Score",
-        "description": "Step name for 'Reset Score' step"
-    },
-    "gui.howtos.make-a-chase-game.name": {
-        "message": "Make a Chase Game",
-        "description": "Name for the 'Make a Chase Game' how-to"
-    },
-    "gui.howtos.Chase-Game.step_BG": {
-        "message": "Add a Backdrop",
-        "description": "Step name for 'Add a Backdrop' step"
-    },
-    "gui.howtos.chase-game.step_AddOcto": {
-        "message": "Add a Sprite",
-        "description": "Step name for 'Add a Sprite' step"
-    },
-    "gui.howtos.make-music.step_LeftRight": {
-        "message": "Move Right & Left With Arrow Keys",
-        "description": "Step name for 'Move Right & Left With Arrow Keys' step"
-    },
-    "gui.howtos.Chase-Game.step_UpDown": {
-        "message": "Move Up & Down With Arrow Keys",
-        "description": "Step name for 'Move Up & Down With Arrow Keys' step"
-    },
-    "gui.howtos.Chase-Game.step_AddStar": {
-        "message": "Add Another Sprite",
-        "description": "Step name for 'Add Another Sprite' step"
-    },
-    "gui.howtos.Chase-Game.step_MoveRandom": {
-        "message": "Move Randomly",
-        "description": "Step name for 'Move Randomly' step"
-    },
-    "gui.howtos.Chase-Game.step_WhenTouch": {
-        "message": "In Octopus Sprite, When Touching Play Sound",
-        "description": "Step name for 'In Octopus Sprite, When Touching Play Sound' step"
-    },
-    "gui.howtos.Chase-Game.step_ScoreVariable": {
-        "message": "Create Score Variable",
-        "description": "Step name for 'Create Score Variable"
-    },
-    "gui.howtos.Chase-Game.ScoreWhenTouch": {
-        "message": "In Octopus Sprite, When Touching Add Score",
-        "description": "Step name for 'In Octopus Sprite, When Touching Add Score step"
-    },
-    "gui.howtos.add-sprite.name": {
-        "message": "Add a Sprite",
-        "description": "Name for the 'Add a Sprite' how-to"
-    },
-    "gui.howtos.add-sprite.step_addSprite": {
-        "message": "Add a Sprite",
-        "description": "Step name for 'Add a new sprite' step"
-    },
-    "gui.howtos.add-a-backdrop.name": {
-        "message": "Add a Backdrop",
-        "description": "Name for the 'Add a Backdrop' how-to"
-    },
-    "gui.howtos.change-size.name": {
-        "message": "Change Size",
-        "description": "Name for the 'Change Size' how-to"
-    },
-    "gui.howtos.glide-around.name": {
-        "message": "Glide Around",
-        "description": "Name for the 'Glide Around' how-to"
-    },
-    "gui.howtos.record-a-sound.name": {
-        "message": "Record a Sound",
-        "description": "Record A Sound' how-to"
-    },
-    "gui.howtos.spin-video.name": {
-        "message": "Make It Spin",
-        "description": "Name for the 'Make It Spin' how-to"
-    },
-    "gui.howtos.hide-and-show.name": {
-        "message": "Hide and Show",
-        "description": "Name for the 'Hide and Show' how-to"
-    },
-    "gui.howtos.switch-costume.name": {
-        "message": "Animate a Sprite",
-        "description": "Name for the 'Animate a Sprite' how-to"
-    },
-    "gui.howtos.move-around-with-arrow-keys.name": {
-        "message": "Use Arrow Keys",
-        "description": "Name for the 'Use Arrow Keys' how-to"
-    },
-    "gui.howtos.add-effects.name": {
-        "message": "Add Effects",
-        "description": "Name for the 'Add Effects' how-to"
-    },
-    "gui.extension.music.name": {
-        "message": "موسیقی",
-        "description": "Name for the 'Music' extension"
-    },
-    "gui.extension.music.description": {
-        "message": "Play instruments and drums.",
-        "description": "Description for the 'Music' extension"
-    },
-    "gui.extension.pen.name": {
-        "message": "قلم",
-        "description": "Name for the 'Pen' extension"
-    },
-    "gui.extension.pen.description": {
-        "message": "Draw with your sprites.",
-        "description": "Description for the 'Pen' extension"
-    },
-    "gui.extension.videosensing.name": {
-        "message": "Video Sensing",
-        "description": "Name for the 'Video Sensing' extension"
-    },
-    "gui.extension.videosensing.description": {
-        "message": "Sense motion with the camera.",
-        "description": "Description for the 'Video Sensing' extension"
-    },
-    "gui.extension.googletranslate.name": {
-        "message": "مترجم گوگل",
-        "description": "Name for the 'Google Translate' extension. Do not translate 'Google'."
-    },
-    "gui.extension.googletranslate.description": {
-        "message": "Translate text into many languages.",
-        "description": "Description for the 'Google Translate' extension"
-    },
-    "gui.extension.microbit.description": {
-        "message": "Connect your projects with the world.",
-        "description": "Description for the 'micro:bit' extension"
-    },
-    "gui.extension.microbit.connectingMessage": {
-        "message": "Connecting",
-        "description": "Message to help people connect to their micro:bit."
-    },
-    "gui.extension.ev3.description": {
-        "message": "Build interactive robots and more.",
-        "description": "Description for the 'LEGO MINDSTORMS EV3' extension"
-    },
-    "gui.extension.ev3.connectingMessage": {
-        "message": "Connecting. Make sure the pin on your EV3 is set to 1234.",
-        "description": "Message to help people connect to their EV3. Must note the PIN should be 1234."
-    },
-    "gui.extension.wedo2.description": {
-        "message": "Build with motors and sensors.",
-        "description": "Description for the 'LEGO WeDo 2.0' extension"
-    },
-    "gui.extension.wedo2.connectingMessage": {
-        "message": "Connecting",
-        "description": "Message to help people connect to their WeDo."
-    },
-    "gui.backpack.header": {
-        "message": "کوله پشتی",
-        "description": "Button to open the backpack"
-    }
+    "gui.alerts.lostPeripheralConnection": "اتصال اسکرچ به {extensionName} قطع شد.",
+    "gui.alerts.tryAgain": "دوباره تلاش کنید",
+    "gui.alerts.download": "دانلود",
+    "gui.connection.reconnect": "اتصال مجدد",
+    "gui.backpack.header": "کوله پشتی",
+    "gui.backpack.errorBackpack": "خطا در بارگیری کوله پشتی",
+    "gui.backpack.loadingBackpack": "بارگیری ...",
+    "gui.backpack.more": "بیشتر",
+    "gui.backpack.emptyBackpack": "کوله پشتی خالی است",
+    "gui.unsupportedBrowser.label": "مرورگر پشتیبانی نمی‌ شود",
+    "gui.unsupportedBrowser.errorLabel": "خطایی رخ داد",
+    "gui.unsupportedBrowser.notRecommended": "ما بسیار متاسفیم، اما به نظر می رسد شما از نسخه ای از یک مرورگر استفاده می کنید که اسکرچ را پشتیبانی نمی کند. توصیه می کنیم به آخرین نسخه ی مرورگر پشتیبانی شده مانند گوگل کروم، موزیلا فایرفاکس، مایکروسافت اج یا اپل سافاری به روزرسانی کنید.",
+    "gui.unsupportedBrowser.description": "ما بسیار متاسفیم، اما اسکرچ از این مرورگر پشتیبانی نمی کند. توصیه می کنیم به آخرین نسخه ی مرورگر پشتیبانی شده ای مانند گوگل کروم، موزیلا فایرفاکس، مایکروسافت اج یا اپل سافاری به روزرسانی کنید.",
+    "gui.unsupportedBrowser.back": "بازگشت",
+    "gui.unsupportedBrowser.previewfaq": "برای یادگیری بیشتر، به {previewFaqLink} بروید.",
+    "gui.unsupportedBrowser.previewfaqlinktext": "سؤالات پر تکرار",
+    "gui.cameraModal.cameraModalTitle": "گرفتن یک عکس",
+    "gui.cameraModal.loadingCameraMessage": "بارگیری دوربین ...",
+    "gui.cameraModal.permissionRequest": "برای استفاده از دوربین شما به اجازه ی شما نیاز داریم",
+    "gui.cameraModal.retakePhoto": "دوباره عکس گرفتن",
+    "gui.cameraModal.save": "ذخیره کردن",
+    "gui.cameraModal.takePhoto": "عکس گرفتن",
+    "gui.cameraModal.loadingCaption": "بارگیری ...",
+    "gui.cameraModal.enableCameraCaption": "فعال کردن دوربین شما",
+    "gui.cards.all-tutorials": "آموزش ها",
+    "gui.cards.close": "بستن",
+    "gui.cards.more-things-to-try": "چیز های بیشتری را امتحان کنید!",
+    "gui.cards.see-more": "بیشتر ببینید",
+    "gui.comingSoon.message1": "نگران نباشید، ما داریم روی آن کار می کنیم {emoji}",
+    "gui.comingSoon.message2": "به زودی ...",
+    "gui.comingSoon.message3": "ما در حال کار بر روی آن هستیم {emoji}",
+    "gui.connection.auto-scanning.noPeripheralsFound": "هیچ دستگاهی پیدا نشد",
+    "gui.connection.auto-scanning.prescan": "دستگاه خود را نزدیک نگه دارید، سپس شروع به جست و جو کنید.",
+    "gui.connection.auto-scanning.pressbutton": "دکمه روی دستگاه خود را فشار دهید.",
+    "gui.connection.auto-scanning.start-search": "شروع جست و جو",
+    "gui.connection.connecting-searchbutton": "در حال جست و جو ...",
+    "gui.connection.auto-scanning.try-again": "دوباره تلاش کنید",
+    "gui.connection.connected": "متصل",
+    "gui.connection.disconnect": "عدم اتصال",
+    "gui.connection.go-to-editor": "برو به ویرایشگر",
+    "gui.connection.connecting-cancelbutton": "در حال اتصال",
+    "gui.connection.error.errorMessage": "ببخشید، به نظر می رسد که یک چیزی اشتباه شده است.",
+    "gui.connection.error.tryagainbutton": "دوباره تلاش کنید",
+    "gui.connection.error.helpbutton": "راهنما",
+    "gui.connection.peripheral-name-label": "نام دستگاه",
+    "gui.connection.connect": "اتصال",
+    "gui.connection.scanning.lookingforperipherals": "در جست و جوی دستگاه ها",
+    "gui.connection.scanning.noPeripheralsFound": "هیچ دستگاهی پیدا نشد",
+    "gui.connection.scanning.instructions": "دستگاه خود را از فهرست زیر انتخاب کنید",
+    "gui.connection.search": "تازه کردن",
+    "gui.connection.unavailable.installscratchlink": "مطمئن شوید که شما لینک اسکرچ نصب شده و درحال اجرا دارید",
+    "gui.connection.unavailable.enablebluetooth": "بررسی کنید که بلوتوث فعال است",
+    "gui.connection.unavailable.tryagainbutton": "دوباره تلاش کنید",
+    "gui.connection.unavailable.helpbutton": "راهنما",
+    "gui.controls.go": "برو",
+    "gui.controls.stop": "توقف",
+    "gui.crashMessage.label": "اوه! به نظر می رسد که یک چیزی اشتباه شده.",
+    "gui.crashMessage.description": "با عرض پوزش، به نظر می رسد که اسکرچ قفل کرده است. این ایراد به صورت خودکار به تیم اسکرچ گزارش خواهد شد. لطفا صفحه ی خود را برای تلاش مجدد٬ تازه سازی کنید",
+    "gui.crashMessage.errorNumber": "خطای شما با شناسه ی {errorId} وارد شد.",
+    "gui.crashMessage.reload": "بارگیری مجدد",
+    "gui.customProcedures.myblockModalTitle": "ایجاد یک قطعه",
+    "gui.customProcedures.addAnInputNumberText": "افزودن یک ورودی",
+    "gui.customProcedures.numberTextType": "عدد یا متن",
+    "gui.customProcedures.addAnInputBoolean": "افزودن یک ورودی",
+    "gui.customProcedures.booleanType": "منطقی",
+    "gui.customProcedures.addALabel": "افزودن یک برچسب",
+    "gui.customProcedures.runWithoutScreenRefresh": "اجرا بدون تازه سازی صفحه",
+    "gui.customProcedures.cancel": "لغو",
+    "gui.customProcedures.ok": "باشه",
+    "gui.SpriteInfo.direction": "جهت",
+    "gui.directionPicker.rotationStyles.allAround": "اطراف ",
+    "gui.directionPicker.rotationStyles.leftRight": "چپ/راست",
+    "gui.directionPicker.rotationStyles.dontRotate": "نچرخانید",
+    "gui.gui.addExtension": "اضافه کردن افزونه",
+    "gui.gui.codeTab": "کد",
+    "gui.gui.backdropsTab": "پس زمینه",
+    "gui.gui.costumesTab": "لباس‌ها",
+    "gui.gui.soundsTab": "صداها",
+    "gui.importInfo.title": "یک پروژه ی اسکرچ 2.0 را ببینید",
+    "gui.importInfo.betamessage": "یک پیوند به یکی از پروژه های به اشتراک گذاشته شده ی خود در اسکرچ وارد کنید. تغییراتی که در این نسخ ی بتای 3.0 ایجاد می شود، ذخیره نخواهد شد.",
+    "gui.importInfo.message": "یک پیوند به یکی از پروژه های اسکرچ به اشتراک گذاشته شده ی خود وارد کنید. تغییراتی که در این نسخه پیش نمایش 3.0 ایجاد می شود، ذخیره نخواهد شد.",
+    "gui.importInfo.invalidFormatError": "اوه، به نظر می رسد که این پیوند پروژه یا شناسه درست نیست.",
+    "gui.importModal.viewproject": "مشاهده",
+    "gui.importInfo.goback": "برگرد به عقب",
+    "gui.importInfo.previewfaq": "برای یادگیری بیشتر، به {previewFaqLink} بروید",
+    "gui.importInfo.previewfaqlinktext": "سؤالات پر تکرار",
+    "gui.extensionLibrary.comingSoon": "به زودی",
+    "gui.extensionLibrary.requires": "نیاز ها",
+    "gui.extensionLibrary.collaboration": "همکاری با",
+    "gui.library.filterPlaceholder": "جست و جو",
+    "gui.library.allTag": "همه",
+    "gui.loader.message1": "در حال ایجاد قطعه‌ ها...",
+    "gui.loader.message2": "بارگیری شکلک‌ ها...",
+    "gui.loader.message3": "بارگیری صدا ها...",
+    "gui.loader.message4": "بارگیری افزونه‌ ها...",
+    "gui.loader.message5": "جمع کردن گربه ها...",
+    "gui.loader.message6": "انتقال نانو ها...",
+    "gui.loader.message7": "باد کردن گوبو ها...",
+    "gui.loader.message8": "آماده کردن شکلک های کوچک...",
+    "gui.loader.headline": "در حال بارگیری پروژه",
+    "gui.loader.creating": "در حال ایجاد پروژه",
+    "gui.accountMenu.profile": "صفحه ی شخصی",
+    "gui.accountMenu.myStuff": "چیزهای من",
+    "gui.accountMenu.myClasses": "کلاس های من",
+    "gui.accountMenu.myClass": "کلاس من",
+    "gui.accountMenu.accountSettings": "تنظیمات حساب کاربری",
+    "gui.accountMenu.signOut": "خروج",
+    "gui.authorInfo.byUser": "توسط {username}",
+    "gui.menuBar.seeProjectPage": "صفحه پروژه را مشاهده کنید",
+    "general.username": "نام کاربری",
+    "general.password": "رمز عبور",
+    "general.signIn": "ورود",
+    "login.needHelp": "کمک لازم دارید؟",
+    "form.validationRequired": "این کادر مورد نیاز است",
+    "gui.menuBar.confirmNewWithoutSaving": "محتواهای پروژه ی فعلی را جا به جا می کنید؟",
+    "gui.menuBar.LanguageSelector": "انتخاب گر زبان",
+    "gui.menuBar.tutorialsLibrary": "آموزش ها",
+    "gui.menuBar.restoreSprite": "بازیابی شکلک ",
+    "gui.menuBar.restoreSound": "بازیابی صدا",
+    "gui.menuBar.restoreCostume": "بازیابی لباس",
+    "gui.menuBar.restore": "بازیابی",
+    "gui.menuBar.saveNow": "الان ذخیره کن",
+    "gui.menuBar.saveAsCopy": "ذخیره به عنوان یک رونوشت",
+    "gui.menuBar.remix": "ترکیب مجدد",
+    "gui.menuBar.new": "جدید",
+    "gui.menuBar.file": "فایل",
+    "gui.menuBar.uploadFromComputer": "بارگذاری از کامپیوتر شما",
+    "gui.menuBar.downloadToComputer": "ذخیره در کامپیوتر شما",
+    "gui.menuBar.edit": "ویرایش",
+    "gui.menuBar.turboModeOff": "خاموش کردن حالت سریع",
+    "gui.menuBar.turboModeOn": "روشن کردن حالت سریع",
+    "gui.menuBar.joinScratch": "پیوستن به اسکرچ",
+    "gui.menuBar.signIn": "ورود",
+    "gui.menuBar.giveFeedback": "ارسال بازخورد",
+    "gui.gui.projectTitlePlaceholder": "عنوان پروژه در اینجا",
+    "gui.menuBar.saveNowLink": "الان ذخیره کن",
+    "gui.menuBar.isShared": "اشتراک گذاشته شده",
+    "gui.menuBar.share": "اشتراک گذاری",
+    "gui.modal.help": "راهنما",
+    "gui.modal.back": "بازگشت",
+    "gui.monitor.listMonitor.empty": "(خالی)",
+    "gui.monitor.listMonitor.listLength": "طول {length}",
+    "gui.monitor.contextMenu.default": "بازخوانی معمولی",
+    "gui.monitor.contextMenu.large": "بازخوانی بزرگ",
+    "gui.monitor.contextMenu.slider": "لغزنده",
+    "gui.monitor.contextMenu.import": "وارد کردن",
+    "gui.monitor.contextMenu.export": "خروجی گرفتن",
+    "gui.previewInfo.label": "اسکرچ 3.0 را امتحان کنید",
+    "gui.previewInfo.welcome": "به اسکرچ 3.0 پیش نمایش بتا خوش آمدید",
+    "gui.previewModal.notnowtooltip": "الان نه",
+    "gui.previewModal.tryittooltip": "امتحان اش کن",
+    "gui.previewModal.viewprojecttooltip": "نمایش پروژه ی نسخه ی 2.0",
+    "gui.previewInfo.betawelcome": "به اسکرچ 3.0 پیش نمایش بتا خوش آمدید",
+    "gui.previewInfo.invitation": "ما در حال کار بر روی نسل بعدی اسکرچ هستیم. خیلی خوشحال می شویم اگر امتحان اش کنید!",
+    "gui.previewInfo.notnow": "الان نه",
+    "gui.previewModal.tryit": "امتحان اش کنید! {caticon}",
+    "gui.previewModal.viewproject": "نمایش پروژه ی نسخه ی 2.0",
+    "gui.previewInfo.previewfaq": "برای یادگیری بیشتر، به {previewFaqLink} بروید",
+    "gui.previewInfo.previewfaqlinktext": "سؤالات پر تکرار",
+    "gui.gui.variableScopeOptionAllSprites": "برای همه ی شکلک ها",
+    "gui.gui.variableScopeOptionSpriteOnly": "فقط برای این شکلک",
+    "gui.gui.cloudVariableOption": "متغیر ابری (ذخیره شده در سرور)",
+    "gui.gui.variablePromptAllSpritesMessage": "این متغیر در دسترس همه ی شکلک ها خواهد بود.",
+    "gui.prompt.cancel": "لغو",
+    "gui.prompt.ok": "تایید",
+    "gui.playbackStep.stopMsg": "توقف",
+    "gui.playbackStep.playMsg": "پخش",
+    "gui.playbackStep.loadingMsg": "بارگیری ...",
+    "gui.playbackStep.saveMsg": "ذخیره",
+    "gui.playbackStep.reRecordMsg": "ضبط مجدد",
+    "gui.recordModal.title": "ضبط صدا",
+    "gui.recordingStep.beginRecord": "به وسیله کلیک روی دکمه ی زیر٬ ضبط را شروع کنید",
+    "gui.recordingStep.permission": "{arrow}برای استفاده از میکروفون شما، به اجازه ی شما نیاز داریم",
+    "gui.recordingStep.stop": "توقف ضبط",
+    "gui.recordingStep.record": "ضبط",
+    "gui.soundEditor.sound": "صدا",
+    "gui.soundEditor.play": "پخش",
+    "gui.soundEditor.stop": "توقف",
+    "gui.soundEditor.trim": "اصلاح کردن",
+    "gui.soundEditor.save": "ذخیره",
+    "gui.soundEditor.undo": "برگرد",
+    "gui.soundEditor.redo": "دوباره انجام بده",
+    "gui.soundEditor.faster": "سریع تر",
+    "gui.soundEditor.slower": "آرام‌ تر",
+    "gui.soundEditor.echo": "پژواک",
+    "gui.soundEditor.robot": "ربات",
+    "gui.soundEditor.louder": "بلند تر",
+    "gui.soundEditor.softer": "نرم تر",
+    "gui.soundEditor.reverse": "معکوس",
+    "gui.SpriteInfo.spritePlaceholder": "نام",
+    "gui.SpriteInfo.sprite": "شکلک",
+    "gui.SpriteInfo.show": "نمایش",
+    "gui.SpriteInfo.size": "اندازه",
+    "gui.spriteSelectorItem.contextMenuDuplicate": "تکثیر",
+    "gui.spriteSelectorItem.contextMenuExport": "خروجی گرفتن",
+    "gui.spriteSelectorItem.contextMenuDelete": "حذف",
+    "gui.spriteSelector.addSpriteFromLibrary": "یک شکلک را انتخاب کنید",
+    "gui.spriteSelector.addSpriteFromPaint": "نقاشی",
+    "gui.spriteSelector.addSpriteFromSurprise": "غافلگیر",
+    "gui.spriteSelector.addSpriteFromFile": "بارگذاری شکلک",
+    "gui.stageHeader.stageSizeLarge": "تغییر به صحنه ی بزرگ",
+    "gui.stageHeader.stageSizeSmall": "تغییر به صحنه ی کوچک",
+    "gui.stageHeader.stageSizeFull": "ورود به حالت تمام صفحه",
+    "gui.stageHeader.stageSizeUnFull": "خروج از حالت تمام صفحه",
+    "gui.stageHeader.fullscreenControl": "کنترل تمام صفحه",
+    "gui.spriteSelector.addBackdropFromLibrary": "انتخاب یک پس زمینه",
+    "gui.stageSelector.addBackdropFromPaint": "نقاشی",
+    "gui.stageSelector.addBackdropFromSurprise": "غافلگیر",
+    "gui.stageSelector.addBackdropFromFile": "بارگذاری پس زمینه",
+    "gui.stageSelector.stage": "صحنه",
+    "gui.stageSelector.backdrops": "پس زمینه ها",
+    "gui.telemetryOptIn.label": "گزارش دادن آمار برای بهبود اسکرچ",
+    "gui.telemetryOptIn.body1": "گروه اسکرچ همیشه به دنبال درک بهتر چگونگی استفاده از برنامه اسکرچ در سراسر دنیا، هستند. برای کمک به پشتیبانی از این تلاش، شما می توانید به برنامه اسکرچ اجازه دهید تا به طور خودکار،اطلاعات استفاده را به تیم اسکرچ ارسال نماید.",
+    "gui.telemetryOptIn.body2": "اطلاعاتی که ما جمع آوری می کنیم شامل انتخاب زبان، استفاده از قطعه ها و بعضی رویدادها مانند ذخیره سازی، بارگیری و بارگزاری کردن یک پروژه می شود. ما هیچ گونه اطلاعات شخصی را جمع آوری نمی کنیم. لطفاً برای اطلاعات بیشتر {privacyPolicyLink} را مشاهده کنید.",
+    "gui.telemetryOptIn.privacyPolicyLink": "حریم خصوصی",
+    "gui.telemetryOptIn.buttonTextNo": "نه، متشکرم",
+    "gui.telemetryOptIn.buttonTooltipNo": "غیر فعال کردن اندازه گیری از دور",
+    "gui.telemetryOptIn.buttonTextYes": "بله، من تمایل دارم تا به بهبود اسکرچ کمک کنم :)",
+    "gui.telemetryOptIn.buttonTooltipYes": "فعال کردن اندازه گیری از دور",
+    "gui.turboMode.active": "حالت سریع",
+    "gui.webglModal.label": "مرورگر شما قابلیت WebGL را پشتیبانی نمی کند.",
+    "gui.webglModal.description": "متأسفانه به نظر می رسد که مرورگر یا کامپیوتر شما {webGlLink}. این فناوری برای اجرای اسکرچ 3.0 لازم است",
+    "gui.webglModal.webgllink": "قابلیت WebGL پشتیبانی نمی شود",
+    "gui.webglModal.back": "برگشت",
+    "gui.webglModal.previewfaq": "برای یادگیری بیشتر، به {previewFaqLink} بروید",
+    "gui.webglModal.previewfaqlinktext": "سؤالات پر تکرار",
+    "gui.costumeLibrary.chooseABackdrop": "یک پس زمینه را انتخاب کنید",
+    "gui.costumeLibrary.chooseACostume": "یک لباس را انتخاب کنید",
+    "gui.costumeTab.addBackdropFromLibrary": "یک پس زمینه را انتخاب کنید",
+    "gui.costumeTab.addCostumeFromLibrary": "یک لباس را انتخاب کنید",
+    "gui.costumeTab.addBlankCostume": "نقاشی",
+    "gui.costumeTab.addSurpriseCostume": "غافلگیر",
+    "gui.costumeTab.addFileBackdrop": "بارگذاری پس زمینه",
+    "gui.costumeTab.addFileCostume": "بارگذاری لباس",
+    "gui.costumeTab.addCameraCostume": "دوربین",
+    "gui.extensionLibrary.chooseAnExtension": "یک افزونه انتخاب کنید",
+    "gui.extensionLibrary.extensionUrl": "آدرس اینترنتی افزونه را وارد کنید",
+    "gui.gui.defaultProjectTitle": "پروژه ی اسکرچ",
+    "gui.monitors.importListColumnPrompt": "کدام ستون باید استفاده شود (1-{numberOfColumns} ) ؟",
+    "gui.recordingStep.alertMsg": "نمی توان ضبط را شروع کرد",
+    "gui.projectLoader.loadError": "خطا در بارگیری فایل پروژه انتخاب شده ",
+    "gui.soundLibrary.chooseASound": "یک صدا انتخاب کنید",
+    "gui.soundTab.fileUploadSound": "بارگذاری صدا",
+    "gui.soundTab.surpriseSound": "غافلگیر",
+    "gui.soundTab.recordSound": "ضبط",
+    "gui.soundTab.addSoundFromLibrary": "یک صدا را انتخاب کنید",
+    "gui.spriteLibrary.chooseASprite": "یک شکلک را انتخاب کنید",
+    "gui.tipsLibrary.tutorials": "یک آموزش را انتخاب کنید",
+    "gui.alerts.createsuccess": "پروژه ی جدید ایجاد شد.",
+    "gui.alerts.createcopysuccess": "پروژه به عنوان یک رونوشت ذخیره شد.",
+    "gui.alerts.createremixsuccess": "پروژه به عنوان یک ترکیب جدید ذخیره شد.",
+    "gui.alerts.creating": "در حال ایجاد جدید ...",
+    "gui.alerts.creatingCopy": "در حال کپی کردن پروژه...",
+    "gui.alerts.creatingRemix": "در حال ترکیب کردن پروژه...",
+    "gui.alerts.creatingError": "پروژه ساخته نشد. لطفاً دوباره تلاش کنید!",
+    "gui.alerts.savingError": "پروژه نتوانست ذخیره شود.",
+    "gui.alerts.savesuccess": "پروژه ذخیره شده است.",
+    "gui.alerts.saving": "در حال ذخیره ی پروژه...",
+    "gui.alerts.cloudInfo": "لطفا توجه کنید، متغییرهای ابری (توده ای) فقط از اعداد پشتیبانی می کنند و حروف وعلائم را پشتیبانی نمی کنند. {learnMoreLink} ",
+    "gui.alerts.cloudInfoLearnMore": "بیشتر بدانید.",
+    "gui.defaultProject.meow": "میو",
+    "gui.defaultProject.variable": "متغیر من",
+    "gui.howtos.intro-move-sayhello-hat.name": "شروع کنید",
+    "gui.howtos.intro-move.step_stepMove": "یک قطعه ی حرکت اضافه کنید",
+    "gui.howtos.add-a-move-block.step_stepMoveSayHello": "برای شروع پرچم سبز را کلیک کنید ",
+    "gui.howtos.say-it-out-loud": "ساخت یک پویا نمایی که صحبت می کند",
+    "gui.howtos.say-it-out-loud.step_AddTXTextension": "قطعه های تبدیل متن به گفتار را اضافه کنید",
+    "gui.howtos. say-it-out-loud.step_TXTSpeech": "چیزی بگو",
+    "gui.howtos.say-it-out-loud_TXTSetVoice": "یک صدا تنظیم کنید",
+    "gui.howtos.say-it-out-loud.step_TXTMove": "حرکت در اطراف",
+    "gui.howtos.say-it-out-loud.step_TXTBackdrop": "افزودن یک پس زمینه",
+    "gui.howtos.say-it-out-loud.step_TXTAddSprite": "افزودن یک شخصیت دیگر",
+    "gui.howtos.say-it-out-loud.step_TXTSong": " یک آواز اجرا کنید",
+    "gui.howtos.say-it-out-loud.step_TXTColor": "تغییر رنگ",
+    "gui.howtos.say-it-out-loud.step_TXTSpin": "جرخیدن در اطراف",
+    "gui.howtos.say-it-out-loud.step_TXTGrow": "بزرگ و کوچک شدن",
+    "gui.howtos.cartoon-network": "یک بازی ماجراجویی را پویا نمایی کنید",
+    "gui.howtos.cartoon-network.step_CNcharacter": "یک شخصیت را برای نمایش دادن انتخاب کنید",
+    "gui.howtos.cartoon-network.step_CNsay": "یک چیزی بگو",
+    "gui.howtos.cartoon-network.step_CNglide": "سر خوردن در اطراف",
+    "gui.howtos.cartoon-network.step_CNpicksprite": "یک شئ را برای تعقیب انتخاب کنید",
+    "gui.howtos.cartoon-network.step_CNcollect": "جمع آوری اشیاء",
+    "gui.howtos.cartoon-network.step_CNvariable": "یک متغیر امتیاز بسازید",
+    "gui.howtos.cartoon-network.step_CNscore": "نگه داری امتیاز",
+    "gui.howtos.cartoon-network.step_CNbackdrop": "سطح بالا : تغییر پس زمینه",
+    "gui.howtos.animate-a-name.name": "پویا نمایی یک اسم",
+    "gui.howtos.animate-a-name.step_AnimatePickLetter": "یک شکلکِ حرف بردارید",
+    "gui.howtos.animate-a-name.step_AnimatePlaySound": "وقتی کلیک شد یک صدا پخش کنید",
+    "gui.howtos.animate-a-name.step_AnimatePickLetter2": "یک شکلکِ حرف دیگر بردارید",
+    "gui.howtos.animate-a-name.step_AnimateChangeColor": "تغییر رنگ",
+    "gui.howtos.animate-a-name.step_AnimateSpin": "یک شکلکِ حرف دیگر بردار و بچرخانش",
+    "gui.howtos.animate-a-name.step_AnimateGrow": "یک شکلکِ حرف دیگر بردار و بزرگ اش کن",
+    "gui.howtos.make-music.name": "ساختن موسیقی",
+    "gui.howtos.Make-Music.step_PickInstrument": "یک شکلکِ ساز انتخاب کن",
+    "gui.howtos.Make-Music.step_PlaySoundClick": "وقتی کلیک شد صدا پخش کن",
+    "gui.howtos.Make-Music.step_MakeSong": "یک آواز بساز",
+    "gui.howtos.make-music.step_MakeBeat": "یک طبل را انتخاب کن و یک ضرب موسیقی بساز",
+    "gui.howtos.make-music.step_MakeBeatBox": "شکلکِ میکروفون را انتخاب کن و با تقلید صدای ساز ها با دهان خود، هنرنمایی کن",
+    "gui.howtos.make-a-game.name": "ساخت یک بازی کلیک کننده",
+    "gui.howtos.Make-A-Game.step_GamePickSprite": "یک شکلک را بردار",
+    "gui.howtos.make-a-game.step_GamePlaySound": "وقتی کلیک شد صدا را پخش کن",
+    "gui.howtos.make-a-game.step_GameAddScore": "یک متغیر امتیاز ایجاد کنید",
+    "gui.howtos.make-a-game.step_GameChangeScore": "وقتی کلیک شد امتیاز را اضافه کن",
+    "gui.howtos.make-a-game.step_Random": "برو به یک موقعیت تصادفی",
+    "gui.howtos.make-music.step_GameChangeColor": "تغییر رنگ",
+    "gui.howtos.make-music.step_ResetScore": "تنظیم دوباره ی امتیاز",
+    "gui.howtos.make-a-chase-game.name": "ساخت یک بازی تعقیبی",
+    "gui.howtos.Chase-Game.step_BG": "افزودن یک پس زمینه",
+    "gui.howtos.chase-game.step_AddOcto": "افزودن یک شکلک",
+    "gui.howtos.make-music.step_LeftRight": "با کلید های جهتی به راست و چپ حرکت کنید",
+    "gui.howtos.Chase-Game.step_UpDown": "با کلید های جهتی به بالا و پایین حرکت کنید",
+    "gui.howtos.Chase-Game.step_AddStar": "یک شکلک دیگر اضافه کنید",
+    "gui.howtos.Chase-Game.step_MoveRandom": "حرکت تصادفی",
+    "gui.howtos.Chase-Game.step_WhenTouch": "در شکلک اختاپوس، وقتی لمس شد صدا پخش شود",
+    "gui.howtos.Chase-Game.step_ScoreVariable": "یک متغیر امتیاز ایجاد کنید",
+    "gui.howtos.Chase-Game.ScoreWhenTouch": "در شکلک اختاپوس، وقتی لمس شد امتیاز اضافه شود",
+    "gui.howtos.animate-char.name": "پویا نمایی یک شخصیت",
+    "gui.howtos.animate-char.step_addbg": "افزودن یک پس زمینه",
+    "gui.howtos.animate-char.step_addsprite": "افزودن یک شکلک",
+    "gui.howtos.animate-char.step_saysomething": "چیزی بگو",
+    "gui.howtos.animate-char.step_addsound": "افزودن صدا",
+    "gui.howtos.animate-char.step_animatetalking": "پویا نمایی گفت و گو",
+    "gui.howtos.animate-char.step_arrowkeys": "حرکت با استفاده از کلیدهای جهت",
+    "gui.howtos.animate-char.step_jump": "پریدن",
+    "gui.howtos.animate-char.step_changecolor": "تغییر رنگ",
+    "gui.howtos.story.name": "ایجاد یک داستان",
+    "gui.howtos.story.step_addbg": "افزودن یک پس زمینه",
+    "gui.howtos.story.step_addsprite": "افزودن یک شخصیت ",
+    "gui.howtos.story.step_saysomething": "چیزی بگو",
+    "gui.howtos.story.step_addanothersprite": "افزودن یک شخصیت دیگر",
+    "gui.howtos.story.step_flip": "جهت قرینه",
+    "gui.howtos.story.step_conversation": "یک مکالمه داشته باشید",
+    "gui.howtos.story.addanotherbg": "افزودن پس زمینه های دیگر",
+    "gui.howtos.story.step_swithbg": "تعویض پس زمینه ها",
+    "gui.howtos.story.step_hidewizard": "مخفی کردن یک شخصیت",
+    "gui.howtos.story.step_showwizard": "نمایش یک شخصیت",
+    "gui.howtos.videosens.name": "درک کردن از طریق ویدیو",
+    "gui.howtos.videosens.step_addextension": "اضافه کردن افزونه",
+    "gui.howtos.videosens.step_pet": "حیوان خانگی گربه",
+    "gui.howtos.videosens.step_animate": "پویا نمایی کردن",
+    "gui.howtos.videosens.step_pop": "ترکاندن یک بادکنک",
+    "gui.howtos.add-sprite.name": "افزودن یک شکلک",
+    "gui.howtos.add-sprite.step_addSprite": "افزودن یک شکلک",
+    "gui.howtos.add-a-backdrop.name": "افزودن یک پس زمینه",
+    "gui.howtos.change-size.name": "تغییر اندازه",
+    "gui.howtos.glide-around.name": "سر خوردن در اطراف",
+    "gui.howtos.record-a-sound.name": "ضبط یک صدا",
+    "gui.howtos.spin-video.name": "آن را بچرخان",
+    "gui.howtos.hide-and-show.name": "پنهان کردن و نمایش دادن",
+    "gui.howtos.switch-costume.name": "پویا نمایی یک شکلک",
+    "gui.howtos.move-around-with-arrow-keys.name": "استفاده از کلید های جهت",
+    "gui.howtos.add-effects.name": "افزودن جلوه ها",
+    "gui.extension.music.name": "موسیقی",
+    "gui.extension.music.description": "ساز ها و طبل ها را بنوازید.",
+    "gui.extension.pen.name": "قلم",
+    "gui.extension.pen.description": "با شکلک های خودتان نقاشی بکشید. ",
+    "gui.extension.videosensing.name": "درک کردن از طریق ویدیو",
+    "gui.extension.videosensing.description": "درک حرکت با استفاده از دوربین.",
+    "gui.extension.text2speech.name": "متن به گفتار",
+    "gui.extension.text2speech.description": "پروژه های خود را سخن گو کنید.",
+    "gui.extension.translate.name": "ترجمه کردن",
+    "gui.extension.translate.description": "متن را به بسیاری از زبان ها ترجمه کنید.",
+    "gui.extension.makeymakey.description": "همه چیز را درون یک کلید قرار دهید.",
+    "gui.extension.microbit.description": "پروژه ی خود را به جهان متصل کنید.",
+    "gui.extension.microbit.connectingMessage": "درحال اتصال",
+    "gui.extension.ev3.description": "ساختن روبات های تعاملی و بیشتر.",
+    "gui.extension.ev3.connectingMessage": "در حال اتصال. مطمئن شوید که سنجاق روی EV3 شما به 1234 مقداردهی شده است",
+    "gui.extension.wedo2.description": "ساختن با موتور ها و حسگر ها",
+    "gui.extension.wedo2.connectingMessage": "درحال اتصال",
+    "gui.libraryTags.all": "همه",
+    "gui.libraryTags.animals": "حیوانات",
+    "gui.libraryTags.dance": "رقص",
+    "gui.libraryTags.effects": "جلوه ها",
+    "gui.libraryTags.fantasy": "فانتزی",
+    "gui.libraryTags.fashion": "سبک",
+    "gui.libraryTags.food": "غذا",
+    "gui.libraryTags.indoors": "داخل خانه",
+    "gui.libraryTags.loops": "حلقه ها",
+    "gui.libraryTags.music": "موسیقی",
+    "gui.libraryTags.notes": "یادداشت ها",
+    "gui.libraryTags.outdoors": "خارج از خانه",
+    "gui.libraryTags.patterns": "الگو ها",
+    "gui.libraryTags.people": "مردم",
+    "gui.libraryTags.percussion": "موسیقی ضربی",
+    "gui.libraryTags.space": "فضا",
+    "gui.libraryTags.sports": "ورزش ها",
+    "gui.libraryTags.underwater": "زیر آب",
+    "gui.libraryTags.voice": "صدا",
+    "gui.libraryTags.wacky": "گیج",
+    "gui.libraryTags.animation": "پویا نمایی",
+    "gui.libraryTags.art": "هنر",
+    "gui.libraryTags.games": "بازی ها",
+    "gui.libraryTags.stories": "داستان ها",
+    "gui.libraryTags.letters": "حروف",
+    "gui.opcodeLabels.direction": "جهت",
+    "gui.opcodeLabels.xposition": "موقعیت x",
+    "gui.opcodeLabels.yposition": "موقعیت y",
+    "gui.opcodeLabels.size": "اندازه",
+    "gui.opcodeLabels.costumename": "نام لباس",
+    "gui.opcodeLabels.costumenumber": "شماره ی لباس",
+    "gui.opcodeLabels.backdropname": "نام پس زمینه",
+    "gui.opcodeLabels.backdropnumber": "شماره ی پس زمینه",
+    "gui.opcodeLabels.volume": "حجم",
+    "gui.opcodeLabels.tempo": "سرعت نواختن",
+    "gui.opcodeLabels.answer": "پاسخ",
+    "gui.opcodeLabels.loudness": "بلندی صدا",
+    "gui.opcodeLabels.username": "نام کاربری",
+    "gui.opcodeLabels.year": "سال",
+    "gui.opcodeLabels.month": "ماه",
+    "gui.opcodeLabels.date": "تاریخ",
+    "gui.opcodeLabels.dayofweek": "روز هفته",
+    "gui.opcodeLabels.hour": "ساعت",
+    "gui.opcodeLabels.minute": "دقیقه",
+    "gui.opcodeLabels.second": "ثانیه",
+    "gui.opcodeLabels.timer": "زمان سنج",
+    "gui.sharedMessages.backdrop": "پس زمینه ی {index}",
+    "gui.sharedMessages.costume": "لباس {index}",
+    "gui.sharedMessages.sprite": "شکلک {index}",
+    "gui.sharedMessages.pop": "ترکاندن"
 }

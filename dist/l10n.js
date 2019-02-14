@@ -87,6 +87,30 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/react-intl/locale-data/am.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-intl/locale-data/am.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,t){ true?module.exports=t():undefined}(this,function(){"use strict";return[{locale:"am",pluralRuleFunction:function(e,t){return t?"other":e>=0&&e<=1?"one":"other"},fields:{year:{displayName:"ዓመት",relative:{0:"በዚህ ዓመት",1:"የሚቀጥለው ዓመት","-1":"ያለፈው ዓመት"},relativeTime:{future:{one:"በ{0} ዓመታት ውስጥ",other:"በ{0} ዓመታት ውስጥ"},past:{one:"ከ{0} ዓመት በፊት",other:"ከ{0} ዓመታት በፊት"}}},month:{displayName:"ወር",relative:{0:"በዚህ ወር",1:"የሚቀጥለው ወር","-1":"ያለፈው ወር"},relativeTime:{future:{one:"በ{0} ወር ውስጥ",other:"በ{0} ወራት ውስጥ"},past:{one:"ከ{0} ወር በፊት",other:"ከ{0} ወራት በፊት"}}},day:{displayName:"ቀን",relative:{0:"ዛሬ",1:"ነገ",2:"ከነገ ወዲያ","-2":"ከትናንት ወዲያ","-1":"ትናንት"},relativeTime:{future:{one:"በ{0} ቀን ውስጥ",other:"በ{0} ቀናት ውስጥ"},past:{one:"ከ{0} ቀን በፊት",other:"ከ{0} ቀናት በፊት"}}},hour:{displayName:"ሰዓት",relative:{0:"ይህ ሰዓት"},relativeTime:{future:{one:"በ{0} ሰዓት ውስጥ",other:"በ{0} ሰዓቶች ውስጥ"},past:{one:"ከ{0} ሰዓት በፊት",other:"ከ{0} ሰዓቶች በፊት"}}},minute:{displayName:"ደቂቃ",relative:{0:"ይህ ደቂቃ"},relativeTime:{future:{one:"በ{0} ደቂቃ ውስጥ",other:"በ{0} ደቂቃዎች ውስጥ"},past:{one:"ከ{0} ደቂቃ በፊት",other:"ከ{0} ደቂቃዎች በፊት"}}},second:{displayName:"ሰከንድ",relative:{0:"አሁን"},relativeTime:{future:{one:"በ{0} ሰከንድ ውስጥ",other:"በ{0} ሰከንዶች ውስጥ"},past:{one:"ከ{0} ሰከንድ በፊት",other:"ከ{0} ሰከንዶች በፊት"}}}}}]});
+
+
+/***/ }),
+
+/***/ "./node_modules/react-intl/locale-data/ar.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-intl/locale-data/ar.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,a){ true?module.exports=a():undefined}(this,function(){"use strict";return[{locale:"ar",pluralRuleFunction:function(e,a){var r=String(e).split("."),o=Number(r[0])==e&&r[0].slice(-2);return a?"other":0==e?"zero":1==e?"one":2==e?"two":o>=3&&o<=10?"few":o>=11&&o<=99?"many":"other"},fields:{year:{displayName:"السنة",relative:{0:"السنة الحالية",1:"السنة القادمة","-1":"السنة الماضية"},relativeTime:{future:{zero:"خلال {0} سنة",one:"خلال سنة واحدة",two:"خلال سنتين",few:"خلال {0} سنوات",many:"خلال {0} سنة",other:"خلال {0} سنة"},past:{zero:"قبل {0} سنة",one:"قبل سنة واحدة",two:"قبل سنتين",few:"قبل {0} سنوات",many:"قبل {0} سنة",other:"قبل {0} سنة"}}},month:{displayName:"الشهر",relative:{0:"هذا الشهر",1:"الشهر القادم","-1":"الشهر الماضي"},relativeTime:{future:{zero:"خلال {0} شهر",one:"خلال شهر واحد",two:"خلال شهرين",few:"خلال {0} أشهر",many:"خلال {0} شهرًا",other:"خلال {0} شهر"},past:{zero:"قبل {0} شهر",one:"قبل شهر واحد",two:"قبل شهرين",few:"قبل {0} أشهر",many:"قبل {0} شهرًا",other:"قبل {0} شهر"}}},day:{displayName:"يوم",relative:{0:"اليوم",1:"غدًا",2:"بعد الغد","-2":"أول أمس","-1":"أمس"},relativeTime:{future:{zero:"خلال {0} يوم",one:"خلال يوم واحد",two:"خلال يومين",few:"خلال {0} أيام",many:"خلال {0} يومًا",other:"خلال {0} يوم"},past:{zero:"قبل {0} يوم",one:"قبل يوم واحد",two:"قبل يومين",few:"قبل {0} أيام",many:"قبل {0} يومًا",other:"قبل {0} يوم"}}},hour:{displayName:"الساعات",relative:{0:"الساعة الحالية"},relativeTime:{future:{zero:"خلال {0} ساعة",one:"خلال ساعة واحدة",two:"خلال ساعتين",few:"خلال {0} ساعات",many:"خلال {0} ساعة",other:"خلال {0} ساعة"},past:{zero:"قبل {0} ساعة",one:"قبل ساعة واحدة",two:"قبل ساعتين",few:"قبل {0} ساعات",many:"قبل {0} ساعة",other:"قبل {0} ساعة"}}},minute:{displayName:"الدقائق",relative:{0:"هذه الدقيقة"},relativeTime:{future:{zero:"خلال {0} دقيقة",one:"خلال دقيقة واحدة",two:"خلال دقيقتين",few:"خلال {0} دقائق",many:"خلال {0} دقيقة",other:"خلال {0} دقيقة"},past:{zero:"قبل {0} دقيقة",one:"قبل دقيقة واحدة",two:"قبل دقيقتين",few:"قبل {0} دقائق",many:"قبل {0} دقيقة",other:"قبل {0} دقيقة"}}},second:{displayName:"الثواني",relative:{0:"الآن"},relativeTime:{future:{zero:"خلال {0} ثانية",one:"خلال ثانية واحدة",two:"خلال ثانيتين",few:"خلال {0} ثوانٍ",many:"خلال {0} ثانية",other:"خلال {0} ثانية"},past:{zero:"قبل {0} ثانية",one:"قبل ثانية واحدة",two:"قبل ثانيتين",few:"قبل {0} ثوانِ",many:"قبل {0} ثانية",other:"قبل {0} ثانية"}}}}},{locale:"ar-AE",parentLocale:"ar",fields:{year:{displayName:"السنة",relative:{0:"هذه السنة",1:"السنة التالية","-1":"السنة الماضية"},relativeTime:{future:{zero:"خلال {0} سنة",one:"خلال سنة واحدة",two:"خلال سنتين",few:"خلال {0} سنوات",many:"خلال {0} سنة",other:"خلال {0} سنة"},past:{zero:"قبل {0} سنة",one:"قبل سنة واحدة",two:"قبل سنتين",few:"قبل {0} سنوات",many:"قبل {0} سنة",other:"قبل {0} سنة"}}},month:{displayName:"الشهر",relative:{0:"هذا الشهر",1:"الشهر القادم","-1":"الشهر الماضي"},relativeTime:{future:{zero:"خلال {0} شهر",one:"خلال شهر واحد",two:"خلال شهرين",few:"خلال {0} أشهر",many:"خلال {0} شهرًا",other:"خلال {0} شهر"},past:{zero:"قبل {0} شهر",one:"قبل شهر واحد",two:"قبل شهرين",few:"قبل {0} أشهر",many:"قبل {0} شهرًا",other:"قبل {0} شهر"}}},day:{displayName:"يوم",relative:{0:"اليوم",1:"غدًا",2:"بعد الغد","-2":"أول أمس","-1":"أمس"},relativeTime:{future:{zero:"خلال {0} يوم",one:"خلال يوم واحد",two:"خلال يومين",few:"خلال {0} أيام",many:"خلال {0} يومًا",other:"خلال {0} يوم"},past:{zero:"قبل {0} يوم",one:"قبل يوم واحد",two:"قبل يومين",few:"قبل {0} أيام",many:"قبل {0} يومًا",other:"قبل {0} يوم"}}},hour:{displayName:"الساعات",relative:{0:"الساعة الحالية"},relativeTime:{future:{zero:"خلال {0} ساعة",one:"خلال ساعة واحدة",two:"خلال ساعتين",few:"خلال {0} ساعات",many:"خلال {0} ساعة",other:"خلال {0} ساعة"},past:{zero:"قبل {0} ساعة",one:"قبل ساعة واحدة",two:"قبل ساعتين",few:"قبل {0} ساعات",many:"قبل {0} ساعة",other:"قبل {0} ساعة"}}},minute:{displayName:"الدقائق",relative:{0:"هذه الدقيقة"},relativeTime:{future:{zero:"خلال {0} دقيقة",one:"خلال دقيقة واحدة",two:"خلال دقيقتين",few:"خلال {0} دقائق",many:"خلال {0} دقيقة",other:"خلال {0} دقيقة"},past:{zero:"قبل {0} دقيقة",one:"قبل دقيقة واحدة",two:"قبل دقيقتين",few:"قبل {0} دقائق",many:"قبل {0} دقيقة",other:"قبل {0} دقيقة"}}},second:{displayName:"الثواني",relative:{0:"الآن"},relativeTime:{future:{zero:"خلال {0} ثانية",one:"خلال ثانية واحدة",two:"خلال ثانيتين",few:"خلال {0} ثوانٍ",many:"خلال {0} ثانية",other:"خلال {0} ثانية"},past:{zero:"قبل {0} ثانية",one:"قبل ثانية واحدة",two:"قبل ثانيتين",few:"قبل {0} ثوانِ",many:"قبل {0} ثانية",other:"قبل {0} ثانية"}}}}},{locale:"ar-BH",parentLocale:"ar"},{locale:"ar-DJ",parentLocale:"ar"},{locale:"ar-DZ",parentLocale:"ar"},{locale:"ar-EG",parentLocale:"ar"},{locale:"ar-EH",parentLocale:"ar"},{locale:"ar-ER",parentLocale:"ar"},{locale:"ar-IL",parentLocale:"ar"},{locale:"ar-IQ",parentLocale:"ar"},{locale:"ar-JO",parentLocale:"ar"},{locale:"ar-KM",parentLocale:"ar"},{locale:"ar-KW",parentLocale:"ar"},{locale:"ar-LB",parentLocale:"ar"},{locale:"ar-LY",parentLocale:"ar"},{locale:"ar-MA",parentLocale:"ar"},{locale:"ar-MR",parentLocale:"ar"},{locale:"ar-OM",parentLocale:"ar"},{locale:"ar-PS",parentLocale:"ar"},{locale:"ar-QA",parentLocale:"ar"},{locale:"ar-SA",parentLocale:"ar"},{locale:"ar-SD",parentLocale:"ar"},{locale:"ar-SO",parentLocale:"ar"},{locale:"ar-SS",parentLocale:"ar"},{locale:"ar-SY",parentLocale:"ar"},{locale:"ar-TD",parentLocale:"ar"},{locale:"ar-TN",parentLocale:"ar"},{locale:"ar-YE",parentLocale:"ar"}]});
+
+
+/***/ }),
+
 /***/ "./node_modules/react-intl/locale-data/az.js":
 /*!***************************************************!*\
   !*** ./node_modules/react-intl/locale-data/az.js ***!
@@ -99,6 +123,18 @@ module.exports =
 
 /***/ }),
 
+/***/ "./node_modules/react-intl/locale-data/bg.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-intl/locale-data/bg.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,t){ true?module.exports=t():undefined}(this,function(){"use strict";return[{locale:"bg",pluralRuleFunction:function(e,t){return t?"other":1==e?"one":"other"},fields:{year:{displayName:"година",relative:{0:"тази година",1:"следващата година","-1":"миналата година"},relativeTime:{future:{one:"след {0} година",other:"след {0} години"},past:{one:"преди {0} година",other:"преди {0} години"}}},month:{displayName:"месец",relative:{0:"този месец",1:"следващ месец","-1":"предходен месец"},relativeTime:{future:{one:"след {0} месец",other:"след {0} месеца"},past:{one:"преди {0} месец",other:"преди {0} месеца"}}},day:{displayName:"ден",relative:{0:"днес",1:"утре",2:"вдругиден","-2":"онзи ден","-1":"вчера"},relativeTime:{future:{one:"след {0} ден",other:"след {0} дни"},past:{one:"преди {0} ден",other:"преди {0} дни"}}},hour:{displayName:"час",relative:{0:"в този час"},relativeTime:{future:{one:"след {0} час",other:"след {0} часа"},past:{one:"преди {0} час",other:"преди {0} часа"}}},minute:{displayName:"минута",relative:{0:"в тази минута"},relativeTime:{future:{one:"след {0} минута",other:"след {0} минути"},past:{one:"преди {0} минута",other:"преди {0} минути"}}},second:{displayName:"секунда",relative:{0:"сега"},relativeTime:{future:{one:"след {0} секунда",other:"след {0} секунди"},past:{one:"преди {0} секунда",other:"преди {0} секунди"}}}}}]});
+
+
+/***/ }),
+
 /***/ "./node_modules/react-intl/locale-data/ca.js":
 /*!***************************************************!*\
   !*** ./node_modules/react-intl/locale-data/ca.js ***!
@@ -107,6 +143,18 @@ module.exports =
 /***/ (function(module, exports, __webpack_require__) {
 
 !function(e,a){ true?module.exports=a():undefined}(this,function(){"use strict";return[{locale:"ca",pluralRuleFunction:function(e,a){var t=!String(e).split(".")[1];return a?1==e||3==e?"one":2==e?"two":4==e?"few":"other":1==e&&t?"one":"other"},fields:{year:{displayName:"any",relative:{0:"enguany",1:"l’any que ve","-1":"l’any passat"},relativeTime:{future:{one:"d’aquí a {0} any",other:"d’aquí a {0} anys"},past:{one:"fa {0} any",other:"fa {0} anys"}}},month:{displayName:"mes",relative:{0:"aquest mes",1:"el mes que ve","-1":"el mes passat"},relativeTime:{future:{one:"d’aquí a {0} mes",other:"d’aquí a {0} mesos"},past:{one:"fa {0} mes",other:"fa {0} mesos"}}},day:{displayName:"dia",relative:{0:"avui",1:"demà",2:"demà passat","-2":"abans-d’ahir","-1":"ahir"},relativeTime:{future:{one:"d’aquí a {0} dia",other:"d’aquí a {0} dies"},past:{one:"fa {0} dia",other:"fa {0} dies"}}},hour:{displayName:"hora",relative:{0:"aquesta hora"},relativeTime:{future:{one:"d’aquí a {0} hora",other:"d’aquí a {0} hores"},past:{one:"fa {0} hora",other:"fa {0} hores"}}},minute:{displayName:"minut",relative:{0:"aquest minut"},relativeTime:{future:{one:"d’aquí a {0} minut",other:"d’aquí a {0} minuts"},past:{one:"fa {0} minut",other:"fa {0} minuts"}}},second:{displayName:"segon",relative:{0:"ara"},relativeTime:{future:{one:"d’aquí a {0} segon",other:"d’aquí a {0} segons"},past:{one:"fa {0} segon",other:"fa {0} segons"}}}}},{locale:"ca-AD",parentLocale:"ca"},{locale:"ca-ES-VALENCIA",parentLocale:"ca-ES",fields:{year:{displayName:"any",relative:{0:"enguany",1:"l’any que ve","-1":"l’any passat"},relativeTime:{future:{one:"d’aquí a {0} any",other:"d’aquí a {0} anys"},past:{one:"fa {0} any",other:"fa {0} anys"}}},month:{displayName:"mes",relative:{0:"aquest mes",1:"el mes que ve","-1":"el mes passat"},relativeTime:{future:{one:"d’aquí a {0} mes",other:"d’aquí a {0} mesos"},past:{one:"fa {0} mes",other:"fa {0} mesos"}}},day:{displayName:"dia",relative:{0:"avui",1:"demà",2:"demà passat","-2":"abans-d’ahir","-1":"ahir"},relativeTime:{future:{one:"d’aquí a {0} dia",other:"d’aquí a {0} dies"},past:{one:"fa {0} dia",other:"fa {0} dies"}}},hour:{displayName:"hora",relative:{0:"aquesta hora"},relativeTime:{future:{one:"d’aquí a {0} hora",other:"d’aquí a {0} hores"},past:{one:"fa {0} hora",other:"fa {0} hores"}}},minute:{displayName:"minut",relative:{0:"aquest minut"},relativeTime:{future:{one:"d’aquí a {0} minut",other:"d’aquí a {0} minuts"},past:{one:"fa {0} minut",other:"fa {0} minuts"}}},second:{displayName:"segon",relative:{0:"ara"},relativeTime:{future:{one:"d’aquí a {0} segon",other:"d’aquí a {0} segons"},past:{one:"fa {0} segon",other:"fa {0} segons"}}}}},{locale:"ca-ES",parentLocale:"ca"},{locale:"ca-FR",parentLocale:"ca"},{locale:"ca-IT",parentLocale:"ca"}]});
+
+
+/***/ }),
+
+/***/ "./node_modules/react-intl/locale-data/ckb.js":
+/*!****************************************************!*\
+  !*** ./node_modules/react-intl/locale-data/ckb.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,t){ true?module.exports=t():undefined}(this,function(){"use strict";return[{locale:"ckb",pluralRuleFunction:function(e,t){return t?"other":1==e?"one":"other"},fields:{year:{displayName:"Year",relative:{0:"this year",1:"next year","-1":"last year"},relativeTime:{future:{other:"+{0} y"},past:{other:"-{0} y"}}},month:{displayName:"Month",relative:{0:"this month",1:"next month","-1":"last month"},relativeTime:{future:{other:"+{0} m"},past:{other:"-{0} m"}}},day:{displayName:"Day",relative:{0:"today",1:"tomorrow","-1":"yesterday"},relativeTime:{future:{other:"+{0} d"},past:{other:"-{0} d"}}},hour:{displayName:"Hour",relative:{0:"this hour"},relativeTime:{future:{other:"+{0} h"},past:{other:"-{0} h"}}},minute:{displayName:"Minute",relative:{0:"this minute"},relativeTime:{future:{other:"+{0} min"},past:{other:"-{0} min"}}},second:{displayName:"Second",relative:{0:"now"},relativeTime:{future:{other:"+{0} s"},past:{other:"-{0} s"}}}}},{locale:"ckb-IR",parentLocale:"ckb"}]});
 
 
 /***/ }),
@@ -207,6 +255,30 @@ module.exports =
 
 /***/ }),
 
+/***/ "./node_modules/react-intl/locale-data/eu.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-intl/locale-data/eu.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,a){ true?module.exports=a():undefined}(this,function(){"use strict";return[{locale:"eu",pluralRuleFunction:function(e,a){return a?"other":1==e?"one":"other"},fields:{year:{displayName:"urtea",relative:{0:"aurten",1:"hurrengo urtea","-1":"aurreko urtea"},relativeTime:{future:{one:"{0} urte barru",other:"{0} urte barru"},past:{one:"Duela {0} urte",other:"Duela {0} urte"}}},month:{displayName:"hilabetea",relative:{0:"hilabete hau",1:"hurrengo hilabetea","-1":"aurreko hilabetea"},relativeTime:{future:{one:"{0} hilabete barru",other:"{0} hilabete barru"},past:{one:"Duela {0} hilabete",other:"Duela {0} hilabete"}}},day:{displayName:"eguna",relative:{0:"gaur",1:"bihar",2:"etzi","-2":"herenegun","-1":"atzo"},relativeTime:{future:{one:"{0} egun barru",other:"{0} egun barru"},past:{one:"Duela {0} egun",other:"Duela {0} egun"}}},hour:{displayName:"ordua",relative:{0:"ordu honetan"},relativeTime:{future:{one:"{0} ordu barru",other:"{0} ordu barru"},past:{one:"Duela {0} ordu",other:"Duela {0} ordu"}}},minute:{displayName:"minutua",relative:{0:"minutu honetan"},relativeTime:{future:{one:"{0} minutu barru",other:"{0} minutu barru"},past:{one:"Duela {0} minutu",other:"Duela {0} minutu"}}},second:{displayName:"segundoa",relative:{0:"orain"},relativeTime:{future:{one:"{0} segundo barru",other:"{0} segundo barru"},past:{one:"Duela {0} segundo",other:"Duela {0} segundo"}}}}}]});
+
+
+/***/ }),
+
+/***/ "./node_modules/react-intl/locale-data/fa.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-intl/locale-data/fa.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,t){ true?module.exports=t():undefined}(this,function(){"use strict";return[{locale:"fa",pluralRuleFunction:function(e,t){return t?"other":e>=0&&e<=1?"one":"other"},fields:{year:{displayName:"سال",relative:{0:"امسال",1:"سال آینده","-1":"سال گذشته"},relativeTime:{future:{one:"{0} سال بعد",other:"{0} سال بعد"},past:{one:"{0} سال پیش",other:"{0} سال پیش"}}},month:{displayName:"ماه",relative:{0:"این ماه",1:"ماه آینده","-1":"ماه گذشته"},relativeTime:{future:{one:"{0} ماه بعد",other:"{0} ماه بعد"},past:{one:"{0} ماه پیش",other:"{0} ماه پیش"}}},day:{displayName:"روز",relative:{0:"امروز",1:"فردا",2:"پس‌فردا","-2":"پریروز","-1":"دیروز"},relativeTime:{future:{one:"{0} روز بعد",other:"{0} روز بعد"},past:{one:"{0} روز پیش",other:"{0} روز پیش"}}},hour:{displayName:"ساعت",relative:{0:"همین ساعت"},relativeTime:{future:{one:"{0} ساعت بعد",other:"{0} ساعت بعد"},past:{one:"{0} ساعت پیش",other:"{0} ساعت پیش"}}},minute:{displayName:"دقیقه",relative:{0:"همین دقیقه"},relativeTime:{future:{one:"{0} دقیقه بعد",other:"{0} دقیقه بعد"},past:{one:"{0} دقیقه پیش",other:"{0} دقیقه پیش"}}},second:{displayName:"ثانیه",relative:{0:"اکنون"},relativeTime:{future:{one:"{0} ثانیه بعد",other:"{0} ثانیه بعد"},past:{one:"{0} ثانیه پیش",other:"{0} ثانیه پیش"}}}}},{locale:"fa-AF",parentLocale:"fa"}]});
+
+
+/***/ }),
+
 /***/ "./node_modules/react-intl/locale-data/fi.js":
 /*!***************************************************!*\
   !*** ./node_modules/react-intl/locale-data/fi.js ***!
@@ -275,6 +347,18 @@ module.exports =
 /***/ (function(module, exports, __webpack_require__) {
 
 !function(e,t){ true?module.exports=t():undefined}(this,function(){"use strict";return[{locale:"he",pluralRuleFunction:function(e,t){var a=String(e).split("."),o=a[0],n=!a[1],r=Number(a[0])==e,i=r&&a[0].slice(-1);return t?"other":1==e&&n?"one":2==o&&n?"two":n&&(e<0||e>10)&&r&&0==i?"many":"other"},fields:{year:{displayName:"שנה",relative:{0:"השנה",1:"השנה הבאה","-1":"השנה שעברה"},relativeTime:{future:{one:"בעוד שנה",two:"בעוד שנתיים",many:"בעוד {0} שנה",other:"בעוד {0} שנים"},past:{one:"לפני שנה",two:"לפני שנתיים",many:"לפני {0} שנה",other:"לפני {0} שנים"}}},month:{displayName:"חודש",relative:{0:"החודש",1:"החודש הבא","-1":"החודש שעבר"},relativeTime:{future:{one:"בעוד חודש",two:"בעוד חודשיים",many:"בעוד {0} חודשים",other:"בעוד {0} חודשים"},past:{one:"לפני חודש",two:"לפני חודשיים",many:"לפני {0} חודשים",other:"לפני {0} חודשים"}}},day:{displayName:"יום",relative:{0:"היום",1:"מחר",2:"מחרתיים","-2":"שלשום","-1":"אתמול"},relativeTime:{future:{one:"בעוד יום {0}",two:"בעוד יומיים",many:"בעוד {0} ימים",other:"בעוד {0} ימים"},past:{one:"לפני יום {0}",two:"לפני יומיים",many:"לפני {0} ימים",other:"לפני {0} ימים"}}},hour:{displayName:"שעה",relative:{0:"בשעה זו"},relativeTime:{future:{one:"בעוד שעה",two:"בעוד שעתיים",many:"בעוד {0} שעות",other:"בעוד {0} שעות"},past:{one:"לפני שעה",two:"לפני שעתיים",many:"לפני {0} שעות",other:"לפני {0} שעות"}}},minute:{displayName:"דקה",relative:{0:"בדקה זו"},relativeTime:{future:{one:"בעוד דקה",two:"בעוד שתי דקות",many:"בעוד {0} דקות",other:"בעוד {0} דקות"},past:{one:"לפני דקה",two:"לפני שתי דקות",many:"לפני {0} דקות",other:"לפני {0} דקות"}}},second:{displayName:"שנייה",relative:{0:"עכשיו"},relativeTime:{future:{one:"בעוד שנייה",two:"בעוד שתי שניות",many:"בעוד {0} שניות",other:"בעוד {0} שניות"},past:{one:"לפני שנייה",two:"לפני שתי שניות",many:"לפני {0} שניות",other:"לפני {0} שניות"}}}}}]});
+
+
+/***/ }),
+
+/***/ "./node_modules/react-intl/locale-data/hr.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-intl/locale-data/hr.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,a){ true?module.exports=a():undefined}(this,function(){"use strict";return[{locale:"hr",pluralRuleFunction:function(e,a){var i=String(e).split("."),t=i[0],r=i[1]||"",n=!i[1],o=t.slice(-1),s=t.slice(-2),u=r.slice(-1),d=r.slice(-2);return a?"other":n&&1==o&&11!=s||1==u&&11!=d?"one":n&&o>=2&&o<=4&&(s<12||s>14)||u>=2&&u<=4&&(d<12||d>14)?"few":"other"},fields:{year:{displayName:"godina",relative:{0:"ove godine",1:"sljedeće godine","-1":"prošle godine"},relativeTime:{future:{one:"za {0} godinu",few:"za {0} godine",other:"za {0} godina"},past:{one:"prije {0} godinu",few:"prije {0} godine",other:"prije {0} godina"}}},month:{displayName:"mjesec",relative:{0:"ovaj mjesec",1:"sljedeći mjesec","-1":"prošli mjesec"},relativeTime:{future:{one:"za {0} mjesec",few:"za {0} mjeseca",other:"za {0} mjeseci"},past:{one:"prije {0} mjesec",few:"prije {0} mjeseca",other:"prije {0} mjeseci"}}},day:{displayName:"dan",relative:{0:"danas",1:"sutra",2:"prekosutra","-2":"prekjučer","-1":"jučer"},relativeTime:{future:{one:"za {0} dan",few:"za {0} dana",other:"za {0} dana"},past:{one:"prije {0} dan",few:"prije {0} dana",other:"prije {0} dana"}}},hour:{displayName:"sat",relative:{0:"ovaj sat"},relativeTime:{future:{one:"za {0} sat",few:"za {0} sata",other:"za {0} sati"},past:{one:"prije {0} sat",few:"prije {0} sata",other:"prije {0} sati"}}},minute:{displayName:"minuta",relative:{0:"ova minuta"},relativeTime:{future:{one:"za {0} minutu",few:"za {0} minute",other:"za {0} minuta"},past:{one:"prije {0} minutu",few:"prije {0} minute",other:"prije {0} minuta"}}},second:{displayName:"sekunda",relative:{0:"sad"},relativeTime:{future:{one:"za {0} sekundu",few:"za {0} sekunde",other:"za {0} sekundi"},past:{one:"prije {0} sekundu",few:"prije {0} sekunde",other:"prije {0} sekundi"}}}}},{locale:"hr-BA",parentLocale:"hr"}]});
 
 
 /***/ }),
@@ -351,6 +435,30 @@ module.exports =
 
 /***/ }),
 
+/***/ "./node_modules/react-intl/locale-data/lt.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-intl/locale-data/lt.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,i){ true?module.exports=i():undefined}(this,function(){"use strict";return[{locale:"lt",pluralRuleFunction:function(e,i){var n=String(e).split("."),a=n[1]||"",t=Number(n[0])==e,o=t&&n[0].slice(-1),r=t&&n[0].slice(-2);return i?"other":1==o&&(r<11||r>19)?"one":o>=2&&o<=9&&(r<11||r>19)?"few":0!=a?"many":"other"},fields:{year:{displayName:"metai",relative:{0:"šiais metais",1:"kitais metais","-1":"praėjusiais metais"},relativeTime:{future:{one:"po {0} metų",few:"po {0} metų",many:"po {0} metų",other:"po {0} metų"},past:{one:"prieš {0} metus",few:"prieš {0} metus",many:"prieš {0} metų",other:"prieš {0} metų"}}},month:{displayName:"mėnuo",relative:{0:"šį mėnesį",1:"kitą mėnesį","-1":"praėjusį mėnesį"},relativeTime:{future:{one:"po {0} mėnesio",few:"po {0} mėnesių",many:"po {0} mėnesio",other:"po {0} mėnesių"},past:{one:"prieš {0} mėnesį",few:"prieš {0} mėnesius",many:"prieš {0} mėnesio",other:"prieš {0} mėnesių"}}},day:{displayName:"diena",relative:{0:"šiandien",1:"rytoj",2:"poryt","-2":"užvakar","-1":"vakar"},relativeTime:{future:{one:"po {0} dienos",few:"po {0} dienų",many:"po {0} dienos",other:"po {0} dienų"},past:{one:"prieš {0} dieną",few:"prieš {0} dienas",many:"prieš {0} dienos",other:"prieš {0} dienų"}}},hour:{displayName:"valanda",relative:{0:"šią valandą"},relativeTime:{future:{one:"po {0} valandos",few:"po {0} valandų",many:"po {0} valandos",other:"po {0} valandų"},past:{one:"prieš {0} valandą",few:"prieš {0} valandas",many:"prieš {0} valandos",other:"prieš {0} valandų"}}},minute:{displayName:"minutė",relative:{0:"šią minutę"},relativeTime:{future:{one:"po {0} minutės",few:"po {0} minučių",many:"po {0} minutės",other:"po {0} minučių"},past:{one:"prieš {0} minutę",few:"prieš {0} minutes",many:"prieš {0} minutės",other:"prieš {0} minučių"}}},second:{displayName:"sekundė",relative:{0:"dabar"},relativeTime:{future:{one:"po {0} sekundės",few:"po {0} sekundžių",many:"po {0} sekundės",other:"po {0} sekundžių"},past:{one:"prieš {0} sekundę",few:"prieš {0} sekundes",many:"prieš {0} sekundės",other:"prieš {0} sekundžių"}}}}}]});
+
+
+/***/ }),
+
+/***/ "./node_modules/react-intl/locale-data/lv.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-intl/locale-data/lv.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,a){ true?module.exports=a():undefined}(this,function(){"use strict";return[{locale:"lv",pluralRuleFunction:function(e,a){var i=String(e).split("."),t=i[1]||"",n=t.length,m=Number(i[0])==e,r=m&&i[0].slice(-1),s=m&&i[0].slice(-2),o=t.slice(-2),p=t.slice(-1);return a?"other":m&&0==r||s>=11&&s<=19||2==n&&o>=11&&o<=19?"zero":1==r&&11!=s||2==n&&1==p&&11!=o||2!=n&&1==p?"one":"other"},fields:{year:{displayName:"gads",relative:{0:"šajā gadā",1:"nākamajā gadā","-1":"pagājušajā gadā"},relativeTime:{future:{zero:"pēc {0} gadiem",one:"pēc {0} gada",other:"pēc {0} gadiem"},past:{zero:"pirms {0} gadiem",one:"pirms {0} gada",other:"pirms {0} gadiem"}}},month:{displayName:"mēnesis",relative:{0:"šajā mēnesī",1:"nākamajā mēnesī","-1":"pagājušajā mēnesī"},relativeTime:{future:{zero:"pēc {0} mēnešiem",one:"pēc {0} mēneša",other:"pēc {0} mēnešiem"},past:{zero:"pirms {0} mēnešiem",one:"pirms {0} mēneša",other:"pirms {0} mēnešiem"}}},day:{displayName:"diena",relative:{0:"šodien",1:"rīt",2:"parīt","-2":"aizvakar","-1":"vakar"},relativeTime:{future:{zero:"pēc {0} dienām",one:"pēc {0} dienas",other:"pēc {0} dienām"},past:{zero:"pirms {0} dienām",one:"pirms {0} dienas",other:"pirms {0} dienām"}}},hour:{displayName:"stundas",relative:{0:"šajā stundā"},relativeTime:{future:{zero:"pēc {0} stundām",one:"pēc {0} stundas",other:"pēc {0} stundām"},past:{zero:"pirms {0} stundām",one:"pirms {0} stundas",other:"pirms {0} stundām"}}},minute:{displayName:"minūtes",relative:{0:"šajā minūtē"},relativeTime:{future:{zero:"pēc {0} minūtēm",one:"pēc {0} minūtes",other:"pēc {0} minūtēm"},past:{zero:"pirms {0} minūtēm",one:"pirms {0} minūtes",other:"pirms {0} minūtēm"}}},second:{displayName:"sekundes",relative:{0:"tagad"},relativeTime:{future:{zero:"pēc {0} sekundēm",one:"pēc {0} sekundes",other:"pēc {0} sekundēm"},past:{zero:"pirms {0} sekundēm",one:"pirms {0} sekundes",other:"pirms {0} sekundēm"}}}}}]});
+
+
+/***/ }),
+
 /***/ "./node_modules/react-intl/locale-data/nb.js":
 /*!***************************************************!*\
   !*** ./node_modules/react-intl/locale-data/nb.js ***!
@@ -407,6 +515,18 @@ module.exports =
 /***/ (function(module, exports, __webpack_require__) {
 
 !function(e,t){ true?module.exports=t():undefined}(this,function(){"use strict";return[{locale:"pt",pluralRuleFunction:function(e,t){var o=String(e).split(".")[0];return t?"other":0==o||1==o?"one":"other"},fields:{year:{displayName:"ano",relative:{0:"este ano",1:"próximo ano","-1":"ano passado"},relativeTime:{future:{one:"em {0} ano",other:"em {0} anos"},past:{one:"há {0} ano",other:"há {0} anos"}}},month:{displayName:"mês",relative:{0:"este mês",1:"próximo mês","-1":"mês passado"},relativeTime:{future:{one:"em {0} mês",other:"em {0} meses"},past:{one:"há {0} mês",other:"há {0} meses"}}},day:{displayName:"dia",relative:{0:"hoje",1:"amanhã",2:"depois de amanhã","-2":"anteontem","-1":"ontem"},relativeTime:{future:{one:"em {0} dia",other:"em {0} dias"},past:{one:"há {0} dia",other:"há {0} dias"}}},hour:{displayName:"hora",relative:{0:"esta hora"},relativeTime:{future:{one:"em {0} hora",other:"em {0} horas"},past:{one:"há {0} hora",other:"há {0} horas"}}},minute:{displayName:"minuto",relative:{0:"este minuto"},relativeTime:{future:{one:"em {0} minuto",other:"em {0} minutos"},past:{one:"há {0} minuto",other:"há {0} minutos"}}},second:{displayName:"segundo",relative:{0:"agora"},relativeTime:{future:{one:"em {0} segundo",other:"em {0} segundos"},past:{one:"há {0} segundo",other:"há {0} segundos"}}}}},{locale:"pt-AO",parentLocale:"pt-PT"},{locale:"pt-PT",parentLocale:"pt",fields:{year:{displayName:"ano",relative:{0:"este ano",1:"próximo ano","-1":"ano passado"},relativeTime:{future:{one:"dentro de {0} ano",other:"dentro de {0} anos"},past:{one:"há {0} ano",other:"há {0} anos"}}},month:{displayName:"mês",relative:{0:"este mês",1:"próximo mês","-1":"mês passado"},relativeTime:{future:{one:"dentro de {0} mês",other:"dentro de {0} meses"},past:{one:"há {0} mês",other:"há {0} meses"}}},day:{displayName:"dia",relative:{0:"hoje",1:"amanhã",2:"depois de amanhã","-2":"anteontem","-1":"ontem"},relativeTime:{future:{one:"dentro de {0} dia",other:"dentro de {0} dias"},past:{one:"há {0} dia",other:"há {0} dias"}}},hour:{displayName:"hora",relative:{0:"esta hora"},relativeTime:{future:{one:"dentro de {0} hora",other:"dentro de {0} horas"},past:{one:"há {0} hora",other:"há {0} horas"}}},minute:{displayName:"minuto",relative:{0:"este minuto"},relativeTime:{future:{one:"dentro de {0} minuto",other:"dentro de {0} minutos"},past:{one:"há {0} minuto",other:"há {0} minutos"}}},second:{displayName:"segundo",relative:{0:"agora"},relativeTime:{future:{one:"dentro de {0} segundo",other:"dentro de {0} segundos"},past:{one:"há {0} segundo",other:"há {0} segundos"}}}}},{locale:"pt-CH",parentLocale:"pt-PT"},{locale:"pt-CV",parentLocale:"pt-PT"},{locale:"pt-GQ",parentLocale:"pt-PT"},{locale:"pt-GW",parentLocale:"pt-PT"},{locale:"pt-LU",parentLocale:"pt-PT"},{locale:"pt-MO",parentLocale:"pt-PT"},{locale:"pt-MZ",parentLocale:"pt-PT"},{locale:"pt-ST",parentLocale:"pt-PT"},{locale:"pt-TL",parentLocale:"pt-PT"}]});
+
+
+/***/ }),
+
+/***/ "./node_modules/react-intl/locale-data/ro.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-intl/locale-data/ro.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,t){ true?module.exports=t():undefined}(this,function(){"use strict";return[{locale:"ro",pluralRuleFunction:function(e,t){var a=String(e).split("."),u=!a[1],n=Number(a[0])==e&&a[0].slice(-2);return t?1==e?"one":"other":1==e&&u?"one":!u||0==e||1!=e&&n>=1&&n<=19?"few":"other"},fields:{year:{displayName:"an",relative:{0:"anul acesta",1:"anul viitor","-1":"anul trecut"},relativeTime:{future:{one:"peste {0} an",few:"peste {0} ani",other:"peste {0} de ani"},past:{one:"acum {0} an",few:"acum {0} ani",other:"acum {0} de ani"}}},month:{displayName:"lună",relative:{0:"luna aceasta",1:"luna viitoare","-1":"luna trecută"},relativeTime:{future:{one:"peste {0} lună",few:"peste {0} luni",other:"peste {0} de luni"},past:{one:"acum {0} lună",few:"acum {0} luni",other:"acum {0} de luni"}}},day:{displayName:"zi",relative:{0:"azi",1:"mâine",2:"poimâine","-2":"alaltăieri","-1":"ieri"},relativeTime:{future:{one:"peste {0} zi",few:"peste {0} zile",other:"peste {0} de zile"},past:{one:"acum {0} zi",few:"acum {0} zile",other:"acum {0} de zile"}}},hour:{displayName:"oră",relative:{0:"ora aceasta"},relativeTime:{future:{one:"peste {0} oră",few:"peste {0} ore",other:"peste {0} de ore"},past:{one:"acum {0} oră",few:"acum {0} ore",other:"acum {0} de ore"}}},minute:{displayName:"minut",relative:{0:"minutul acesta"},relativeTime:{future:{one:"peste {0} minut",few:"peste {0} minute",other:"peste {0} de minute"},past:{one:"acum {0} minut",few:"acum {0} minute",other:"acum {0} de minute"}}},second:{displayName:"secundă",relative:{0:"acum"},relativeTime:{future:{one:"peste {0} secundă",few:"peste {0} secunde",other:"peste {0} de secunde"},past:{one:"acum {0} secundă",few:"acum {0} secunde",other:"acum {0} de secunde"}}}}},{locale:"ro-MD",parentLocale:"ro"}]});
 
 
 /***/ }),
@@ -531,174 +651,182 @@ module.exports =
 
 /***/ }),
 
+/***/ "./node_modules/react-intl/locale-data/zu.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-intl/locale-data/zu.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,a){ true?module.exports=a():undefined}(this,function(){"use strict";return[{locale:"zu",pluralRuleFunction:function(e,a){return a?"other":e>=0&&e<=1?"one":"other"},fields:{year:{displayName:"Unyaka",relative:{0:"kulo nyaka",1:"unyaka ozayo","-1":"onyakeni odlule"},relativeTime:{future:{one:"onyakeni ongu-{0} ozayo",other:"eminyakeni engu-{0} ezayo"},past:{one:"{0} unyaka odlule",other:"{0} iminyaka edlule"}}},month:{displayName:"Inyanga",relative:{0:"le nyanga",1:"inyanga ezayo","-1":"inyanga edlule"},relativeTime:{future:{one:"enyangeni engu-{0}",other:"ezinyangeni ezingu-{0} ezizayo"},past:{one:"{0} inyanga edlule",other:"{0} izinyanga ezedlule"}}},day:{displayName:"Usuku",relative:{0:"namhlanje",1:"kusasa",2:"usuku olulandela olwakusasa","-2":"usuku olwandulela olwayizolo","-1":"izolo"},relativeTime:{future:{one:"osukwini olungu-{0} oluzayo",other:"ezinsukwini ezingu-{0} ezizayo"},past:{one:"osukwini olungu-{0} olwedlule",other:"ezinsukwini ezingu-{0} ezedlule."}}},hour:{displayName:"Ihora",relative:{0:"leli hora"},relativeTime:{future:{one:"ehoreni elingu-{0} elizayo",other:"emahoreni angu-{0} ezayo"},past:{one:"{0} ihora eledlule",other:"emahoreni angu-{0} edlule"}}},minute:{displayName:"Iminithi",relative:{0:"leli minithi"},relativeTime:{future:{one:"kuminithi elingu-{0} elizayo",other:"kumaminithi angu-{0} ezayo"},past:{one:"{0} iminithi eledlule",other:"{0} amaminithi edlule"}}},second:{displayName:"Isekhondi",relative:{0:"manje"},relativeTime:{future:{one:"kusekhondi elingu-{0} elizayo",other:"kumasekhondi angu-{0} ezayo"},past:{one:"{0} isekhondi eledlule",other:"{0} amasekhondi edlule"}}}}}]});
+
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default, localeMap, isRtl, localeData */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "localeData", function() { return localeData; });
+/* harmony import */ var react_intl_locale_data_en__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-intl/locale-data/en */ "./node_modules/react-intl/locale-data/en.js");
+/* harmony import */ var react_intl_locale_data_en__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_en__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_intl_locale_data_am__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-intl/locale-data/am */ "./node_modules/react-intl/locale-data/am.js");
+/* harmony import */ var react_intl_locale_data_am__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_am__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_intl_locale_data_ar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-intl/locale-data/ar */ "./node_modules/react-intl/locale-data/ar.js");
+/* harmony import */ var react_intl_locale_data_ar__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_ar__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_intl_locale_data_az__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-intl/locale-data/az */ "./node_modules/react-intl/locale-data/az.js");
+/* harmony import */ var react_intl_locale_data_az__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_az__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_intl_locale_data_bg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-intl/locale-data/bg */ "./node_modules/react-intl/locale-data/bg.js");
+/* harmony import */ var react_intl_locale_data_bg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_bg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_intl_locale_data_ca__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-intl/locale-data/ca */ "./node_modules/react-intl/locale-data/ca.js");
+/* harmony import */ var react_intl_locale_data_ca__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_ca__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_intl_locale_data_ckb__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-intl/locale-data/ckb */ "./node_modules/react-intl/locale-data/ckb.js");
+/* harmony import */ var react_intl_locale_data_ckb__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_ckb__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_intl_locale_data_cs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-intl/locale-data/cs */ "./node_modules/react-intl/locale-data/cs.js");
+/* harmony import */ var react_intl_locale_data_cs__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_cs__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_intl_locale_data_cy__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-intl/locale-data/cy */ "./node_modules/react-intl/locale-data/cy.js");
+/* harmony import */ var react_intl_locale_data_cy__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_cy__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_intl_locale_data_da__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-intl/locale-data/da */ "./node_modules/react-intl/locale-data/da.js");
+/* harmony import */ var react_intl_locale_data_da__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_da__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var react_intl_locale_data_de__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-intl/locale-data/de */ "./node_modules/react-intl/locale-data/de.js");
+/* harmony import */ var react_intl_locale_data_de__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_de__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_intl_locale_data_el__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-intl/locale-data/el */ "./node_modules/react-intl/locale-data/el.js");
+/* harmony import */ var react_intl_locale_data_el__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_el__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var react_intl_locale_data_es__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-intl/locale-data/es */ "./node_modules/react-intl/locale-data/es.js");
+/* harmony import */ var react_intl_locale_data_es__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_es__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var react_intl_locale_data_et__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-intl/locale-data/et */ "./node_modules/react-intl/locale-data/et.js");
+/* harmony import */ var react_intl_locale_data_et__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_et__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react_intl_locale_data_eu__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-intl/locale-data/eu */ "./node_modules/react-intl/locale-data/eu.js");
+/* harmony import */ var react_intl_locale_data_eu__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_eu__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var react_intl_locale_data_fa__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-intl/locale-data/fa */ "./node_modules/react-intl/locale-data/fa.js");
+/* harmony import */ var react_intl_locale_data_fa__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_fa__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var react_intl_locale_data_fi__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-intl/locale-data/fi */ "./node_modules/react-intl/locale-data/fi.js");
+/* harmony import */ var react_intl_locale_data_fi__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_fi__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var react_intl_locale_data_fr__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-intl/locale-data/fr */ "./node_modules/react-intl/locale-data/fr.js");
+/* harmony import */ var react_intl_locale_data_fr__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_fr__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var react_intl_locale_data_ga__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-intl/locale-data/ga */ "./node_modules/react-intl/locale-data/ga.js");
+/* harmony import */ var react_intl_locale_data_ga__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_ga__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var react_intl_locale_data_gd__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-intl/locale-data/gd */ "./node_modules/react-intl/locale-data/gd.js");
+/* harmony import */ var react_intl_locale_data_gd__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_gd__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var react_intl_locale_data_gl__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! react-intl/locale-data/gl */ "./node_modules/react-intl/locale-data/gl.js");
+/* harmony import */ var react_intl_locale_data_gl__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_gl__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var react_intl_locale_data_he__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! react-intl/locale-data/he */ "./node_modules/react-intl/locale-data/he.js");
+/* harmony import */ var react_intl_locale_data_he__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_he__WEBPACK_IMPORTED_MODULE_21__);
+/* harmony import */ var react_intl_locale_data_hu__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! react-intl/locale-data/hu */ "./node_modules/react-intl/locale-data/hu.js");
+/* harmony import */ var react_intl_locale_data_hu__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_hu__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var react_intl_locale_data_hr__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! react-intl/locale-data/hr */ "./node_modules/react-intl/locale-data/hr.js");
+/* harmony import */ var react_intl_locale_data_hr__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_hr__WEBPACK_IMPORTED_MODULE_23__);
+/* harmony import */ var react_intl_locale_data_id__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! react-intl/locale-data/id */ "./node_modules/react-intl/locale-data/id.js");
+/* harmony import */ var react_intl_locale_data_id__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_id__WEBPACK_IMPORTED_MODULE_24__);
+/* harmony import */ var react_intl_locale_data_is__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! react-intl/locale-data/is */ "./node_modules/react-intl/locale-data/is.js");
+/* harmony import */ var react_intl_locale_data_is__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_is__WEBPACK_IMPORTED_MODULE_25__);
+/* harmony import */ var react_intl_locale_data_it__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! react-intl/locale-data/it */ "./node_modules/react-intl/locale-data/it.js");
+/* harmony import */ var react_intl_locale_data_it__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_it__WEBPACK_IMPORTED_MODULE_26__);
+/* harmony import */ var react_intl_locale_data_ja__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! react-intl/locale-data/ja */ "./node_modules/react-intl/locale-data/ja.js");
+/* harmony import */ var react_intl_locale_data_ja__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_ja__WEBPACK_IMPORTED_MODULE_27__);
+/* harmony import */ var react_intl_locale_data_ko__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! react-intl/locale-data/ko */ "./node_modules/react-intl/locale-data/ko.js");
+/* harmony import */ var react_intl_locale_data_ko__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_ko__WEBPACK_IMPORTED_MODULE_28__);
+/* harmony import */ var react_intl_locale_data_lt__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! react-intl/locale-data/lt */ "./node_modules/react-intl/locale-data/lt.js");
+/* harmony import */ var react_intl_locale_data_lt__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_lt__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var react_intl_locale_data_lv__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! react-intl/locale-data/lv */ "./node_modules/react-intl/locale-data/lv.js");
+/* harmony import */ var react_intl_locale_data_lv__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_lv__WEBPACK_IMPORTED_MODULE_30__);
+/* harmony import */ var react_intl_locale_data_nl__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! react-intl/locale-data/nl */ "./node_modules/react-intl/locale-data/nl.js");
+/* harmony import */ var react_intl_locale_data_nl__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_nl__WEBPACK_IMPORTED_MODULE_31__);
+/* harmony import */ var react_intl_locale_data_nb__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! react-intl/locale-data/nb */ "./node_modules/react-intl/locale-data/nb.js");
+/* harmony import */ var react_intl_locale_data_nb__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_nb__WEBPACK_IMPORTED_MODULE_32__);
+/* harmony import */ var react_intl_locale_data_nn__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! react-intl/locale-data/nn */ "./node_modules/react-intl/locale-data/nn.js");
+/* harmony import */ var react_intl_locale_data_nn__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_nn__WEBPACK_IMPORTED_MODULE_33__);
+/* harmony import */ var react_intl_locale_data_pl__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! react-intl/locale-data/pl */ "./node_modules/react-intl/locale-data/pl.js");
+/* harmony import */ var react_intl_locale_data_pl__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_pl__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var react_intl_locale_data_pt__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! react-intl/locale-data/pt */ "./node_modules/react-intl/locale-data/pt.js");
+/* harmony import */ var react_intl_locale_data_pt__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_pt__WEBPACK_IMPORTED_MODULE_35__);
+/* harmony import */ var react_intl_locale_data_ro__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! react-intl/locale-data/ro */ "./node_modules/react-intl/locale-data/ro.js");
+/* harmony import */ var react_intl_locale_data_ro__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_ro__WEBPACK_IMPORTED_MODULE_36__);
+/* harmony import */ var react_intl_locale_data_ru__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! react-intl/locale-data/ru */ "./node_modules/react-intl/locale-data/ru.js");
+/* harmony import */ var react_intl_locale_data_ru__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_ru__WEBPACK_IMPORTED_MODULE_37__);
+/* harmony import */ var react_intl_locale_data_sl__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! react-intl/locale-data/sl */ "./node_modules/react-intl/locale-data/sl.js");
+/* harmony import */ var react_intl_locale_data_sl__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_sl__WEBPACK_IMPORTED_MODULE_38__);
+/* harmony import */ var react_intl_locale_data_sk__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! react-intl/locale-data/sk */ "./node_modules/react-intl/locale-data/sk.js");
+/* harmony import */ var react_intl_locale_data_sk__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_sk__WEBPACK_IMPORTED_MODULE_39__);
+/* harmony import */ var react_intl_locale_data_sr__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! react-intl/locale-data/sr */ "./node_modules/react-intl/locale-data/sr.js");
+/* harmony import */ var react_intl_locale_data_sr__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_sr__WEBPACK_IMPORTED_MODULE_40__);
+/* harmony import */ var react_intl_locale_data_sv__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! react-intl/locale-data/sv */ "./node_modules/react-intl/locale-data/sv.js");
+/* harmony import */ var react_intl_locale_data_sv__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_sv__WEBPACK_IMPORTED_MODULE_41__);
+/* harmony import */ var react_intl_locale_data_th__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! react-intl/locale-data/th */ "./node_modules/react-intl/locale-data/th.js");
+/* harmony import */ var react_intl_locale_data_th__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_th__WEBPACK_IMPORTED_MODULE_42__);
+/* harmony import */ var react_intl_locale_data_tr__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! react-intl/locale-data/tr */ "./node_modules/react-intl/locale-data/tr.js");
+/* harmony import */ var react_intl_locale_data_tr__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_tr__WEBPACK_IMPORTED_MODULE_43__);
+/* harmony import */ var react_intl_locale_data_uk__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! react-intl/locale-data/uk */ "./node_modules/react-intl/locale-data/uk.js");
+/* harmony import */ var react_intl_locale_data_uk__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_uk__WEBPACK_IMPORTED_MODULE_44__);
+/* harmony import */ var react_intl_locale_data_vi__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! react-intl/locale-data/vi */ "./node_modules/react-intl/locale-data/vi.js");
+/* harmony import */ var react_intl_locale_data_vi__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_vi__WEBPACK_IMPORTED_MODULE_45__);
+/* harmony import */ var react_intl_locale_data_zh__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! react-intl/locale-data/zh */ "./node_modules/react-intl/locale-data/zh.js");
+/* harmony import */ var react_intl_locale_data_zh__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_zh__WEBPACK_IMPORTED_MODULE_46__);
+/* harmony import */ var react_intl_locale_data_zu__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! react-intl/locale-data/zu */ "./node_modules/react-intl/locale-data/zu.js");
+/* harmony import */ var react_intl_locale_data_zu__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(react_intl_locale_data_zu__WEBPACK_IMPORTED_MODULE_47__);
+/* harmony import */ var _supported_locales_js__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./supported-locales.js */ "./src/supported-locales.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _supported_locales_js__WEBPACK_IMPORTED_MODULE_48__["default"]; });
 
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "localeMap", function() { return _supported_locales_js__WEBPACK_IMPORTED_MODULE_48__["localeMap"]; });
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.localeData = exports.isRtl = exports.default = undefined;
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "isRtl", function() { return _supported_locales_js__WEBPACK_IMPORTED_MODULE_48__["isRtl"]; });
 
-var _en = __webpack_require__(/*! react-intl/locale-data/en */ "./node_modules/react-intl/locale-data/en.js");
+// to find locale data in react-intl, go to:
+// https://unpkg.com/react-intl/locale-data/
 
-var _en2 = _interopRequireDefault(_en);
 
-var _az = __webpack_require__(/*! react-intl/locale-data/az */ "./node_modules/react-intl/locale-data/az.js");
 
-var _az2 = _interopRequireDefault(_az);
+ // also parent for Abkahz
 
-var _ca = __webpack_require__(/*! react-intl/locale-data/ca */ "./node_modules/react-intl/locale-data/ca.js");
 
-var _ca2 = _interopRequireDefault(_ca);
 
-var _cs = __webpack_require__(/*! react-intl/locale-data/cs */ "./node_modules/react-intl/locale-data/cs.js");
 
-var _cs2 = _interopRequireDefault(_cs);
 
-var _cy = __webpack_require__(/*! react-intl/locale-data/cy */ "./node_modules/react-intl/locale-data/cy.js");
 
-var _cy2 = _interopRequireDefault(_cy);
 
-var _da = __webpack_require__(/*! react-intl/locale-data/da */ "./node_modules/react-intl/locale-data/da.js");
 
-var _da2 = _interopRequireDefault(_da);
 
-var _de = __webpack_require__(/*! react-intl/locale-data/de */ "./node_modules/react-intl/locale-data/de.js");
 
-var _de2 = _interopRequireDefault(_de);
 
-var _el = __webpack_require__(/*! react-intl/locale-data/el */ "./node_modules/react-intl/locale-data/el.js");
 
-var _el2 = _interopRequireDefault(_el);
 
-var _es = __webpack_require__(/*! react-intl/locale-data/es */ "./node_modules/react-intl/locale-data/es.js");
 
-var _es2 = _interopRequireDefault(_es);
 
-var _et = __webpack_require__(/*! react-intl/locale-data/et */ "./node_modules/react-intl/locale-data/et.js");
 
-var _et2 = _interopRequireDefault(_et);
 
-var _fi = __webpack_require__(/*! react-intl/locale-data/fi */ "./node_modules/react-intl/locale-data/fi.js");
 
-var _fi2 = _interopRequireDefault(_fi);
 
-var _fr = __webpack_require__(/*! react-intl/locale-data/fr */ "./node_modules/react-intl/locale-data/fr.js");
 
-var _fr2 = _interopRequireDefault(_fr);
 
-var _ga = __webpack_require__(/*! react-intl/locale-data/ga */ "./node_modules/react-intl/locale-data/ga.js");
 
-var _ga2 = _interopRequireDefault(_ga);
 
-var _gd = __webpack_require__(/*! react-intl/locale-data/gd */ "./node_modules/react-intl/locale-data/gd.js");
 
-var _gd2 = _interopRequireDefault(_gd);
 
-var _gl = __webpack_require__(/*! react-intl/locale-data/gl */ "./node_modules/react-intl/locale-data/gl.js");
 
-var _gl2 = _interopRequireDefault(_gl);
 
-var _he = __webpack_require__(/*! react-intl/locale-data/he */ "./node_modules/react-intl/locale-data/he.js");
 
-var _he2 = _interopRequireDefault(_he);
 
-var _hu = __webpack_require__(/*! react-intl/locale-data/hu */ "./node_modules/react-intl/locale-data/hu.js");
 
-var _hu2 = _interopRequireDefault(_hu);
 
-var _id = __webpack_require__(/*! react-intl/locale-data/id */ "./node_modules/react-intl/locale-data/id.js");
 
-var _id2 = _interopRequireDefault(_id);
 
-var _is = __webpack_require__(/*! react-intl/locale-data/is */ "./node_modules/react-intl/locale-data/is.js");
 
-var _is2 = _interopRequireDefault(_is);
 
-var _it = __webpack_require__(/*! react-intl/locale-data/it */ "./node_modules/react-intl/locale-data/it.js");
 
-var _it2 = _interopRequireDefault(_it);
 
-var _ja = __webpack_require__(/*! react-intl/locale-data/ja */ "./node_modules/react-intl/locale-data/ja.js");
 
-var _ja2 = _interopRequireDefault(_ja);
 
-var _ko = __webpack_require__(/*! react-intl/locale-data/ko */ "./node_modules/react-intl/locale-data/ko.js");
 
-var _ko2 = _interopRequireDefault(_ko);
 
-var _nl = __webpack_require__(/*! react-intl/locale-data/nl */ "./node_modules/react-intl/locale-data/nl.js");
 
-var _nl2 = _interopRequireDefault(_nl);
 
-var _nb = __webpack_require__(/*! react-intl/locale-data/nb */ "./node_modules/react-intl/locale-data/nb.js");
 
-var _nb2 = _interopRequireDefault(_nb);
 
-var _nn = __webpack_require__(/*! react-intl/locale-data/nn */ "./node_modules/react-intl/locale-data/nn.js");
-
-var _nn2 = _interopRequireDefault(_nn);
-
-var _pl = __webpack_require__(/*! react-intl/locale-data/pl */ "./node_modules/react-intl/locale-data/pl.js");
-
-var _pl2 = _interopRequireDefault(_pl);
-
-var _pt = __webpack_require__(/*! react-intl/locale-data/pt */ "./node_modules/react-intl/locale-data/pt.js");
-
-var _pt2 = _interopRequireDefault(_pt);
-
-var _ru = __webpack_require__(/*! react-intl/locale-data/ru */ "./node_modules/react-intl/locale-data/ru.js");
-
-var _ru2 = _interopRequireDefault(_ru);
-
-var _sl = __webpack_require__(/*! react-intl/locale-data/sl */ "./node_modules/react-intl/locale-data/sl.js");
-
-var _sl2 = _interopRequireDefault(_sl);
-
-var _sk = __webpack_require__(/*! react-intl/locale-data/sk */ "./node_modules/react-intl/locale-data/sk.js");
-
-var _sk2 = _interopRequireDefault(_sk);
-
-var _sr = __webpack_require__(/*! react-intl/locale-data/sr */ "./node_modules/react-intl/locale-data/sr.js");
-
-var _sr2 = _interopRequireDefault(_sr);
-
-var _sv = __webpack_require__(/*! react-intl/locale-data/sv */ "./node_modules/react-intl/locale-data/sv.js");
-
-var _sv2 = _interopRequireDefault(_sv);
-
-var _th = __webpack_require__(/*! react-intl/locale-data/th */ "./node_modules/react-intl/locale-data/th.js");
-
-var _th2 = _interopRequireDefault(_th);
-
-var _tr = __webpack_require__(/*! react-intl/locale-data/tr */ "./node_modules/react-intl/locale-data/tr.js");
-
-var _tr2 = _interopRequireDefault(_tr);
-
-var _uk = __webpack_require__(/*! react-intl/locale-data/uk */ "./node_modules/react-intl/locale-data/uk.js");
-
-var _uk2 = _interopRequireDefault(_uk);
-
-var _vi = __webpack_require__(/*! react-intl/locale-data/vi */ "./node_modules/react-intl/locale-data/vi.js");
-
-var _vi2 = _interopRequireDefault(_vi);
-
-var _zh = __webpack_require__(/*! react-intl/locale-data/zh */ "./node_modules/react-intl/locale-data/zh.js");
-
-var _zh2 = _interopRequireDefault(_zh);
-
-var _supportedLocales = __webpack_require__(/*! ./supported-locales.js */ "./src/supported-locales.js");
-
-var _supportedLocales2 = _interopRequireDefault(_supportedLocales);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /*
 locales = {
@@ -730,17 +858,14 @@ locales = {
     'zh-tw': {name: '繁體中文'}
 */
 
-// also parent for Abkahz
-var localeData = [].concat(_en2.default, _az2.default, // parent for Abkahz
-_ca2.default, _cs2.default, _cy2.default, _da2.default, _de2.default, _el2.default, _es2.default, _et2.default, _fi2.default, _fr2.default, _ga2.default, _gd2.default, _gl2.default, _he2.default, _hu2.default, _id2.default, _is2.default, _it2.default, _ja2.default, _ko2.default, _nl2.default, _nb2.default, _nn2.default, _pl2.default, _pt2.default, _sl2.default, _sk2.default, _sr2.default, _sv2.default, _ru2.default, _th2.default, _tr2.default, _uk2.default, _vi2.default, _zh2.default);
+var localeData = [].concat(react_intl_locale_data_en__WEBPACK_IMPORTED_MODULE_0___default.a, react_intl_locale_data_am__WEBPACK_IMPORTED_MODULE_1___default.a, react_intl_locale_data_ar__WEBPACK_IMPORTED_MODULE_2___default.a, react_intl_locale_data_az__WEBPACK_IMPORTED_MODULE_3___default.a, // parent for Abkahz
+react_intl_locale_data_bg__WEBPACK_IMPORTED_MODULE_4___default.a, react_intl_locale_data_ca__WEBPACK_IMPORTED_MODULE_5___default.a, react_intl_locale_data_ckb__WEBPACK_IMPORTED_MODULE_6___default.a, react_intl_locale_data_cs__WEBPACK_IMPORTED_MODULE_7___default.a, react_intl_locale_data_cy__WEBPACK_IMPORTED_MODULE_8___default.a, react_intl_locale_data_da__WEBPACK_IMPORTED_MODULE_9___default.a, react_intl_locale_data_de__WEBPACK_IMPORTED_MODULE_10___default.a, react_intl_locale_data_el__WEBPACK_IMPORTED_MODULE_11___default.a, react_intl_locale_data_es__WEBPACK_IMPORTED_MODULE_12___default.a, react_intl_locale_data_et__WEBPACK_IMPORTED_MODULE_13___default.a, react_intl_locale_data_eu__WEBPACK_IMPORTED_MODULE_14___default.a, react_intl_locale_data_fa__WEBPACK_IMPORTED_MODULE_15___default.a, react_intl_locale_data_fi__WEBPACK_IMPORTED_MODULE_16___default.a, react_intl_locale_data_fr__WEBPACK_IMPORTED_MODULE_17___default.a, react_intl_locale_data_ga__WEBPACK_IMPORTED_MODULE_18___default.a, react_intl_locale_data_gd__WEBPACK_IMPORTED_MODULE_19___default.a, react_intl_locale_data_gl__WEBPACK_IMPORTED_MODULE_20___default.a, react_intl_locale_data_he__WEBPACK_IMPORTED_MODULE_21___default.a, react_intl_locale_data_hu__WEBPACK_IMPORTED_MODULE_22___default.a, react_intl_locale_data_hr__WEBPACK_IMPORTED_MODULE_23___default.a, react_intl_locale_data_id__WEBPACK_IMPORTED_MODULE_24___default.a, react_intl_locale_data_is__WEBPACK_IMPORTED_MODULE_25___default.a, react_intl_locale_data_it__WEBPACK_IMPORTED_MODULE_26___default.a, react_intl_locale_data_ja__WEBPACK_IMPORTED_MODULE_27___default.a, react_intl_locale_data_ko__WEBPACK_IMPORTED_MODULE_28___default.a, react_intl_locale_data_lt__WEBPACK_IMPORTED_MODULE_29___default.a, react_intl_locale_data_lv__WEBPACK_IMPORTED_MODULE_30___default.a, react_intl_locale_data_nl__WEBPACK_IMPORTED_MODULE_31___default.a, react_intl_locale_data_nb__WEBPACK_IMPORTED_MODULE_32___default.a, react_intl_locale_data_nn__WEBPACK_IMPORTED_MODULE_33___default.a, react_intl_locale_data_pl__WEBPACK_IMPORTED_MODULE_34___default.a, react_intl_locale_data_pt__WEBPACK_IMPORTED_MODULE_35___default.a, react_intl_locale_data_sl__WEBPACK_IMPORTED_MODULE_38___default.a, react_intl_locale_data_sk__WEBPACK_IMPORTED_MODULE_39___default.a, react_intl_locale_data_sr__WEBPACK_IMPORTED_MODULE_40___default.a, react_intl_locale_data_sv__WEBPACK_IMPORTED_MODULE_41___default.a, react_intl_locale_data_ro__WEBPACK_IMPORTED_MODULE_36___default.a, react_intl_locale_data_ru__WEBPACK_IMPORTED_MODULE_37___default.a, react_intl_locale_data_th__WEBPACK_IMPORTED_MODULE_42___default.a, react_intl_locale_data_tr__WEBPACK_IMPORTED_MODULE_43___default.a, react_intl_locale_data_uk__WEBPACK_IMPORTED_MODULE_44___default.a, react_intl_locale_data_vi__WEBPACK_IMPORTED_MODULE_45___default.a, react_intl_locale_data_zh__WEBPACK_IMPORTED_MODULE_46___default.a, react_intl_locale_data_zu__WEBPACK_IMPORTED_MODULE_47___default.a);
 
-for (var lang in _supportedLocales.customLocales) {
-    localeData.push(_supportedLocales.customLocales[lang]);
+for (var lang in _supported_locales_js__WEBPACK_IMPORTED_MODULE_48__["customLocales"]) {
+  localeData.push(_supported_locales_js__WEBPACK_IMPORTED_MODULE_48__["customLocales"][lang]);
 }
 
-exports.default = _supportedLocales2.default;
-exports.isRtl = _supportedLocales.isRtl;
-exports.localeData = localeData;
+
 
 /***/ }),
 
@@ -748,179 +873,222 @@ exports.localeData = localeData;
 /*!**********************************!*\
   !*** ./src/supported-locales.js ***!
   \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default, customLocales, localeMap, rtlLocales, isRtl */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return locales; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "customLocales", function() { return customLocales; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "localeMap", function() { return localeMap; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "rtlLocales", function() { return rtlLocales; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isRtl", function() { return isRtl; });
 /**
  * Currently supported locales for the Scratch Project
  * @type {Object} Key Value pairs of locale code: Language name written in the language
  */
-
 var locales = {
-    'ab': { name: 'Аҧсшәа' },
-    'az': { name: 'Azeri' },
-    'id': { name: 'Bahasa Indonesia' },
-    'ca': { name: 'Català' },
-    'cs': { name: 'Česky' },
-    'cy': { name: 'Cymraeg' },
-    'da': { name: 'Dansk' },
-    'de': { name: 'Deutsch' },
-    'et': { name: 'Eesti' },
-    'el': { name: 'Ελληνικά' },
-    'en': { name: 'English' },
-    'es': { name: 'Español' },
-    'es-419': { name: 'Español Latinoamericano' },
-    'fr': { name: 'Français' },
-    'ga': { name: 'Gaeilge' },
-    'gd': { name: 'Gàidhlig' },
-    'gl': { name: 'Galego' },
-    'ko': { name: '한국어' },
-    'he': { name: 'עִבְרִית' },
-    'is': { name: 'Íslenska' },
-    'it': { name: 'Italiano' },
-    'lv': { name: 'Latviešu' },
-    'lt': { name: 'Lietuvių' },
-    'mi': { name: 'Maori' },
-    'nl': { name: 'Nederlands' },
-    'ja': { name: '日本語' },
-    'ja-Hira': { name: 'にほんご' },
-    'hu': { name: 'Magyar' },
-    'nb': { name: 'Norsk Bokmål' },
-    'nn': { name: 'Norsk Nynorsk' },
-    'th': { name: 'ไทย' },
-    'pl': { name: 'Polski' },
-    'pt': { name: 'Português' },
-    'pt-br': { name: 'Português Brasileiro' },
-    'ru': { name: 'Русский' },
-    'sr': { name: 'Српски' },
-    'sk': { name: 'Slovenčina' },
-    'sl': { name: 'Slovenščina' },
-    'fi': { name: 'Suomi' },
-    'sv': { name: 'Svenska' },
-    'vi': { name: 'Tiếng Việt' },
-    'tr': { name: 'Türkçe' },
-    'uk': { name: 'Українська' },
-    'zh-cn': { name: '简体中文' },
-    'zh-tw': { name: '繁體中文' }
+  'ab': {
+    name: 'Аҧсшәа'
+  },
+  'ar': {
+    name: 'العربية'
+  },
+  'am': {
+    name: 'አማርኛ'
+  },
+  'az': {
+    name: 'Azeri'
+  },
+  'id': {
+    name: 'Bahasa Indonesia'
+  },
+  'bg': {
+    name: 'български'
+  },
+  'ca': {
+    name: 'Català'
+  },
+  'cs': {
+    name: 'Česky'
+  },
+  'cy': {
+    name: 'Cymraeg'
+  },
+  'da': {
+    name: 'Dansk'
+  },
+  'de': {
+    name: 'Deutsch'
+  },
+  'et': {
+    name: 'Eesti'
+  },
+  'el': {
+    name: 'Ελληνικά'
+  },
+  'en': {
+    name: 'English'
+  },
+  'es': {
+    name: 'Español'
+  },
+  'es-419': {
+    name: 'Español Latinoamericano'
+  },
+  'eu': {
+    name: 'Euskara'
+  },
+  'fa': {
+    name: 'فارسی'
+  },
+  'fr': {
+    name: 'Français'
+  },
+  'ga': {
+    name: 'Gaeilge'
+  },
+  'gd': {
+    name: 'Gàidhlig'
+  },
+  'gl': {
+    name: 'Galego'
+  },
+  'ko': {
+    name: '한국어'
+  },
+  'he': {
+    name: 'עִבְרִית'
+  },
+  'hr': {
+    name: 'Hrvatski'
+  },
+  'zu': {
+    name: 'isiZulu'
+  },
+  'is': {
+    name: 'Íslenska'
+  },
+  'it': {
+    name: 'Italiano'
+  },
+  'ckb': {
+    name: 'کوردیی ناوەندی'
+  },
+  'lv': {
+    name: 'Latviešu'
+  },
+  'lt': {
+    name: 'Lietuvių'
+  },
+  'hu': {
+    name: 'Magyar'
+  },
+  'mi': {
+    name: 'Māori'
+  },
+  'nl': {
+    name: 'Nederlands'
+  },
+  'ja': {
+    name: '日本語'
+  },
+  'ja-Hira': {
+    name: 'にほんご'
+  },
+  'nb': {
+    name: 'Norsk Bokmål'
+  },
+  'nn': {
+    name: 'Norsk Nynorsk'
+  },
+  'th': {
+    name: 'ไทย'
+  },
+  'pl': {
+    name: 'Polski'
+  },
+  'pt': {
+    name: 'Português'
+  },
+  'pt-br': {
+    name: 'Português Brasileiro'
+  },
+  'ro': {
+    name: 'Română'
+  },
+  'ru': {
+    name: 'Русский'
+  },
+  'sr': {
+    name: 'Српски'
+  },
+  'sk': {
+    name: 'Slovenčina'
+  },
+  'sl': {
+    name: 'Slovenščina'
+  },
+  'fi': {
+    name: 'Suomi'
+  },
+  'sv': {
+    name: 'Svenska'
+  },
+  'vi': {
+    name: 'Tiếng Việt'
+  },
+  'tr': {
+    name: 'Türkçe'
+  },
+  'uk': {
+    name: 'Українська'
+  },
+  'zh-cn': {
+    name: '简体中文'
+  },
+  'zh-tw': {
+    name: '繁體中文'
+  }
 };
-
 var customLocales = {
-    'ab': {
-        locale: 'ab',
-        parentLocale: 'az'
-    },
-    'es-419': {
-        locale: 'es-419',
-        parentLocale: 'es'
-    },
-    'mi': {
-        locale: 'mi',
-        parentLocale: 'en'
-    },
-    'zh-cn': {
-        locale: 'zh-cn',
-        parentLocale: 'zh'
-    },
-    'zh-tw': {
-        locale: 'zh-tw',
-        parentLocale: 'zh'
-    }
+  'ab': {
+    locale: 'ab',
+    parentLocale: 'az'
+  },
+  'es-419': {
+    locale: 'es-419',
+    parentLocale: 'es'
+  },
+  'mi': {
+    locale: 'mi',
+    parentLocale: 'en'
+  },
+  'zh-cn': {
+    locale: 'zh-cn',
+    parentLocale: 'zh'
+  },
+  'zh-tw': {
+    locale: 'zh-tw',
+    parentLocale: 'zh'
+  }
 };
+var localeMap = {
+  'aa-dj': 'aa_DJ',
+  'es-419': 'es_419',
+  // ja-Hira: no map - it's 'ja-Hira' on transifex
+  'pt-br': 'pt_BR',
+  'zh-cn': 'zh_CN',
+  'zh-tw': 'zh_TW'
+}; // list of RTL locales supported, and a function to check whether a locale is RTL
 
-// list of RTL locales supported, and a function to check whether a locale is RTL
-var rtlLocales = ['he'];
+var rtlLocales = ['ar', 'ckb', 'fa', 'he'];
 
 var isRtl = function isRtl(locale) {
-    return rtlLocales.indexOf(locale) !== -1;
+  return rtlLocales.indexOf(locale) !== -1;
 };
 
-var wwwLocales = {
-    'ab': { name: 'Аҧсшәа' },
-    'ar': { name: 'العربية' },
-    'an': { name: 'Aragonés' },
-    'ast': { name: 'Asturianu' },
-    'id': { name: 'Bahasa Indonesia' },
-    'ms': { name: 'Bahasa Melayu' },
-    'be': { name: 'Беларуская' },
-    'bg': { name: 'Български' },
-    'ca': { name: 'Català' },
-    'cs': { name: 'Česky' },
-    'cy': { name: 'Cymraeg' },
-    'da': { name: 'Dansk' },
-    'de': { name: 'Deutsch' },
-    'yum': { name: 'Edible Scratch' },
-    'et': { name: 'Eesti' },
-    'el': { name: 'Ελληνικά' },
-    'en': { name: 'English' },
-    'eo': { name: 'Esperanto' },
-    'es': { name: 'Español' },
-    'eu': { name: 'Euskara' },
-    'fa': { name: 'فارسی' },
-    'fr': { name: 'Français' },
-    'fur': { name: 'Furlan' },
-    'ga': { name: 'Gaeilge' },
-    'gd': { name: 'Gàidhlig' },
-    'gl': { name: 'Galego' },
-    'ko': { name: '한국어' },
-    'hy': { name: 'Հայերեն' },
-    'he': { name: 'עִבְרִית' },
-    'hi': { name: 'हिन्दी' },
-    'hr': { name: 'Hrvatski' },
-    'zu': { name: 'isiZulu' },
-    'is': { name: 'Íslenska' },
-    'it': { name: 'Italiano' },
-    'kn': { name: 'ಭಾಷೆ-ಹೆಸರು' },
-    'rw': { name: 'Kinyarwanda' },
-    'ht': { name: 'Kreyòl' },
-    'ku': { name: 'Kurdî' },
-    'la': { name: 'Latina' },
-    'lv': { name: 'Latviešu' },
-    'lt': { name: 'Lietuvių' },
-    'mk': { name: 'Македонски' },
-    'hu': { name: 'Magyar' },
-    'ml': { name: 'മലയാളം' },
-    'mt': { name: 'Malti' },
-    'cat': { name: 'Meow' },
-    'mr': { name: 'मराठी' },
-    'mn': { name: 'Монгол хэл' },
-    'my': { name: 'မြန်မာဘာသာ' },
-    'nl': { name: 'Nederlands' },
-    'ja': { name: '日本語' },
-    'nb': { name: 'Norsk Bokmål' },
-    'nn': { name: 'Norsk Nynorsk' },
-    'uz': { name: 'Oʻzbekcha' },
-    'th': { name: 'ไทย' },
-    'pl': { name: 'Polski' },
-    'pt': { name: 'Português' },
-    'pt-br': { name: 'Português Brasileiro' },
-    'ro': { name: 'Română' },
-    'ru': { name: 'Русский' },
-    'sc': { name: 'Sardu' },
-    'sq': { name: 'Shqip' },
-    'sk': { name: 'Slovenčina' },
-    'sl': { name: 'Slovenščina' },
-    'sr': { name: 'Српски' },
-    'fi': { name: 'Suomi' },
-    'sv': { name: 'Svenska' },
-    'te': { name: 'తెలుగు' },
-    'vi': { name: 'Tiếng Việt' },
-    'tr': { name: 'Türkçe' },
-    'uk': { name: 'Українська' },
-    'zh-cn': { name: '简体中文' },
-    'zh-tw': { name: '繁體中文' }
-};
 
-exports.default = locales;
-exports.customLocales = customLocales;
-exports.rtlLocales = rtlLocales;
-exports.isRtl = isRtl;
-exports.wwwLocales = wwwLocales;
 
 /***/ })
 

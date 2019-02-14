@@ -1,1014 +1,421 @@
 {
-    "gui.backpack.errorBackpack": {
-        "message": "Erro ao carregar a mochila",
-        "description": "Error backpack message"
-    },
-    "gui.backpack.loadingBackpack": {
-        "message": "Carregando…",
-        "description": "Loading backpack message"
-    },
-    "gui.backpack.emptyBackpack": {
-        "message": "A mochila está vazia",
-        "description": "Empty backpack message"
-    },
-    "gui.unsupportedBrowser.label": {
-        "message": "O navegador não é suportado",
-        "description": ""
-    },
-    "gui.unsupportedBrowser.description": {
-        "message": "Lamentamos muito, mas o Scratch 3.0 não suporta o Internet Explorer, o Vivaldi, o Opera ou o Silk. Recomendamos que tente com um navegador mais recente, tal como o Google Chrome, o Mozilla Firefox ou o Microsoft Edge.",
-        "description": "Unsupported browser description"
-    },
-    "gui.unsupportedBrowser.back": {
-        "message": "Voltar",
-        "description": "Button to go back in unsupported browser modal"
-    },
-    "gui.unsupportedBrowser.previewfaq": {
-        "message": "Para saber mais, vá a {previewFaqLink}.",
-        "description": "Invitation to try 3.0 preview"
-    },
-    "gui.unsupportedBrowser.previewfaqlinktext": {
-        "message": "PF",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.cameraModal.cameraModalTitle": {
-        "message": "Tirar uma Fotografia",
-        "description": "Title for prompt to take a picture (to add as a new costume)."
-    },
-    "gui.cameraModal.loadingCameraMessage": {
-        "message": "Carregando a Câmara…",
-        "description": "Notification to the user that the camera is loading"
-    },
-    "gui.cameraModal.permissionRequest": {
-        "message": "Precisamos da sua permissão para usar a sua câmara",
-        "description": "Notification to the user that the app needs camera access"
-    },
-    "gui.cameraModal.retakePhoto": {
-        "message": "Tirar Fotografia de Novo",
-        "description": "A button that allows the user to take the picture again, replacing the old one"
-    },
-    "gui.cameraModal.save": {
-        "message": "Guardar",
-        "description": "A button that allows the user to save the photo they took as a costume"
-    },
-    "gui.cameraModal.takePhoto": {
-        "message": "Tirar Fotografia",
-        "description": "A button to take a photo"
-    },
-    "gui.cameraModal.loadingCaption": {
-        "message": "Carregando…",
-        "description": "A caption for a disabled button while the video from the camera is still loading"
-    },
-    "gui.cameraModal.enableCameraCaption": {
-        "message": "Activar a Câmara",
-        "description": "A caption for a disabled button prompting the user to enable camera access"
-    },
-    "gui.cards.all-tutorials": {
-        "message": "Tutoriais",
-        "description": "Title for button to return to tutorials library"
-    },
-    "gui.cards.remove": {
-        "message": "Fechar",
-        "description": "Title for button to close how-to card"
-    },
-    "gui.cards.more-things-to-try": {
-        "message": "Mais coisas a experimentar!",
-        "description": "Title card with more things to try"
-    },
-    "gui.cards.see-more": {
-        "message": "Ver mais",
-        "description": "Title for button to see more in how-to library"
-    },
-    "gui.comingSoon.message1": {
-        "message": "Não se preocupe, estamos a trabalhar afincadamente nisto {emoji}",
-        "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
-    },
-    "gui.comingSoon.message2": {
-        "message": "Em Breve...",
-        "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
-    },
-    "gui.comingSoon.message3": {
-        "message": "Estamos a trabalhar afincadamente nisto {emoji}",
-        "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
-    },
-    "gui.connection.auto-scanning.noDevicesFound": {
-        "message": "Não foram encontrados dispositivos",
-        "description": "Text shown when no devices could be found"
-    },
-    "gui.connection.auto-scanning.prescan": {
-        "message": "Mantenha o seu dispositivo por perto, depois comece uma procura.",
-        "description": "Prompt for beginning the search"
-    },
-    "gui.connection.auto-scanning.pressbutton": {
-        "message": "Pressione o botão no seu dispositivo.",
-        "description": "Prompt for pushing the button on the device"
-    },
-    "gui.connection.auto-scanning.start-search": {
-        "message": "Começar Procura",
-        "description": "Button in prompt for starting a search"
-    },
-    "gui.connection.connecting-searchbutton": {
-        "message": "Procurando…",
-        "description": "Label indicating that search is in progress"
-    },
-    "gui.connection.auto-scanning.try-again": {
-        "message": "Tentar de novo",
-        "description": "Button in prompt for trying a device search again"
-    },
-    "gui.connection.connected": {
-        "message": "Ligado",
-        "description": "Message indicating that a device was connected"
-    },
-    "gui.connection.disconnect": {
-        "message": "Desligar",
-        "description": "Button to disconnect the device"
-    },
-    "gui.connection.go-to-editor": {
-        "message": "Ir para o Editor",
-        "description": "Button to return to the editor"
-    },
-    "gui.connection.connecting-cancelbutton": {
-        "message": "Ligando…",
-        "description": "Label indicating that connection is in progress"
-    },
-    "gui.connection.device-name-label": {
-        "message": "Nome do dispositivo",
-        "description": "Label for field showing the device name"
-    },
-    "gui.connection.connect": {
-        "message": "Ligar",
-        "description": "Button to start connecting to a specific device"
-    },
-    "gui.connection.error.errorMessage": {
-        "message": "Ops, parece que algo correu mal.",
-        "description": "The device connection process has encountered an error."
-    },
-    "gui.connection.error.tryagainbutton": {
-        "message": "Tentar de novo",
-        "description": "Button to initiate trying the device connection again after an error"
-    },
-    "gui.connection.error.helpbutton": {
-        "message": "Ajuda",
-        "description": "Button to view help content"
-    },
-    "gui.connection.scanning.lookingfordevices": {
-        "message": "Procurando dispositivos",
-        "description": "Text shown while scanning for devices"
-    },
-    "gui.connection.scanning.noDevicesFound": {
-        "message": "Não foram encontrados dispositivos",
-        "description": "Text shown when no devices could be found"
-    },
-    "gui.connection.scanning.instructions": {
-        "message": "Seleccione o seu dispositivo na lista abaixo.",
-        "description": "Prompt for choosing a device to connect to"
-    },
-    "gui.connection.search": {
-        "message": "Refrescar",
-        "description": "Button in prompt for starting a search"
-    },
-    "gui.connection.unavailable.installscratchlink": {
-        "message": "Assegure-se de que tem um Scratch Link instalado e em execução",
-        "description": "Message for getting Scratch Link installed"
-    },
-    "gui.connection.unavailable.enablebluetooth": {
-        "message": "Verifique se o Bluetooth está activo",
-        "description": "Message for making sure Bluetooth is enabled"
-    },
-    "gui.connection.unavailable.tryagainbutton": {
-        "message": "Tentar de novo",
-        "description": "Button to initiate trying the device connection again after an error"
-    },
-    "gui.connection.unavailable.helpbutton": {
-        "message": "Ajuda",
-        "description": "Button to view help content"
-    },
-    "gui.controls.go": {
-        "message": "Começar",
-        "description": "Green flag button title"
-    },
-    "gui.controls.stop": {
-        "message": "Parar",
-        "description": "Stop button title"
-    },
-    "gui.customProcedures.myblockModalTitle": {
-        "message": "Criar um Bloco",
-        "description": "Title for the modal where you create a custom block."
-    },
-    "gui.customProcedures.addAnInputNumberText": {
-        "message": "Adicionar uma entrada",
-        "description": "Label for button to add a number/text input"
-    },
-    "gui.customProcedures.numberTextType": {
-        "message": "numérica ou textual",
-        "description": "Description of the number/text input type"
-    },
-    "gui.customProcedures.addAnInputBoolean": {
-        "message": "Adicionar uma entrada",
-        "description": "Label for button to add a boolean input"
-    },
-    "gui.customProcedures.booleanType": {
-        "message": "booleana",
-        "description": "Description of the boolean input type"
-    },
-    "gui.customProcedures.addALabel": {
-        "message": "Adicionar uma etiqueta",
-        "description": "Label for button to add a label"
-    },
-    "gui.customProcedures.runWithoutScreenRefresh": {
-        "message": "Executar sem actualizar o ecrã",
-        "description": "Label for checkbox to run without screen refresh"
-    },
-    "gui.customProcedures.cancel": {
-        "message": "Cancelar",
-        "description": "Label for button to cancel custom procedure edits"
-    },
-    "gui.customProcedures.ok": {
-        "message": "OK",
-        "description": "Label for button to save new custom procedure"
-    },
-    "gui.SpriteInfo.direction": {
-        "message": "Direcção",
-        "description": "Sprite info direction label"
-    },
-    "gui.directionPicker.rotationStyles.allAround": {
-        "message": "Girar a Toda a Volta",
-        "description": "Button to change to the all around rotation style"
-    },
-    "gui.directionPicker.rotationStyles.leftRight": {
-        "message": "Olhar apenas para a esquerda e para a direita",
-        "description": "Button to change to the left-right rotation style"
-    },
-    "gui.directionPicker.rotationStyles.dontRotate": {
-        "message": "Não rodar",
-        "description": "Button to change to the dont rotate rotation style"
-    },
-    "gui.gui.addExtension": {
-        "message": "Adicionar Extensão",
-        "description": "Button to add an extension in the target pane"
-    },
-    "gui.gui.codeTab": {
-        "message": "Código",
-        "description": "Button to get to the code panel"
-    },
-    "gui.gui.backdropsTab": {
-        "message": "Cenários",
-        "description": "Button to get to the backdrops panel"
-    },
-    "gui.gui.costumesTab": {
-        "message": "Trajes",
-        "description": "Button to get to the costumes panel"
-    },
-    "gui.gui.soundsTab": {
-        "message": "Sons",
-        "description": "Button to get to the sounds panel"
-    },
-    "gui.importInfo.title": {
-        "message": "Ver um Projecto Scratch 2.0",
-        "description": "Scratch 2.0 import modal label - for accessibility"
-    },
-    "gui.importInfo.betamessage": {
-        "message": "Introduza uma ligação para um dos seus projectos Scratch partilhados. As alterações feitas nesta versão 3.0 Beta não serão guardadas.",
-        "description": "Import project message"
-    },
-    "gui.importInfo.message": {
-        "message": "Introduza uma ligação para um dos seus projectos Scratch partilhados. Alterações realizadas nesta Antevisão do 3.0 não serão guardadas.",
-        "description": "Import project message"
-    },
-    "gui.importInfo.invalidFormatError": {
-        "message": "Oh lá! Algo não está certo nesse URL ou ID de projecto.",
-        "description": "Invalid project link or id message"
-    },
-    "gui.importModal.viewproject": {
-        "message": "Ver",
-        "description": "Label for button to load a scratch 2.0 project"
-    },
-    "gui.importInfo.goback": {
-        "message": "Voltar",
-        "description": "Label for button to back out of importing a project"
-    },
-    "gui.importInfo.previewfaq": {
-        "message": "Para saber mais, vá a {previewFaqLink}.",
-        "description": "Invitation to try 3.0 preview"
-    },
-    "gui.importInfo.previewfaqlinktext": {
-        "message": "PF",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.extensionLibrary.comingSoon": {
-        "message": "Em Breve",
-        "description": "Label for extensions that are not yet implemented"
-    },
-    "gui.library.filterPlaceholder": {
-        "message": "Procurar",
-        "description": "Placeholder text for library search field"
-    },
-    "gui.loader.message1": {
-        "message": "A criar blocos …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message2": {
-        "message": "A carregar os actores …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message3": {
-        "message": "A carregar os sons …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message4": {
-        "message": "A carregar extensões …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message5": {
-        "message": "A apascentar gatos …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message6": {
-        "message": "A transmitir nanos …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message7": {
-        "message": "A soprar balões …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.message8": {
-        "message": "A preparar emojis …",
-        "description": "One of the loading messages"
-    },
-    "gui.loader.headline": {
-        "message": "A Carregar o Projecto",
-        "description": "Main loading message"
-    },
-    "gui.menuBar.LanguageSelector": {
-        "message": "selector de língua",
-        "description": "accessibility text for the language selection menu"
-    },
-    "gui.menuBar.tutorialsLibrary": {
-        "message": "Tutoriais",
-        "description": "accessibility text for the tutorials button"
-    },
-    "gui.menuBar.restoreSprite": {
-        "message": "Recuperar Actor",
-        "description": "Menu bar item for restoring the last deleted sprite."
-    },
-    "gui.menuBar.restoreSound": {
-        "message": "Recuperar Som",
-        "description": "Menu bar item for restoring the last deleted sound."
-    },
-    "gui.menuBar.restoreCostume": {
-        "message": "Recuperar Traje",
-        "description": "Menu bar item for restoring the last deleted costume."
-    },
-    "gui.menuBar.restore": {
-        "message": "Recuperar",
-        "description": "Menu bar item for restoring the last deleted item in its disabled state."
-    },
-    "gui.menuBar.saveNow": {
-        "message": "Guardar agora",
-        "description": "Menu bar item for saving now"
-    },
-    "gui.menuBar.file": {
-        "message": "Arquivo",
-        "description": "Text for file dropdown menu"
-    },
-    "gui.menuBar.new": {
-        "message": "Novo",
-        "description": "Menu bar item for creating a new project"
-    },
-    "gui.menuBar.saveAsCopy": {
-        "message": "Guardar como cópia",
-        "description": "Menu bar item for saving as a copy"
-    },
-    "gui.menuBar.uploadFromComputer": {
-        "message": "Carregar a partir do seu computador",
-        "description": "Menu bar item for uploading a project from your computer"
-    },
-    "gui.menuBar.downloadToComputer": {
-        "message": "Descarregar para o seu computador",
-        "description": "Menu bar item for downloading a project to your computer"
-    },
-    "gui.menuBar.edit": {
-        "message": "Editar",
-        "description": "Text for edit dropdown menu"
-    },
-    "gui.menuBar.turboModeOff": {
-        "message": "Desligar o Modo Turbo",
-        "description": "Menu bar item for turning off turbo mode"
-    },
-    "gui.menuBar.turboModeOn": {
-        "message": "Ligar o Modo Turbo",
-        "description": "Menu bar item for turning on turbo mode"
-    },
-    "gui.menuBar.share": {
-        "message": "Partilhar",
-        "description": "Label for project share button"
-    },
-    "gui.menuBar.seeCommunity": {
-        "message": "Ver a Comunidade",
-        "description": "Label for see community button"
-    },
-    "gui.menuBar.giveFeedback": {
-        "message": "Dar a Sua Opinião",
-        "description": "Label for feedback form modal button"
-    },
-    "gui.modal.help": {
-        "message": "Ajuda",
-        "description": "Help button in modal"
-    },
-    "gui.modal.back": {
-        "message": "Voltar",
-        "description": "Back button in modal"
-    },
-    "gui.monitor.contextMenu.default": {
-        "message": "visor normal",
-        "description": "Menu item to switch to the default monitor"
-    },
-    "gui.monitor.contextMenu.large": {
-        "message": "visor grande",
-        "description": "Menu item to switch to the large monitor"
-    },
-    "gui.monitor.contextMenu.slider": {
-        "message": "deslizador",
-        "description": "Menu item to switch to the slider monitor"
-    },
-    "gui.previewInfo.label": {
-        "message": "Experimente o Scratch 3.0",
-        "description": "Scratch 3.0 modal label - for accessibility"
-    },
-    "gui.previewInfo.welcome": {
-        "message": "Bem-vindo ao Scratch 3.0 Beta",
-        "description": "Header for Preview Info Modal"
-    },
-    "gui.previewInfo.betawelcome": {
-        "message": "Bem-vindo ao Scratch 3.0 Beta",
-        "description": "Header for Beta Info Modal"
-    },
-    "gui.previewInfo.invitation": {
-        "message": "Estamos a trabalhar na próxima geração do Scratch. Estamos entusiasmados por o experimentar!",
-        "description": "Invitation to try 3.0 Beta"
-    },
-    "gui.previewInfo.notnow": {
-        "message": "Agora Não",
-        "description": "Label for button to back out of trying Scratch 3.0 Beta"
-    },
-    "gui.previewModal.tryit": {
-        "message": "Experimente! {caticon}",
-        "description": "Label for button to try Scratch 3.0 Beta"
-    },
-    "gui.previewModal.viewproject": {
-        "message": "Ver Projecto 2.0",
-        "description": "Label for button to import a 2.0 project"
-    },
-    "gui.previewInfo.previewfaq": {
-        "message": "Para saber mais, vá a {previewFaqLink}.",
-        "description": "Invitation to try 3.0 Beta"
-    },
-    "gui.previewInfo.previewfaqlinktext": {
-        "message": "PF",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.gui.variableScopeOptionAllSprites": {
-        "message": "Para todos os actores",
-        "description": "Option message when creating a variable for making it available to all sprites"
-    },
-    "gui.gui.variableScopeOptionSpriteOnly": {
-        "message": "Apenas para este actor",
-        "description": "Option message when creating a varaible for making it only available to the current sprite"
-    },
-    "gui.gui.variablePrompt": {
-        "message": "Mais Opções",
-        "description": "Dropdown message for variable/list options"
-    },
-    "gui.gui.variablePromptAllSpritesMessage": {
-        "message": "Esta variável estará disponível para todos os actores.",
-        "description": "A message that displays in a variable modal when the stage is selected indicating that the variable being created will available to all sprites."
-    },
-    "gui.prompt.cancel": {
-        "message": "Cancelar",
-        "description": "Button in prompt for cancelling the dialog"
-    },
-    "gui.prompt.ok": {
-        "message": "OK",
-        "description": "Button in prompt for confirming the dialog"
-    },
-    "gui.playbackStep.stopMsg": {
-        "message": "Parar",
-        "description": "Stop/Play button in recording playback"
-    },
-    "gui.playbackStep.playMsg": {
-        "message": "Tocar",
-        "description": "Stop/Play button in recording playback"
-    },
-    "gui.playbackStep.loadingMsg": {
-        "message": "Carregando…",
-        "description": "Loading/Save button in recording playback"
-    },
-    "gui.playbackStep.saveMsg": {
-        "message": "Guardar",
-        "description": "Loading/Save button in recording playback"
-    },
-    "gui.playbackStep.reRecordMsg": {
-        "message": "Voltar a Gravar",
-        "description": "Button to re-record sound in recording playback"
-    },
-    "gui.recordModal.title": {
-        "message": "Gravar Som",
-        "description": "Recording modal title"
-    },
-    "gui.soundEditor.sound": {
-        "message": "Som",
-        "description": "Label for the name of the sound"
-    },
-    "gui.soundEditor.play": {
-        "message": "Tocar",
-        "description": "Title of the button to start playing the sound"
-    },
-    "gui.soundEditor.stop": {
-        "message": "Parar",
-        "description": "Title of the button to stop the sound"
-    },
-    "gui.soundEditor.trim": {
-        "message": "Aparar",
-        "description": "Title of the button to start trimminging the sound"
-    },
-    "gui.soundEditor.save": {
-        "message": "Guardar",
-        "description": "Title of the button to save trimmed sound"
-    },
-    "gui.soundEditor.undo": {
-        "message": "Desfazer",
-        "description": "Title of the button to undo"
-    },
-    "gui.soundEditor.redo": {
-        "message": "Refazer",
-        "description": "Title of the button to redo"
-    },
-    "gui.soundEditor.faster": {
-        "message": "Acelerar",
-        "description": "Title of the button to apply the faster effect"
-    },
-    "gui.soundEditor.slower": {
-        "message": "Retardar",
-        "description": "Title of the button to apply the slower effect"
-    },
-    "gui.soundEditor.echo": {
-        "message": "Eco",
-        "description": "Title of the button to apply the echo effect"
-    },
-    "gui.soundEditor.robot": {
-        "message": "Robô",
-        "description": "Title of the button to apply the robot effect"
-    },
-    "gui.soundEditor.louder": {
-        "message": "Maior Volume",
-        "description": "Title of the button to apply the louder effect"
-    },
-    "gui.soundEditor.softer": {
-        "message": "Menor Volume",
-        "description": "Title of the button to apply thr.softer effect"
-    },
-    "gui.soundEditor.reverse": {
-        "message": "Inverter",
-        "description": "Title of the button to apply the reverse effect"
-    },
-    "gui.SpriteInfo.spritePlaceholder": {
-        "message": "Nome",
-        "description": "Placeholder text for sprite name"
-    },
-    "gui.SpriteInfo.sprite": {
-        "message": "Actor",
-        "description": "Sprite info label"
-    },
-    "gui.SpriteInfo.show": {
-        "message": "Mostrar",
-        "description": "Sprite info show label"
-    },
-    "gui.SpriteInfo.size": {
-        "message": "Tamanho",
-        "description": "Sprite info size label"
-    },
-    "gui.spriteSelectorItem.contextMenuDuplicate": {
-        "message": "duplicar",
-        "description": "Menu item to duplicate in the right click menu"
-    },
-    "gui.spriteSelectorItem.contextMenuDelete": {
-        "message": "remover",
-        "description": "Menu item to delete in the right click menu"
-    },
-    "gui.spriteSelectorItem.contextMenuExport": {
-        "message": "exportar",
-        "description": "Menu item to export the selected item"
-    },
-    "gui.spriteSelector.addSpriteFromLibrary": {
-        "message": "Escolha um Actor",
-        "description": "Button to add a sprite in the target pane from library"
-    },
-    "gui.spriteSelector.addSpriteFromPaint": {
-        "message": "Pintar",
-        "description": "Button to add a sprite in the target pane from paint"
-    },
-    "gui.spriteSelector.addSpriteFromSurprise": {
-        "message": "Surpresa",
-        "description": "Button to add a random sprite in the target pane"
-    },
-    "gui.spriteSelector.addSpriteFromFile": {
-        "message": "Carregar Actor",
-        "description": "Button to add a sprite in the target pane from file"
-    },
-    "gui.stageHeader.stageSizeLarge": {
-        "message": "Mudar para um palco grande",
-        "description": "Button to change stage size to large"
-    },
-    "gui.stageHeader.stageSizeSmall": {
-        "message": "Mudar para palco pequeno",
-        "description": "Button to change stage size to small"
-    },
-    "gui.stageHeader.stageSizeFull": {
-        "message": "Iniciar modo de ecrã completo",
-        "description": "Button to change stage size to full screen"
-    },
-    "gui.stageHeader.stageSizeUnFull": {
-        "message": "Sair do modo de ecrã completo",
-        "description": "Button to get out of full screen mode"
-    },
-    "gui.stageHeader.fullscreenControl": {
-        "message": "Controlo de Ecrã Completo",
-        "description": "Button to enter/exit full screen mode"
-    },
-    "gui.spriteSelector.addBackdropFromLibrary": {
-        "message": "Escolha um Cenário",
-        "description": "Button to add a stage in the target pane from library"
-    },
-    "gui.stageSelector.addBackdropFromPaint": {
-        "message": "Pintar",
-        "description": "Button to add a stage in the target pane from paint"
-    },
-    "gui.stageSelector.addBackdropFromSurprise": {
-        "message": "Surpresa",
-        "description": "Button to add a random stage in the target pane"
-    },
-    "gui.stageSelector.addBackdropFromFile": {
-        "message": "Carregar Cenário",
-        "description": "Button to add a stage in the target pane from file"
-    },
-    "gui.stageSelector.stage": {
-        "message": "Palco",
-        "description": "Label for the stage in the stage selector"
-    },
-    "gui.stageSelector.backdrops": {
-        "message": "Cenários",
-        "description": "Label for the backdrops in the stage selector"
-    },
-    "gui.turboMode.active": {
-        "message": "Modo Turbo",
-        "description": "Label indicating turbo mode is active"
-    },
-    "gui.webglModal.label": {
-        "message": "O Seu Navegador Não Suporta WebGL",
-        "description": "WebGL missing title"
-    },
-    "gui.webglModal.description": {
-        "message": "Aparentemente o seu navegador ou computador {webGlLink}. Esta tecnologia é necessária para que o Scratch 3.0 funcione.",
-        "description": "WebGL missing message"
-    },
-    "gui.webglModal.webgllink": {
-        "message": "não suporta WebGL",
-        "description": "link part of your browser does not support WebGL message"
-    },
-    "gui.webglModal.back": {
-        "message": "Voltar",
-        "description": "Label for button go back when browser is unsupported"
-    },
-    "gui.webglModal.previewfaq": {
-        "message": "Para saber mais, vá a {previewFaqLink}.",
-        "description": "Scratch 3.0 FAQ description"
-    },
-    "gui.webglModal.previewfaqlinktext": {
-        "message": "PF",
-        "description": "link to Scratch 3.0 FAQ page"
-    },
-    "gui.costumeLibrary.chooseABackdrop": {
-        "message": "Escolha um Cenário",
-        "description": "Heading for the backdrop library"
-    },
-    "gui.costumeLibrary.chooseACostume": {
-        "message": "Escolha um Traje",
-        "description": "Heading for the costume library"
-    },
-    "gui.costumeTab.addBackdropFromLibrary": {
-        "message": "Escolha um Cenário",
-        "description": "Button to add a backdrop in the editor tab"
-    },
-    "gui.costumeTab.addCostumeFromLibrary": {
-        "message": "Escolha um Traje",
-        "description": "Button to add a costume in the editor tab"
-    },
-    "gui.costumeTab.addBlankCostume": {
-        "message": "Pintar",
-        "description": "Button to add a blank costume in the editor tab"
-    },
-    "gui.costumeTab.addSurpriseCostume": {
-        "message": "Surpresa",
-        "description": "Button to add a surprise costume in the editor tab"
-    },
-    "gui.costumeTab.addFileBackdrop": {
-        "message": "Carregar Cenário",
-        "description": "Button to add a backdrop by uploading a file in the editor tab"
-    },
-    "gui.costumeTab.addFileCostume": {
-        "message": "Carregar Traje",
-        "description": "Button to add a costume by uploading a file in the editor tab"
-    },
-    "gui.costumeTab.addCameraCostume": {
-        "message": "Câmara",
-        "description": "Button to use the camera to create a costume costume in the editor tab"
-    },
-    "gui.extensionLibrary.chooseAnExtension": {
-        "message": "Escolha uma Extensão",
-        "description": "Heading for the extension library"
-    },
-    "gui.extensionLibrary.extensionUrl": {
-        "message": "Introduza o URL da extensão",
-        "description": "Prompt for unoffical extension url"
-    },
-    "gui.projectLoader.loadError": {
-        "message": "Falhou o carregamento do arquivo de projecto que foi seleccionado.",
-        "description": "An error that displays when a local project file fails to load."
-    },
-    "gui.recordingStep.alertMsg": {
-        "message": "Não foi possível iniciar gravação",
-        "description": "Alert for recording error"
-    },
-    "gui.soundLibrary.chooseASound": {
-        "message": "Escolha um Som",
-        "description": "Heading for the sound library"
-    },
-    "gui.soundTab.fileUploadSound": {
-        "message": "Carregar Som",
-        "description": "Button to upload sound from file in the editor tab"
-    },
-    "gui.soundTab.surpriseSound": {
-        "message": "Surpresa",
-        "description": "Button to get a random sound in the editor tab"
-    },
-    "gui.soundTab.recordSound": {
-        "message": "Gravar",
-        "description": "Button to record a sound in the editor tab"
-    },
-    "gui.soundTab.addSoundFromLibrary": {
-        "message": "Escolha um Som",
-        "description": "Button to add a sound in the editor tab"
-    },
-    "gui.spriteLibrary.chooseASprite": {
-        "message": "Escolha um Actor",
-        "description": "Heading for the sprite library"
-    },
-    "gui.spriteSelectorItem.deleteSpriteConfirmation": {
-        "message": "Quer mesmo remover isto?",
-        "description": "Confirmation for deleting sprites"
-    },
-    "gui.tipsLibrary.tutorials": {
-        "message": "Escolha um Tutorial",
-        "description": "Heading for the help/tutorials library"
-    },
-    "gui.howtos.intro-move-sayhello-hat.name": {
-        "message": "Começar",
-        "description": "Name for the 'Getting Started' how-to"
-    },
-    "gui.howtos.intro-move.step_stepMove": {
-        "message": "Adicionar um Bloco de Movimento",
-        "description": "Step name for 'Add a move block' step"
-    },
-    "gui.howtos.add-a-move-block.step_stepMoveSayHello": {
-        "message": "Clicar na bandeira verde para começar",
-        "description": "Step name for 'Add A Say Block' step"
-    },
-    "gui.howtos.animate-a-name.name": {
-        "message": "Animar um Nome",
-        "description": "Name for the 'Animate a Name' how-to"
-    },
-    "gui.howtos.animate-a-name.step_AnimatePickLetter": {
-        "message": "Escolher um Actor Letra",
-        "description": "Step name for 'Pick a Letter Sprite' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimatePlaySound": {
-        "message": "Tocar um Som Quando Clicado",
-        "description": "Step name for 'Play a Sound When Clicked' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimatePickLetter2": {
-        "message": "Escolher Outro Actor Letra",
-        "description": "Step name for 'Pick Another Letter Sprite"
-    },
-    "gui.howtos.animate-a-name.step_AnimateChangeColor": {
-        "message": "Alterar a Cor",
-        "description": "Step name for 'Change color' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimateSpin": {
-        "message": "Escolher Outro Actor Letra e Fazê-lo Girar",
-        "description": "Step name for 'Pick Another Letter Sprite & Make It Spin' step"
-    },
-    "gui.howtos.animate-a-name.step_AnimateGrow": {
-        "message": "Escolher Outro Actor Letra e Fazê-lo Crescer",
-        "description": "Step name for 'Pick Another Letter Sprite & Make It Grow!' step"
-    },
-    "gui.howtos.make-music.name": {
-        "message": "Fazer Música",
-        "description": "Name for the 'Make Music' how-to"
-    },
-    "gui.howtos.Make-Music.step_PickInstrument": {
-        "message": "Escolher um Actor Instrumento",
-        "description": "Step name for 'Pick an Instrument Sprite' step"
-    },
-    "gui.howtos.Make-Music.step_PlaySoundClick": {
-        "message": "Tocar um Som Quando Clicado",
-        "description": "Step name for 'Play Sound When Clicked' step"
-    },
-    "gui.howtos.Make-Music.step_MakeSong": {
-        "message": "Criar um Som",
-        "description": "Step name for 'Create a Song' step"
-    },
-    "gui.howtos.make-music.step_MakeBeat": {
-        "message": "Escolher uma Percussão e Fazer um Ritmo",
-        "description": "Step name for 'Choose a Drum & Make a Beat' step"
-    },
-    "gui.howtos.make-music.step_MakeBeatBox": {
-        "message": "Escolher o Actor Microfone e uma Caixa de Ritmos Surpresa",
-        "description": "Step name for 'Choose the Microphone Sprite & Surprise Beatbox' step"
-    },
-    "gui.howtos.make-a-game.name": {
-        "message": "Fazer um Jogo de Cliques",
-        "description": "Name for the 'Make a Clicker Game' how-to"
-    },
-    "gui.howtos.Make-A-Game.step_GamePickSprite": {
-        "message": "Escolher um Actor",
-        "description": "Step name for 'Pick A Sprite' step"
-    },
-    "gui.howtos.make-a-game.step_GamePlaySound": {
-        "message": "Tocar um Som Quando Clicado",
-        "description": "Play Sound When Clicked' step"
-    },
-    "gui.howtos.make-a-game.step_GameAddScore": {
-        "message": "Criar uma Variável de Pontuação",
-        "description": "Step name for 'Create Score Variable' step"
-    },
-    "gui.howtos.make-a-game.step_GameChangeScore": {
-        "message": "Quando Clicado Aumentar a Pontuação",
-        "description": "Step name for 'When Clicked Increase Score' step"
-    },
-    "gui.howtos.make-a-game.step_Random": {
-        "message": "Ir para uma posição ao acaso",
-        "description": "Step name for 'Go to a random position' step"
-    },
-    "gui.howtos.make-music.step_GameChangeColor": {
-        "message": "Alterar a Cor",
-        "description": "Step name for 'Change Color' step"
-    },
-    "gui.howtos.make-music.step_ResetScore": {
-        "message": "Reiniciar a Pontuação",
-        "description": "Step name for 'Reset Score' step"
-    },
-    "gui.howtos.make-a-chase-game.name": {
-        "message": "Fazer um Jogo de Perseguição",
-        "description": "Name for the 'Make a Chase Game' how-to"
-    },
-    "gui.howtos.Chase-Game.step_BG": {
-        "message": "Adicionar um Cenário",
-        "description": "Step name for 'Add a Backdrop' step"
-    },
-    "gui.howtos.chase-game.step_AddOcto": {
-        "message": "Adicionar um Actor",
-        "description": "Step name for 'Add a Sprite' step"
-    },
-    "gui.howtos.make-music.step_LeftRight": {
-        "message": "Mover Para a Esquerda e Para a Direita Usando as Setas",
-        "description": "Step name for 'Move Right & Left With Arrow Keys' step"
-    },
-    "gui.howtos.Chase-Game.step_UpDown": {
-        "message": "Mover Para Cima e Para Baixo Usando as Setas",
-        "description": "Step name for 'Move Up & Down With Arrow Keys' step"
-    },
-    "gui.howtos.Chase-Game.step_AddStar": {
-        "message": "Adicionar Outro Actor",
-        "description": "Step name for 'Add Another Sprite' step"
-    },
-    "gui.howtos.Chase-Game.step_MoveRandom": {
-        "message": "Mover ao Acaso",
-        "description": "Step name for 'Move Randomly' step"
-    },
-    "gui.howtos.Chase-Game.step_WhenTouch": {
-        "message": "No Actor Polvo, Tocar Som Quando Tocar",
-        "description": "Step name for 'In Octopus Sprite, When Touching Play Sound' step"
-    },
-    "gui.howtos.Chase-Game.step_ScoreVariable": {
-        "message": "Criar uma Variável de Pontuação",
-        "description": "Step name for 'Create Score Variable"
-    },
-    "gui.howtos.Chase-Game.ScoreWhenTouch": {
-        "message": "No Actor Polvo, Adicionar à Pontuação Quando a Tocar",
-        "description": "Step name for 'In Octopus Sprite, When Touching Add Score step"
-    },
-    "gui.howtos.add-sprite.name": {
-        "message": "Adicionar um Actor",
-        "description": "Name for the 'Add a Sprite' how-to"
-    },
-    "gui.howtos.add-sprite.step_addSprite": {
-        "message": "Adicionar um Actor",
-        "description": "Step name for 'Add a new sprite' step"
-    },
-    "gui.howtos.add-a-backdrop.name": {
-        "message": "Adicionar um Cenário",
-        "description": "Name for the 'Add a Backdrop' how-to"
-    },
-    "gui.howtos.change-size.name": {
-        "message": "Alterar o Tamanho",
-        "description": "Name for the 'Change Size' how-to"
-    },
-    "gui.howtos.glide-around.name": {
-        "message": "Deslizar Por Aí",
-        "description": "Name for the 'Glide Around' how-to"
-    },
-    "gui.howtos.record-a-sound.name": {
-        "message": "Gravar um Som",
-        "description": "Record A Sound' how-to"
-    },
-    "gui.howtos.spin-video.name": {
-        "message": "Fazê-la Girar",
-        "description": "Name for the 'Make It Spin' how-to"
-    },
-    "gui.howtos.hide-and-show.name": {
-        "message": "Mostrar e Esconder",
-        "description": "Name for the 'Hide and Show' how-to"
-    },
-    "gui.howtos.switch-costume.name": {
-        "message": "Animar um Actor",
-        "description": "Name for the 'Animate a Sprite' how-to"
-    },
-    "gui.howtos.move-around-with-arrow-keys.name": {
-        "message": "Usar as Setas do Teclado",
-        "description": "Name for the 'Use Arrow Keys' how-to"
-    },
-    "gui.howtos.add-effects.name": {
-        "message": "Adicionar Efeitos",
-        "description": "Name for the 'Add Effects' how-to"
-    },
-    "gui.extension.music.name": {
-        "message": "Música",
-        "description": "Name for the 'Music' extension"
-    },
-    "gui.extension.music.description": {
-        "message": "Toque instrumentos e percussão.",
-        "description": "Description for the 'Music' extension"
-    },
-    "gui.extension.pen.name": {
-        "message": "Caneta",
-        "description": "Name for the 'Pen' extension"
-    },
-    "gui.extension.pen.description": {
-        "message": "Desenhe com os seus actores.",
-        "description": "Description for the 'Pen' extension"
-    },
-    "gui.extension.videosensing.name": {
-        "message": "Vídeo Sensorial",
-        "description": "Name for the 'Video Sensing' extension"
-    },
-    "gui.extension.videosensing.description": {
-        "message": "Use a câmara para sentir movimento.",
-        "description": "Description for the 'Video Sensing' extension"
-    },
-    "gui.extension.googletranslate.name": {
-        "message": "Tradutor Google",
-        "description": "Name for the 'Google Translate' extension. Do not translate 'Google'."
-    },
-    "gui.extension.googletranslate.description": {
-        "message": "Traduza texto para muitas línguas.",
-        "description": "Description for the 'Google Translate' extension"
-    },
-    "gui.extension.microbit.description": {
-        "message": "Ligue os seus projectos ao mundo.",
-        "description": "Description for the 'micro:bit' extension"
-    },
-    "gui.extension.microbit.connectingMessage": {
-        "message": "Ligando",
-        "description": "Message to help people connect to their micro:bit."
-    },
-    "gui.extension.ev3.description": {
-        "message": "Crie robôs interactivos e muito mais.",
-        "description": "Description for the 'LEGO MINDSTORMS EV3' extension"
-    },
-    "gui.extension.ev3.connectingMessage": {
-        "message": "Ligando. Assegure-se de que o pino no seu EV3 está configurado para 1234.",
-        "description": "Message to help people connect to their EV3. Must note the PIN should be 1234."
-    },
-    "gui.extension.wedo2.description": {
-        "message": "Construa com motores e sensores.",
-        "description": "Description for the 'LEGO WeDo 2.0' extension"
-    },
-    "gui.extension.wedo2.connectingMessage": {
-        "message": "Ligando",
-        "description": "Message to help people connect to their WeDo."
-    },
-    "gui.backpack.header": {
-        "message": "Mochila",
-        "description": "Button to open the backpack"
-    }
+    "gui.alerts.lostPeripheralConnection": "O Scratch perdeu a ligação a {extensionName}.",
+    "gui.alerts.tryAgain": "Tentar de Novo",
+    "gui.alerts.download": "Descarregar",
+    "gui.connection.reconnect": "Voltar a Ligar",
+    "gui.backpack.header": "Mochila",
+    "gui.backpack.errorBackpack": "Erro ao carregar a mochila",
+    "gui.backpack.loadingBackpack": "Carregando…",
+    "gui.backpack.more": "Mais",
+    "gui.backpack.emptyBackpack": "A mochila está vazia",
+    "gui.unsupportedBrowser.label": "O navegador não é suportado",
+    "gui.unsupportedBrowser.errorLabel": "Ocorreu um Erro",
+    "gui.unsupportedBrowser.notRecommended": "Pedimos desculpa, mas parece que está a utilizar uma versão de navegador não suportada pelo Scratch. Recomendamos a actualização para a versão mais recente de um navegador suportado, tal como o Google Chrome, o Mozilla Firefox, o Microsoft Edge ou o Safari.",
+    "gui.unsupportedBrowser.description": "Pedimos desculpa, mas o Scratch não suporta este navegador. Recomendamos a actualização para a versão mais recente de um navegador suportado, tal como o Google Chrome, o Mozilla Firefox, o Microsoft Edge ou o Safari.",
+    "gui.unsupportedBrowser.back": "Voltar",
+    "gui.unsupportedBrowser.previewfaq": "Para saber mais, vá a {previewFaqLink}.",
+    "gui.unsupportedBrowser.previewfaqlinktext": "PF",
+    "gui.cameraModal.cameraModalTitle": "Tirar uma Fotografia",
+    "gui.cameraModal.loadingCameraMessage": "Carregando a Câmara…",
+    "gui.cameraModal.permissionRequest": "Precisamos da sua permissão para usar a sua câmara",
+    "gui.cameraModal.retakePhoto": "Tirar Fotografia de Novo",
+    "gui.cameraModal.save": "Guardar",
+    "gui.cameraModal.takePhoto": "Tirar Fotografia",
+    "gui.cameraModal.loadingCaption": "Carregando…",
+    "gui.cameraModal.enableCameraCaption": "Activar a Câmara",
+    "gui.cards.all-tutorials": "Tutoriais",
+    "gui.cards.close": "Fechar",
+    "gui.cards.more-things-to-try": "Mais coisas a experimentar!",
+    "gui.cards.see-more": "Ver mais",
+    "gui.comingSoon.message1": "Não se preocupe, estamos a trabalhar afincadamente nisto {emoji}",
+    "gui.comingSoon.message2": "Em Breve...",
+    "gui.comingSoon.message3": "Estamos a trabalhar afincadamente nisto {emoji}",
+    "gui.connection.auto-scanning.noPeripheralsFound": "Não foram encontrados dispositivos",
+    "gui.connection.auto-scanning.prescan": "Mantenha o seu dispositivo por perto, depois comece uma procura.",
+    "gui.connection.auto-scanning.pressbutton": "Pressione o botão no seu dispositivo.",
+    "gui.connection.auto-scanning.start-search": "Começar Procura",
+    "gui.connection.connecting-searchbutton": "Procurando…",
+    "gui.connection.auto-scanning.try-again": "Tentar de novo",
+    "gui.connection.connected": "Ligado",
+    "gui.connection.disconnect": "Desligar",
+    "gui.connection.go-to-editor": "Ir para o Editor",
+    "gui.connection.connecting-cancelbutton": "Ligando…",
+    "gui.connection.error.errorMessage": "Ops, parece que algo correu mal.",
+    "gui.connection.error.tryagainbutton": "Tentar de novo",
+    "gui.connection.error.helpbutton": "Ajuda",
+    "gui.connection.peripheral-name-label": "Nome do dispositivo",
+    "gui.connection.connect": "Ligar",
+    "gui.connection.scanning.lookingforperipherals": "Procurando dispositivos",
+    "gui.connection.scanning.noPeripheralsFound": "Não foram encontrados dispositivos",
+    "gui.connection.scanning.instructions": "Seleccione o seu dispositivo na lista abaixo.",
+    "gui.connection.search": "Refrescar",
+    "gui.connection.unavailable.installscratchlink": "Assegure-se de que tem o Scratch Link instalado e em execução",
+    "gui.connection.unavailable.enablebluetooth": "Verifique se o Bluetooth está activo",
+    "gui.connection.unavailable.tryagainbutton": "Tentar de novo",
+    "gui.connection.unavailable.helpbutton": "Ajuda",
+    "gui.controls.go": "Começar",
+    "gui.controls.stop": "Parar",
+    "gui.crashMessage.label": "Oh lá! Algo correu mal.",
+    "gui.crashMessage.description": "Lamentamos, mas aparentemente o Scratch parou. Este erro foi reportado automaticamente à Equipa Scratch. Por favor refresque a sua página para tentar de novo.",
+    "gui.crashMessage.errorNumber": "O seu erro foi registado com o identificador {errorId}",
+    "gui.crashMessage.reload": "Recarregar",
+    "gui.customProcedures.myblockModalTitle": "Criar um Bloco",
+    "gui.customProcedures.addAnInputNumberText": "Adicionar uma entrada",
+    "gui.customProcedures.numberTextType": "numérica ou textual",
+    "gui.customProcedures.addAnInputBoolean": "Adicionar uma entrada",
+    "gui.customProcedures.booleanType": "booleana",
+    "gui.customProcedures.addALabel": "Adicionar uma etiqueta",
+    "gui.customProcedures.runWithoutScreenRefresh": "Executar sem actualizar o ecrã",
+    "gui.customProcedures.cancel": "Cancelar",
+    "gui.customProcedures.ok": "OK",
+    "gui.SpriteInfo.direction": "Direcção",
+    "gui.directionPicker.rotationStyles.allAround": "Girar a Toda a Volta",
+    "gui.directionPicker.rotationStyles.leftRight": "Olhar apenas para a esquerda e para a direita",
+    "gui.directionPicker.rotationStyles.dontRotate": "Não rodar",
+    "gui.gui.addExtension": "Adicionar Extensão",
+    "gui.gui.codeTab": "Código",
+    "gui.gui.backdropsTab": "Cenários",
+    "gui.gui.costumesTab": "Trajes",
+    "gui.gui.soundsTab": "Sons",
+    "gui.importInfo.title": "Ver um Projecto Scratch 2.0",
+    "gui.importInfo.betamessage": "Introduza uma ligação para um dos seus projectos Scratch partilhados. As alterações feitas nesta versão 3.0 Beta não serão guardadas.",
+    "gui.importInfo.message": "Introduza uma ligação para um dos seus projectos Scratch partilhados. Alterações realizadas nesta Antevisão do 3.0 não serão guardadas.",
+    "gui.importInfo.invalidFormatError": "Oh lá! Algo não está certo nesse URL ou ID de projecto.",
+    "gui.importModal.viewproject": "Ver",
+    "gui.importInfo.goback": "Voltar",
+    "gui.importInfo.previewfaq": "Para saber mais, vá a {previewFaqLink}.",
+    "gui.importInfo.previewfaqlinktext": "PF",
+    "gui.extensionLibrary.comingSoon": "Em Breve",
+    "gui.extensionLibrary.requires": "Requere",
+    "gui.extensionLibrary.collaboration": "Colaboração com",
+    "gui.library.filterPlaceholder": "Procurar",
+    "gui.library.allTag": "Tudo",
+    "gui.loader.message1": "A criar blocos …",
+    "gui.loader.message2": "A carregar os actores …",
+    "gui.loader.message3": "A carregar os sons …",
+    "gui.loader.message4": "A carregar extensões …",
+    "gui.loader.message5": "A apascentar gatos …",
+    "gui.loader.message6": "A transmitir nanos …",
+    "gui.loader.message7": "A soprar balões …",
+    "gui.loader.message8": "A preparar emojis …",
+    "gui.loader.headline": "A Carregar o Projecto",
+    "gui.loader.creating": "Criando Projecto",
+    "gui.accountMenu.profile": "Perfil",
+    "gui.accountMenu.myStuff": "As Minhas Coisas",
+    "gui.accountMenu.myClasses": "As Minhas Turmas",
+    "gui.accountMenu.myClass": "A Minha Turma",
+    "gui.accountMenu.accountSettings": "Configurações da conta",
+    "gui.accountMenu.signOut": "Sair",
+    "gui.authorInfo.byUser": "por {username}",
+    "gui.menuBar.seeProjectPage": "Ver Página do Projecto",
+    "general.username": "Nome de utilizador",
+    "general.password": "Palavra-passe",
+    "general.signIn": "Entrar",
+    "login.needHelp": "Precisa de Ajuda?",
+    "form.validationRequired": "Este campo é obrigatório",
+    "gui.menuBar.confirmNewWithoutSaving": "Substituir os conteúdos do projecto actual?",
+    "gui.menuBar.LanguageSelector": "selector de língua",
+    "gui.menuBar.tutorialsLibrary": "Tutoriais",
+    "gui.menuBar.restoreSprite": "Recuperar Actor",
+    "gui.menuBar.restoreSound": "Recuperar Som",
+    "gui.menuBar.restoreCostume": "Recuperar Traje",
+    "gui.menuBar.restore": "Recuperar",
+    "gui.menuBar.saveNow": "Guardar agora",
+    "gui.menuBar.saveAsCopy": "Guardar como cópia",
+    "gui.menuBar.remix": "Remisturar",
+    "gui.menuBar.new": "Novo",
+    "gui.menuBar.file": "Arquivo",
+    "gui.menuBar.uploadFromComputer": "Carregar a partir do seu computador",
+    "gui.menuBar.downloadToComputer": "Descarregar para o seu computador",
+    "gui.menuBar.edit": "Editar",
+    "gui.menuBar.turboModeOff": "Desligar o Modo Turbo",
+    "gui.menuBar.turboModeOn": "Ligar o Modo Turbo",
+    "gui.menuBar.joinScratch": "Aderir ao Scratch",
+    "gui.menuBar.signIn": "Entrar",
+    "gui.menuBar.giveFeedback": "Dar a Sua Opinião",
+    "gui.gui.projectTitlePlaceholder": "Introduza aqui o título do projecto",
+    "gui.menuBar.saveNowLink": "Guardar Agora",
+    "gui.menuBar.isShared": "Partilhado",
+    "gui.menuBar.share": "Partilhar",
+    "gui.modal.help": "Ajuda",
+    "gui.modal.back": "Voltar",
+    "gui.monitor.listMonitor.empty": "(vazia)",
+    "gui.monitor.listMonitor.listLength": "comprimento {length}",
+    "gui.monitor.contextMenu.default": "visor normal",
+    "gui.monitor.contextMenu.large": "visor grande",
+    "gui.monitor.contextMenu.slider": "deslizador",
+    "gui.monitor.contextMenu.import": "importar",
+    "gui.monitor.contextMenu.export": "exportar",
+    "gui.previewInfo.label": "Experimente o Scratch 3.0",
+    "gui.previewInfo.welcome": "Bem-vindo ao Scratch 3.0 Beta",
+    "gui.previewModal.notnowtooltip": "Agora Não",
+    "gui.previewModal.tryittooltip": "Experimentar",
+    "gui.previewModal.viewprojecttooltip": "Ver Projecto 2.0",
+    "gui.previewInfo.betawelcome": "Bem-vindo ao Scratch 3.0 Beta",
+    "gui.previewInfo.invitation": "Estamos a trabalhar na próxima geração do Scratch. Estamos entusiasmados por o experimentar!",
+    "gui.previewInfo.notnow": "Agora Não",
+    "gui.previewModal.tryit": "Experimente! {caticon}",
+    "gui.previewModal.viewproject": "Ver Projecto 2.0",
+    "gui.previewInfo.previewfaq": "Para saber mais, vá a {previewFaqLink}.",
+    "gui.previewInfo.previewfaqlinktext": "PF",
+    "gui.gui.variableScopeOptionAllSprites": "Para todos os actores",
+    "gui.gui.variableScopeOptionSpriteOnly": "Apenas para este actor",
+    "gui.gui.cloudVariableOption": "Variável de nuvem (guardada em servidor)",
+    "gui.gui.variablePromptAllSpritesMessage": "Esta variável estará disponível para todos os actores.",
+    "gui.prompt.cancel": "Cancelar",
+    "gui.prompt.ok": "OK",
+    "gui.playbackStep.stopMsg": "Parar",
+    "gui.playbackStep.playMsg": "Tocar",
+    "gui.playbackStep.loadingMsg": "Carregando…",
+    "gui.playbackStep.saveMsg": "Guardar",
+    "gui.playbackStep.reRecordMsg": "Voltar a Gravar",
+    "gui.recordModal.title": "Gravar Som",
+    "gui.recordingStep.beginRecord": "Começar a gravar clicando no botão abaixo",
+    "gui.recordingStep.permission": "{arrow}Precisamos da sua permissão para usar o seu microfone",
+    "gui.recordingStep.stop": "Parar a gravação",
+    "gui.recordingStep.record": "Gravar",
+    "gui.soundEditor.sound": "Som",
+    "gui.soundEditor.play": "Tocar",
+    "gui.soundEditor.stop": "Parar",
+    "gui.soundEditor.trim": "Aparar",
+    "gui.soundEditor.save": "Guardar",
+    "gui.soundEditor.undo": "Desfazer",
+    "gui.soundEditor.redo": "Refazer",
+    "gui.soundEditor.faster": "Acelerar",
+    "gui.soundEditor.slower": "Retardar",
+    "gui.soundEditor.echo": "Eco",
+    "gui.soundEditor.robot": "Robô",
+    "gui.soundEditor.louder": "Maior Volume",
+    "gui.soundEditor.softer": "Menor Volume",
+    "gui.soundEditor.reverse": "Inverter",
+    "gui.SpriteInfo.spritePlaceholder": "Nome",
+    "gui.SpriteInfo.sprite": "Actor",
+    "gui.SpriteInfo.show": "Mostrar",
+    "gui.SpriteInfo.size": "Tamanho",
+    "gui.spriteSelectorItem.contextMenuDuplicate": "duplicar",
+    "gui.spriteSelectorItem.contextMenuExport": "exportar",
+    "gui.spriteSelectorItem.contextMenuDelete": "remover",
+    "gui.spriteSelector.addSpriteFromLibrary": "Escolha um Actor",
+    "gui.spriteSelector.addSpriteFromPaint": "Pintar",
+    "gui.spriteSelector.addSpriteFromSurprise": "Surpresa",
+    "gui.spriteSelector.addSpriteFromFile": "Carregar Actor",
+    "gui.stageHeader.stageSizeLarge": "Mudar para um palco grande",
+    "gui.stageHeader.stageSizeSmall": "Mudar para palco pequeno",
+    "gui.stageHeader.stageSizeFull": "Iniciar modo de ecrã completo",
+    "gui.stageHeader.stageSizeUnFull": "Sair do modo de ecrã completo",
+    "gui.stageHeader.fullscreenControl": "Controlo de Ecrã Completo",
+    "gui.spriteSelector.addBackdropFromLibrary": "Escolha um Cenário",
+    "gui.stageSelector.addBackdropFromPaint": "Pintar",
+    "gui.stageSelector.addBackdropFromSurprise": "Surpresa",
+    "gui.stageSelector.addBackdropFromFile": "Carregar Cenário",
+    "gui.stageSelector.stage": "Palco",
+    "gui.stageSelector.backdrops": "Cenários",
+    "gui.telemetryOptIn.label": "Reportar estatísticas para melhorar o Scratch",
+    "gui.telemetryOptIn.body1": "A Equipa Scratch está sempre a tentar compreender melhor como o Scratch é usado em todo o mundo. Para ajudar a apoiar este esforço, pode permitir que o Scratch envie automaticamente informação de uso para a Equipa Scratch.",
+    "gui.telemetryOptIn.body2": "A informação que recolhemos inclui a selecção da língua, a utilização dos blocos e alguns eventos tais como guardar, abrir e carregar um projecto. NÃO recolhemos nenhuma informação pessoal. Por favor veja as nossas {privacyPolicyLink} para mais informações.",
+    "gui.telemetryOptIn.privacyPolicyLink": "Política de Privacidade",
+    "gui.telemetryOptIn.buttonTextNo": "Não, obrigado",
+    "gui.telemetryOptIn.buttonTooltipNo": "Desactivar telemetria",
+    "gui.telemetryOptIn.buttonTextYes": "Sim, quero ajudar a melhorar o Scratch",
+    "gui.telemetryOptIn.buttonTooltipYes": "Activar telemetria",
+    "gui.turboMode.active": "Modo Turbo",
+    "gui.webglModal.label": "O Seu Navegador Não Suporta WebGL",
+    "gui.webglModal.description": "Aparentemente o seu navegador ou computador {webGlLink}. Esta tecnologia é necessária para que o Scratch 3.0 funcione.",
+    "gui.webglModal.webgllink": "não suporta WebGL",
+    "gui.webglModal.back": "Voltar",
+    "gui.webglModal.previewfaq": "Para saber mais, vá a {previewFaqLink}.",
+    "gui.webglModal.previewfaqlinktext": "PF",
+    "gui.costumeLibrary.chooseABackdrop": "Escolha um Cenário",
+    "gui.costumeLibrary.chooseACostume": "Escolha um Traje",
+    "gui.costumeTab.addBackdropFromLibrary": "Escolha um Cenário",
+    "gui.costumeTab.addCostumeFromLibrary": "Escolha um Traje",
+    "gui.costumeTab.addBlankCostume": "Pintar",
+    "gui.costumeTab.addSurpriseCostume": "Surpresa",
+    "gui.costumeTab.addFileBackdrop": "Carregar Cenário",
+    "gui.costumeTab.addFileCostume": "Carregar Traje",
+    "gui.costumeTab.addCameraCostume": "Câmara",
+    "gui.extensionLibrary.chooseAnExtension": "Escolha uma Extensão",
+    "gui.extensionLibrary.extensionUrl": "Introduza o URL da extensão",
+    "gui.gui.defaultProjectTitle": "Projecto Scratch",
+    "gui.monitors.importListColumnPrompt": "Que coluna deve ser usada (1 – {numberOfColumns})?",
+    "gui.recordingStep.alertMsg": "Não foi possível iniciar gravação",
+    "gui.projectLoader.loadError": "Falhou o carregamento do arquivo de projecto que foi seleccionado.",
+    "gui.soundLibrary.chooseASound": "Escolha um Som",
+    "gui.soundTab.fileUploadSound": "Carregar Som",
+    "gui.soundTab.surpriseSound": "Surpresa",
+    "gui.soundTab.recordSound": "Gravar",
+    "gui.soundTab.addSoundFromLibrary": "Escolha um Som",
+    "gui.spriteLibrary.chooseASprite": "Escolha um Actor",
+    "gui.tipsLibrary.tutorials": "Escolha um Tutorial",
+    "gui.alerts.createsuccess": "Criado novo projecto.",
+    "gui.alerts.createcopysuccess": "Projecto guardado como cópia.",
+    "gui.alerts.createremixsuccess": "Projecto guardado como uma remistura.",
+    "gui.alerts.creating": "A criar novo…",
+    "gui.alerts.creatingCopy": "A copiar o projecto…",
+    "gui.alerts.creatingRemix": "A remisturar o projecto…",
+    "gui.alerts.creatingError": "Não foi possível criar o projecto. Por favor tente novamente!",
+    "gui.alerts.savingError": "Não foi possível guardar o projecto.",
+    "gui.alerts.savesuccess": "Projecto guardado.",
+    "gui.alerts.saving": "A guardar o projecto…",
+    "gui.alerts.cloudInfo": "Por favor note que as variáveis de nuvem suportam apenas números, e não letras ou símbolos. {learnMoreLink}",
+    "gui.alerts.cloudInfoLearnMore": "Saber mais.",
+    "gui.defaultProject.meow": "Miau!",
+    "gui.defaultProject.variable": "a minha variável",
+    "gui.howtos.intro-move-sayhello-hat.name": "Começar",
+    "gui.howtos.intro-move.step_stepMove": "Adicionar um Bloco de Movimento",
+    "gui.howtos.add-a-move-block.step_stepMoveSayHello": "Clicar na bandeira verde para começar",
+    "gui.howtos.say-it-out-loud": "Criar Animações que Falam",
+    "gui.howtos.say-it-out-loud.step_AddTXTextension": "Adicionar o Texto a Blocos de Fala",
+    "gui.howtos. say-it-out-loud.step_TXTSpeech": "Dizer Alguma Coisa",
+    "gui.howtos.say-it-out-loud_TXTSetVoice": "Seleccionar uma Voz",
+    "gui.howtos.say-it-out-loud.step_TXTMove": "Mover",
+    "gui.howtos.say-it-out-loud.step_TXTBackdrop": "Adicionar um Cenário",
+    "gui.howtos.say-it-out-loud.step_TXTAddSprite": "Adicionar Outro Personagem",
+    "gui.howtos.say-it-out-loud.step_TXTSong": "Cantar uma Canção",
+    "gui.howtos.say-it-out-loud.step_TXTColor": "Alterar a Cor",
+    "gui.howtos.say-it-out-loud.step_TXTSpin": "Girar",
+    "gui.howtos.say-it-out-loud.step_TXTGrow": "Aumentar e Diminuir",
+    "gui.howtos.cartoon-network": "Animar um Jogo de Aventuras",
+    "gui.howtos.cartoon-network.step_CNcharacter": "Escolher uma Personagem a Mostrar",
+    "gui.howtos.cartoon-network.step_CNsay": "Dizer Alguma Coisa",
+    "gui.howtos.cartoon-network.step_CNglide": "Deslizar Por Aí",
+    "gui.howtos.cartoon-network.step_CNpicksprite": "Escolher um Objecto para Perseguir",
+    "gui.howtos.cartoon-network.step_CNcollect": "Recolher Objectos",
+    "gui.howtos.cartoon-network.step_CNvariable": "Criar uma Variável de Pontuação",
+    "gui.howtos.cartoon-network.step_CNscore": "Manter a Pontuação",
+    "gui.howtos.cartoon-network.step_CNbackdrop": "Subida de Nível: Alterar Cenário",
+    "gui.howtos.animate-a-name.name": "Animar um Nome",
+    "gui.howtos.animate-a-name.step_AnimatePickLetter": "Escolher um Actor Letra",
+    "gui.howtos.animate-a-name.step_AnimatePlaySound": "Tocar um Som Quando Clicado",
+    "gui.howtos.animate-a-name.step_AnimatePickLetter2": "Escolher Outro Actor Letra",
+    "gui.howtos.animate-a-name.step_AnimateChangeColor": "Alterar a Cor",
+    "gui.howtos.animate-a-name.step_AnimateSpin": "Escolher Outro Actor Letra e Fazê-lo Girar",
+    "gui.howtos.animate-a-name.step_AnimateGrow": "Escolher Outro Actor Letra e Fazê-lo Crescer",
+    "gui.howtos.make-music.name": "Fazer Música",
+    "gui.howtos.Make-Music.step_PickInstrument": "Escolher um Actor Instrumento",
+    "gui.howtos.Make-Music.step_PlaySoundClick": "Tocar um Som Quando Clicado",
+    "gui.howtos.Make-Music.step_MakeSong": "Criar um Som",
+    "gui.howtos.make-music.step_MakeBeat": "Escolher uma Percussão e Fazer um Ritmo",
+    "gui.howtos.make-music.step_MakeBeatBox": "Escolher o Actor Microfone e uma Caixa de Ritmos Surpresa",
+    "gui.howtos.make-a-game.name": "Fazer um Jogo de Cliques",
+    "gui.howtos.Make-A-Game.step_GamePickSprite": "Escolher um Actor",
+    "gui.howtos.make-a-game.step_GamePlaySound": "Tocar um Som Quando Clicado",
+    "gui.howtos.make-a-game.step_GameAddScore": "Criar uma Variável de Pontuação",
+    "gui.howtos.make-a-game.step_GameChangeScore": "Quando Clicado Aumentar a Pontuação",
+    "gui.howtos.make-a-game.step_Random": "Ir para uma posição ao acaso",
+    "gui.howtos.make-music.step_GameChangeColor": "Alterar a Cor",
+    "gui.howtos.make-music.step_ResetScore": "Reiniciar a Pontuação",
+    "gui.howtos.make-a-chase-game.name": "Fazer um Jogo de Perseguição",
+    "gui.howtos.Chase-Game.step_BG": "Adicionar um Cenário",
+    "gui.howtos.chase-game.step_AddOcto": "Adicionar um Actor",
+    "gui.howtos.make-music.step_LeftRight": "Mover Para a Esquerda e Para a Direita Usando as Setas",
+    "gui.howtos.Chase-Game.step_UpDown": "Mover Para Cima e Para Baixo Usando as Setas",
+    "gui.howtos.Chase-Game.step_AddStar": "Adicionar Outro Actor",
+    "gui.howtos.Chase-Game.step_MoveRandom": "Mover ao Acaso",
+    "gui.howtos.Chase-Game.step_WhenTouch": "No Actor Polvo, Tocar Som Quando Tocar",
+    "gui.howtos.Chase-Game.step_ScoreVariable": "Criar uma Variável de Pontuação",
+    "gui.howtos.Chase-Game.ScoreWhenTouch": "No Actor Polvo, Adicionar à Pontuação Quando a Tocar",
+    "gui.howtos.animate-char.name": "Animar um Personagem",
+    "gui.howtos.animate-char.step_addbg": "Adicionar um Cenário",
+    "gui.howtos.animate-char.step_addsprite": "Adicionar um Actor",
+    "gui.howtos.animate-char.step_saysomething": "Dizer Alguma Coisa",
+    "gui.howtos.animate-char.step_addsound": "Adicionar Som",
+    "gui.howtos.animate-char.step_animatetalking": "Animar Fala",
+    "gui.howtos.animate-char.step_arrowkeys": "Mover Usando as Setas do Teclado",
+    "gui.howtos.animate-char.step_jump": "Saltar",
+    "gui.howtos.animate-char.step_changecolor": "Alterar a Cor",
+    "gui.howtos.story.name": "Criar uma Estória",
+    "gui.howtos.story.step_addbg": "Adicionar um Cenário",
+    "gui.howtos.story.step_addsprite": "Adicionar um Personagem",
+    "gui.howtos.story.step_saysomething": "Dizer Alguma Coisa",
+    "gui.howtos.story.step_addanothersprite": "Adicionar Outro Personagem",
+    "gui.howtos.story.step_flip": "Inverter Direcção",
+    "gui.howtos.story.step_conversation": "Ter uma Conversa",
+    "gui.howtos.story.addanotherbg": "Adicionar Outro Cenário",
+    "gui.howtos.story.step_swithbg": "Mudar de Cenários",
+    "gui.howtos.story.step_hidewizard": "Esconder um Personagem",
+    "gui.howtos.story.step_showwizard": "Mostrar um Personagem",
+    "gui.howtos.videosens.name": "Sensores de Vídeo",
+    "gui.howtos.videosens.step_addextension": "Adicionar Extensão",
+    "gui.howtos.videosens.step_pet": "Festinhas ao Gato",
+    "gui.howtos.videosens.step_animate": "Animar",
+    "gui.howtos.videosens.step_pop": "Rebentar um Balão",
+    "gui.howtos.add-sprite.name": "Adicionar um Actor",
+    "gui.howtos.add-sprite.step_addSprite": "Adicionar um Actor",
+    "gui.howtos.add-a-backdrop.name": "Adicionar um Cenário",
+    "gui.howtos.change-size.name": "Alterar o Tamanho",
+    "gui.howtos.glide-around.name": "Deslizar Por Aí",
+    "gui.howtos.record-a-sound.name": "Gravar um Som",
+    "gui.howtos.spin-video.name": "Fazê-la Girar",
+    "gui.howtos.hide-and-show.name": "Mostrar e Esconder",
+    "gui.howtos.switch-costume.name": "Animar um Actor",
+    "gui.howtos.move-around-with-arrow-keys.name": "Usar as Setas do Teclado",
+    "gui.howtos.add-effects.name": "Adicionar Efeitos",
+    "gui.extension.music.name": "Música",
+    "gui.extension.music.description": "Toque instrumentos e percussão.",
+    "gui.extension.pen.name": "Caneta",
+    "gui.extension.pen.description": "Desenhe com os seus actores.",
+    "gui.extension.videosensing.name": "Vídeo Sensorial",
+    "gui.extension.videosensing.description": "Use a câmara para sentir movimento.",
+    "gui.extension.text2speech.name": "Texto para Fala",
+    "gui.extension.text2speech.description": "Faça os seus projectos falar.",
+    "gui.extension.translate.name": "Traduzir",
+    "gui.extension.translate.description": "Traduza texto para muitas línguas.",
+    "gui.extension.makeymakey.description": "Transforme tudo numa tecla.",
+    "gui.extension.microbit.description": "Ligue os seus projectos ao mundo.",
+    "gui.extension.microbit.connectingMessage": "Ligando",
+    "gui.extension.ev3.description": "Crie robôs interactivos e muito mais.",
+    "gui.extension.ev3.connectingMessage": "Ligando. Assegure-se de que o pino no seu EV3 está configurado para 1234.",
+    "gui.extension.wedo2.description": "Construa com motores e sensores.",
+    "gui.extension.wedo2.connectingMessage": "Ligando",
+    "gui.libraryTags.all": "Tudo",
+    "gui.libraryTags.animals": "Animais",
+    "gui.libraryTags.dance": "Dança",
+    "gui.libraryTags.effects": "Efeitos",
+    "gui.libraryTags.fantasy": "Fantasia",
+    "gui.libraryTags.fashion": "Moda",
+    "gui.libraryTags.food": "Comida",
+    "gui.libraryTags.indoors": "Interior",
+    "gui.libraryTags.loops": "Ciclos de som",
+    "gui.libraryTags.music": "Música",
+    "gui.libraryTags.notes": "Notas",
+    "gui.libraryTags.outdoors": "Exterior",
+    "gui.libraryTags.patterns": "Padrões",
+    "gui.libraryTags.people": "Pessoas",
+    "gui.libraryTags.percussion": "Percussão",
+    "gui.libraryTags.space": "Espaço",
+    "gui.libraryTags.sports": "Desporto",
+    "gui.libraryTags.underwater": "Debaixo de água",
+    "gui.libraryTags.voice": "Vozes",
+    "gui.libraryTags.wacky": "Maluquices",
+    "gui.libraryTags.animation": "Animações",
+    "gui.libraryTags.art": "Arte",
+    "gui.libraryTags.games": "Jogos",
+    "gui.libraryTags.stories": "Estórias",
+    "gui.libraryTags.letters": "Letras",
+    "gui.opcodeLabels.direction": "direcção",
+    "gui.opcodeLabels.xposition": "x da posição",
+    "gui.opcodeLabels.yposition": "y da posição",
+    "gui.opcodeLabels.size": "tamanho",
+    "gui.opcodeLabels.costumename": "nome do traje",
+    "gui.opcodeLabels.costumenumber": "número do traje",
+    "gui.opcodeLabels.backdropname": "nome do cenário",
+    "gui.opcodeLabels.backdropnumber": "número do cenário",
+    "gui.opcodeLabels.volume": "volume",
+    "gui.opcodeLabels.tempo": "andamento",
+    "gui.opcodeLabels.answer": "resposta",
+    "gui.opcodeLabels.loudness": "volume no microfone",
+    "gui.opcodeLabels.username": "nome de utilizador",
+    "gui.opcodeLabels.year": "ano actual",
+    "gui.opcodeLabels.month": "mês actual",
+    "gui.opcodeLabels.date": "data actual",
+    "gui.opcodeLabels.dayofweek": "dia da semana actual",
+    "gui.opcodeLabels.hour": "hora actual",
+    "gui.opcodeLabels.minute": "minuto actual",
+    "gui.opcodeLabels.second": "segundo actual",
+    "gui.opcodeLabels.timer": "valor do cronómetro",
+    "gui.sharedMessages.backdrop": "Cenário {index}",
+    "gui.sharedMessages.costume": "Traje {index}",
+    "gui.sharedMessages.sprite": "o actor {index}",
+    "gui.sharedMessages.pop": "Pop!"
 }
