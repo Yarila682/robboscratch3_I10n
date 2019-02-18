@@ -56,7 +56,7 @@
     "gui.controls.go": "Вперед",
     "gui.controls.stop": "Остановить",
     "gui.crashMessage.label": "Упс! Что-то пошло не так.",
-    "gui.crashMessage.description": "Нам очень жаль, но похоже что Scratch дал сбой. Сообщение об ошибке было автоматически отправлено команде Scratch. Пожалуйста, обновите страницу чтобы попробовать еще раз.",
+    "gui.crashMessage.description": "Нам очень жаль, но похоже что Robbo Scratch 3 дал сбой. Пожалуйста, обновите страницу чтобы попробовать еще раз.",
     "gui.crashMessage.errorNumber": "Ваша ошибка зарегистрирована как {errorId}",
     "gui.crashMessage.reload": "Перезагрузить",
     "gui.customProcedures.myblockModalTitle": "Создать блок",
