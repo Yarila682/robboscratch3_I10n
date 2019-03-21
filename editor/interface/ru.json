@@ -468,7 +468,9 @@
 	"gui.RobboGui.update_firm_msg": "Пожалуйста, обновите прошивку.",
 	"gui.RobboGui.differ_firm_msg": "Текущая версия прошивки устройства отличается от требуемой",
 	"gui.RobboGui.cr_firm_msg": " (текущая версия: {current_firmware} требуемая версия: {required_firmware}).",
-	"gui.RobboGui.device_lost": "Потеряна связь с устройством."
+	"gui.RobboGui.device_lost": "Потеряна связь с устройством.",
+	"gui.RobboGui.OttoPalette.sound_level": "Уровень звука: ",
+	"gui.RobboGui.OttoPalette.distance":"Расстояние: "
 	
 	
 }

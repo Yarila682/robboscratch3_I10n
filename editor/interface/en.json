@@ -468,5 +468,7 @@
 	"gui.RobboGui.update_firm_msg": "Please update  firmware.",
 	"gui.RobboGui.differ_firm_msg": "The current firmware version of the device differs from the required one.",
 	"gui.RobboGui.cr_firm_msg": " (current: {current_firmware} required: {required_firmware}).",
-	"gui.RobboGui.device_lost": "Lost connection to device"
+	"gui.RobboGui.device_lost": "Lost connection to device",
+	"gui.RobboGui.OttoPalette.sound_level": "Sound level: ",
+	"gui.RobboGui.OttoPalette.distance":"Distance: "
 }
