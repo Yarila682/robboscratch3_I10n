@@ -470,7 +470,9 @@
 	"gui.RobboGui.cr_firm_msg": " (текущая версия: {current_firmware} требуемая версия: {required_firmware}).",
 	"gui.RobboGui.device_lost": "Потеряна связь с устройством.",
 	"gui.RobboGui.OttoPalette.sound_level": "Уровень звука: ",
-	"gui.RobboGui.OttoPalette.distance":"Расстояние: "
+	"gui.RobboGui.OttoPalette.distance":"Расстояние: ",
+	"gui.RobboGui.QuadcopterPalette.meters": "метры",
+	"gui.RobboGui.QuadcopterPalette.degrees": "градусы"
 	
 	
 }

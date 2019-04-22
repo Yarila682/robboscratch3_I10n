@@ -470,5 +470,7 @@
 	"gui.RobboGui.cr_firm_msg": " (current: {current_firmware} required: {required_firmware}).",
 	"gui.RobboGui.device_lost": "Lost connection to device",
 	"gui.RobboGui.OttoPalette.sound_level": "Sound level: ",
-	"gui.RobboGui.OttoPalette.distance":"Distance: "
+	"gui.RobboGui.OttoPalette.distance":"Distance: ",
+	"gui.RobboGui.QuadcopterPalette.meters": "meters",
+	"gui.RobboGui.QuadcopterPalette.degrees": "degrees"
 }
