@@ -471,8 +471,8 @@
 	"gui.RobboGui.device_lost": "Потеряна связь с устройством.",
 	"gui.RobboGui.OttoPalette.sound_level": "Уровень звука: ",
 	"gui.RobboGui.OttoPalette.distance":"Расстояние: ",
-	"gui.RobboGui.QuadcopterPalette.meters": "метры",
-	"gui.RobboGui.QuadcopterPalette.degrees": "градусы"
+	"gui.RobboGui.QuadcopterPalette.meters": "метров",
+	"gui.RobboGui.QuadcopterPalette.degrees": "градусов"
 	
 	
 }
