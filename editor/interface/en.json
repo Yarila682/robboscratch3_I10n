@@ -472,5 +472,6 @@
 	"gui.RobboGui.OttoPalette.sound_level": "Sound level: ",
 	"gui.RobboGui.OttoPalette.distance":"Distance: ",
 	"gui.RobboGui.QuadcopterPalette.meters": "meters",
-	"gui.RobboGui.QuadcopterPalette.degrees": "degrees"
+	"gui.RobboGui.QuadcopterPalette.degrees": "degrees",
+	"gui.RobboGui.devices_not_found": "No devices available for connection. If you have connected the device, but still see this message, try changing the wire."
 }

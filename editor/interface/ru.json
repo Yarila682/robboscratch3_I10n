@@ -472,7 +472,8 @@
 	"gui.RobboGui.OttoPalette.sound_level": "Уровень звука: ",
 	"gui.RobboGui.OttoPalette.distance":"Расстояние: ",
 	"gui.RobboGui.QuadcopterPalette.meters": "метров",
-	"gui.RobboGui.QuadcopterPalette.degrees": "градусов"
+	"gui.RobboGui.QuadcopterPalette.degrees": "градусов",
+	"gui.RobboGui.devices_not_found": "Не обнаружены доступные для подключения устройства. Если вы подсоединили устройство, но всё равно видите это сообщение, попробуйте поменять провод."
 	
 	
 }
