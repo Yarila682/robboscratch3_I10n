@@ -518,7 +518,10 @@
 	"gui.RobboGui.settings_window": "Settings",
 	"gui.RobboGui.fullscreen_interval": "The interval of execution of the block chain in full-screen mode (1-500) (in ms): ",
 	"gui.RobboGui.normal_mode_interval": "The interval of execution of the block chain in normal mode (1-500) (in ms):",
-	"gui.RobboGui.save_settings": "Save settings"
+	"gui.RobboGui.save_settings": "Save settings",
+
+	"gui.RobboGui.ArduinoPalette.arduino": "Arduino",
+	"gui.RobboGui.OttoPalette.otto": "Otto"
 
 
 }
