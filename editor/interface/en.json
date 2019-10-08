@@ -473,6 +473,7 @@
 	"gui.RobboGui.OttoPalette.distance":"Distance: ",
 	"gui.RobboGui.QuadcopterPalette.meters": "meters",
 	"gui.RobboGui.QuadcopterPalette.degrees": "degrees",
+
 	"gui.RobboGui.devices_not_found": "No devices available for connection. If you have connected the device, but still see this message, try changing the wire or USB connector.",
 	"gui.RobboGui.bluetooth_devices_not_found": "No bluetooth devices available for connection. Please, refer to the user manual (FAQ).",
 	"gui.RobboGui.bluetooth_searching":"Looking for Bluetooth devices",
@@ -495,7 +496,29 @@
 	"gui.SearchPanel.device_try_to_reconnect": "Try to reconnect the device. Or use another usb connector.",
 	"gui.SearchPanel.device_cannot_open_old_bluetooth_com": "Can't open a Bluetooth port. Probably this port remained after the previous connection on Bluetooth. Please, remove the old devices from the list of Bluetooth devices.",
 	"gui.SearchPanel.try_connect_to_port": "Trying to connect to the port...",
-	 "gui.SearchPanel.port_opened": "The port is open"
+	"gui.SearchPanel.port_opened": "The port is open",
+
+	"gui.RobboGui.about_window": "About",
+	"gui.RobboGui.start_profiling": "Enable performance measurement",
+	"gui.RobboGui.stop_profiling": "Disable performance measurement",
+	"gui.RobboGui.step_duration": "Block chain complete execution time (in ms):",
+	"gui.RobboGui.recieve_delta": "The delay between the receipt of a full telemetry package (in ms):",
+	"gui.RobboGui.average_step_delay_time": "Average delay time between iterations of the block chain execution (in ms):",
+	"gui.RobboGui.os_name_and_version": "OS: ",
+	"gui.RobboGui.arch": "Arch: ",
+	"gui.RobboGui.cpu": "Cpu: ",
+
+	"gui.RobboMenu.extension_pack_enable": "Enable extension pack",
+	"gui.RobboMenu.extension_pack_disable": "Disable extensiobn pack",
+	"gui.RobboMenu.lab_ext_sensors_enable": "Enable laboratory's external sensors",
+	"gui.RobboMenu.lab_ext_sensors_disable": "Disable laboratory's external sensors",
+	"gui.RobboMenu.trigger_settings_window": "Settings",
+	"gui.RobboMenu.trigger_about_window": "About",
+
+	"gui.RobboGui.settings_window": "Settings",
+	"gui.RobboGui.fullscreen_interval": "The interval of execution of the block chain in full-screen mode (1-500) (in ms): ",
+	"gui.RobboGui.normal_mode_interval": "The interval of execution of the block chain in normal mode (1-500) (in ms):",
+	"gui.RobboGui.save_settings": "Save settings"
 
 
 }
