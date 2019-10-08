@@ -489,7 +489,13 @@
 	"gui.SearchPanel.device_connection_lost":"Lost connection with the device.",
 	"gui.SearchPanel.device_port_error": "Port error!",
 	"gui.SearchPanel.milliseconds": " ms",
-	"gui.SearchPanel.bluetooth_linux_hint": "Due to the peculiarities of  Linux Robbo Scratch 3 must be run as root."
+	"gui.SearchPanel.bluetooth_linux_hint": "Due to the peculiarities of Linux Robbo Scratch 3 must be run as root.",
+	"gui.SearchPanel.flashing_in_progress": "Attention!",
+	"gui.SearchPanel.flashing_in_progress_details":"Flashing in progress",
+	"gui.SearchPanel.device_try_to_reconnect": "Try to reconnect the device. Or use another usb connector.",
+	"gui.SearchPanel.device_cannot_open_old_bluetooth_com": "Can't open a Bluetooth port. Probably this port remained after the previous connection on Bluetooth. Please, remove the old devices from the list of Bluetooth devices.",
+	"gui.SearchPanel.try_connect_to_port": "Trying to connect to the port...",
+	 "gui.SearchPanel.port_opened": "The port is open"
 
 
 }

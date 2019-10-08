@@ -487,7 +487,13 @@
 	"gui.SearchPanel.device_no_response_details": "Необходимо обновить прошивку",
 	"gui.SearchPanel.device_connection_lost":"Потеряна связь с устройством.",
 	"gui.SearchPanel.device_port_error": "Ошибка порта!",
-	"gui.SearchPanel.milliseconds": " мс"
+	"gui.SearchPanel.milliseconds": " мс",
+	"gui.SearchPanel.bluetooth_linux_hint": "В силу особенностей устройства Линукс Robbo Scratch нужно запустить с правами пользователя root.",
+	"gui.SearchPanel.flashing_in_progress": "Внимание!",
+	"gui.SearchPanel.flashing_in_progress_details":"Идёт прошивка.",
+	"gui.SearchPanel.device_try_to_reconnect": "Попробуйте переподключить устройство. Или использовать другой usb разъём.",
+	"gui.SearchPanel.try_connect_to_port": "Пробуем подключиться к порту...",
+	"gui.SearchPanel.port_opened": "Порт открыт"
 	
 	
 }
