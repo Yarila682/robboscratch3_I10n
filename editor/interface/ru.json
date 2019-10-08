@@ -473,7 +473,21 @@
 	"gui.RobboGui.OttoPalette.distance":"Расстояние: ",
 	"gui.RobboGui.QuadcopterPalette.meters": "метров",
 	"gui.RobboGui.QuadcopterPalette.degrees": "градусов",
-	"gui.RobboGui.devices_not_found": "Не обнаружены доступные для подключения usb устройства. Если вы подсоединили устройство, но всё равно видите это сообщение, попробуйте поменять провод или usb разъём."
+	"gui.RobboGui.devices_not_found": "Не обнаружены доступные для подключения usb устройства. Если вы подсоединили устройство, но всё равно видите это сообщение, попробуйте поменять провод или usb разъём.",
+	"gui.RobboGui.bluetooth_devices_not_found": "Не обнаружены доступные для подключения блютуз устройства. Обратитесь к инструкции пользователя (FAQ).",
+	"gui.RobboGui.bluetooth_searching":"Ищем блютуз устройства",
+	"gui.FirmwareFlasherDeviceComponent.device_otto": "Отто",
+	"gui.FirmwareFlasherDeviceComponent.device_arduino": "Ардуино",
+	"gui.FirmwareFlasherDeviceComponent.flashing_device": "Прошиваем...",
+	"gui.RobboGui.differ_firm_msg_device_maybe_incorrect": "Возможна некорректная работа устройства.",
+	"gui.SearchPanel.error": "Ошибка!",
+	"gui.SearchPanel.device_connected": "Устройство подключёно",
+	"gui.SearchPanel.device_checking_serial": "Проверяем серийный номер...",
+	"gui.SearchPanel.device_no_response": "Обнаружено неизвестное устройство",
+	"gui.SearchPanel.device_no_response_details": "Необходимо обновить прошивку",
+	"gui.SearchPanel.device_connection_lost":"Потеряна связь с устройством.",
+	"gui.SearchPanel.device_port_error": "Ошибка порта!",
+	"gui.SearchPanel.milliseconds": " мс"
 	
 	
 }

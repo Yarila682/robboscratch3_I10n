@@ -473,5 +473,23 @@
 	"gui.RobboGui.OttoPalette.distance":"Distance: ",
 	"gui.RobboGui.QuadcopterPalette.meters": "meters",
 	"gui.RobboGui.QuadcopterPalette.degrees": "degrees",
-	"gui.RobboGui.devices_not_found": "No devices available for connection. If you have connected the device, but still see this message, try changing the wire."
+	"gui.RobboGui.devices_not_found": "No devices available for connection. If you have connected the device, but still see this message, try changing the wire or USB connector.",
+	"gui.RobboGui.bluetooth_devices_not_found": "No bluetooth devices available for connection. Please, refer to the user manual (FAQ).",
+	"gui.RobboGui.bluetooth_searching":"Looking for Bluetooth devices",
+	"gui.FirmwareFlasherDeviceComponent.device_otto": "Otto",
+	"gui.FirmwareFlasherDeviceComponent.device_arduino": "Arduino",
+	"gui.FirmwareFlasherDeviceComponent.flashing_device": "Flashing...",
+	"gui.RobboGui.differ_firm_msg_device_maybe_incorrect": "The device may not work properly",
+	"gui.SearchPanel.error": "Error!",
+	"gui.SearchPanel.device_connected": "The device is connected",
+	"gui.SearchPanel.device_checking_serial": "Checking serial...",
+	"gui.SearchPanel.device_no_response": "Unknown device detected",
+	"gui.SearchPanel.device_no_response_details": "Need to update firmware",
+	"gui.SearchPanel.device_no_response_alert_details": "A device that is not recognized in Robbo Scratch is connected to the {device_port} port. Probably there is no firmware in the device, or non-standard firmware is loaded. Download the standard firmware?",
+	"gui.SearchPanel.device_connection_lost":"Lost connection with the device.",
+	"gui.SearchPanel.device_port_error": "Port error!",
+	"gui.SearchPanel.milliseconds": " ms",
+	"gui.SearchPanel.bluetooth_linux_hint": "Due to the peculiarities of  Linux Robbo Scratch 3 must be run as root."
+
+
 }
