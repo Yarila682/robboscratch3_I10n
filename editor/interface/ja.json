@@ -482,7 +482,7 @@
 	"gui.RobboMenu.color_sensor_correction4": "色センサー補正テーブル4",
 	"gui.RobboMenu.color_sensor_correction5": "色センサー補正テーブル5",
 
-	"gui.RobboGui.about_window": "について",
+	"gui.RobboGui.about_window": "ロッボスクラッチについて",
 	"gui.RobboGui.start_profiling": "パフォーマンス測定を有効にする",
 	"gui.RobboGui.stop_profiling": "パフォーマンス測定を無効にする",
 	"gui.RobboGui.step_duration": "ブロックのチェーンの実行完了時間（ミリ秒）",
