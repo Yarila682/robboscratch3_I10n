@@ -509,7 +509,7 @@
 	"gui.RobboGui.cpu": "Cpu: ",
 
 	"gui.RobboMenu.extension_pack_enable": "Enable extension pack",
-	"gui.RobboMenu.extension_pack_disable": "Disable extensiobn pack",
+	"gui.RobboMenu.extension_pack_disable": "Disable extension pack",
 	"gui.RobboMenu.lab_ext_sensors_enable": "Enable laboratory's external sensors",
 	"gui.RobboMenu.lab_ext_sensors_disable": "Disable laboratory's external sensors",
 	"gui.RobboMenu.trigger_settings_window": "Settings",
