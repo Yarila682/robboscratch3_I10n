@@ -493,7 +493,8 @@
 	"gui.SearchPanel.flashing_in_progress_details":"Идёт прошивка.",
 	"gui.SearchPanel.device_try_to_reconnect": "Попробуйте переподключить устройство. Или использовать другой usb разъём.",
 	"gui.SearchPanel.try_connect_to_port": "Пробуем подключиться к порту...",
-	"gui.SearchPanel.port_opened": "Порт открыт"
+	"gui.SearchPanel.port_opened": "Порт открыт",
+	"gui.RobboGui.copy_to_clipboard": "Скопировать в буфер обмена"
 	
 	
 }
