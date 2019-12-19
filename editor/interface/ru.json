@@ -508,7 +508,7 @@
 
 	"gui.dca.for_bluetooth": "Настройки таймаутов для подключения по блютуз: ",
 	"gui.RobboGui.intervals_for_blocks_chain": "Настройка интервалов выполнения цепочки блоков: ",
-	"gui.dca.for_usb": "Настройки таймаутов для подключения через seriaport: "
+	"gui.dca.for_usb": "Настройки таймаутов для подключения через serialport: "
 	
 	
 }
