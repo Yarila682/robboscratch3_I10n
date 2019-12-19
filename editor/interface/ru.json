@@ -507,7 +507,7 @@
 	"gui.dca.uno_timeout_bluetooth": "Время переключения в режим поиска Scratchduino (в мс)",
 
 	"gui.dca.for_bluetooth": "Настройки таймаутов для подключения по блютуз: ",
-	"gui.RobboGui.intervals_for_blocks_chain": "Настройка интервалов выполнения цепочки блоков: ",
+	"gui.RobboGui.intervals_for_blocks_chain": "Настройки интервалов выполнения цепочки блоков: ",
 	"gui.dca.for_usb": "Настройки таймаутов для подключения через serialport: "
 	
 	
