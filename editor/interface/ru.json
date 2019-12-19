@@ -494,7 +494,21 @@
 	"gui.SearchPanel.device_try_to_reconnect": "Попробуйте переподключить устройство. Или использовать другой usb разъём.",
 	"gui.SearchPanel.try_connect_to_port": "Пробуем подключиться к порту...",
 	"gui.SearchPanel.port_opened": "Порт открыт",
-	"gui.RobboGui.copy_to_clipboard": "Скопировать в буфер обмена"
+	"gui.RobboGui.copy_to_clipboard": "Скопировать в буфер обмена",
+	
+	"gui.dca.no_response_time": "Время ожидания ответа устройства (в мс)",
+	"gui.dca.no_start_timeout": "Время ожидания первого пакета телеметрии (в мс)",
+	"gui.dca.device_handle_timeout": "Время полного цикла поиска (в мс)",
+	"gui.dca.uno_timeout": "Время переключения в режим поиска Scratchduino (в мс)",
+
+	"gui.dca.no_response_time_bluetooth": "Время ожидания ответа устройства (в мс)",
+	"gui.dca.no_start_timeout_bluetooth": "Время ожидания первого пакета телеметрии (в мс)",
+	"gui.dca.device_handle_timeout_bluetooth": "Время полного цикла поиска (в мс)",
+	"gui.dca.uno_timeout_bluetooth": "Время переключения в режим поиска Scratchduino (в мс)",
+
+	"gui.dca.for_bluetooth": "Настройки таймаутов для подключения по блютуз: ",
+	"gui.RobboGui.intervals_for_blocks_chain": "Настройка интервалов выполнения цепочки блоков: ",
+	"gui.dca.for_usb": "Настройки таймаутов для подключения через seriaport: "
 	
 	
 }

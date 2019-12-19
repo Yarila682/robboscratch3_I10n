@@ -521,7 +521,21 @@
 	"gui.RobboGui.save_settings": "Save settings",
 
 	"gui.RobboGui.ArduinoPalette.arduino": "Arduino",
-	"gui.RobboGui.OttoPalette.otto": "Otto"
+	"gui.RobboGui.OttoPalette.otto": "Otto",
+
+	"gui.dca.no_response_time": "Device response timeout (ms)",
+	"gui.dca.no_start_timeout": "First telemetry packet timeout (ms)",
+	"gui.dca.device_handle_timeout": "Searching process timeout(ms)",
+	"gui.dca.uno_timeout": "Scrarchduino searching mode timeout (ms)",
+
+	"gui.dca.no_response_time_bluetooth": "Device response timeout(ms)",
+	"gui.dca.no_start_timeout_bluetooth": "First telemetry packet timeout (ms)",
+	"gui.dca.device_handle_timeout_bluetooth": "Searching process timeout (ms)",
+	"gui.dca.uno_timeout_bluetooth": "Scrarchduino searching mode timeout (ms)",
+
+	"gui.dca.for_bluetooth": "Settings for bluetooth timeouts: ",
+	"gui.RobboGui.intervals_for_blocks_chain": "Settings for blocks chain timeouts: ",
+	"gui.dca.for_usb": "Settings for serialport connection timeouts: "	
 
 
 }
