@@ -61,7 +61,7 @@
     "format-message-cli": "6.2.1",
     "format-message-parse": "6.2.0",
     "jshint": "2.9.5",
-    "json": "^9.0.6",
+    "json": "^10.0.0",
     "jsonlint": "1.6.3",
     "lodash.defaultsdeep": "4.6.0",
     "mkdirp": "^0.5.1",
